@@ -32,7 +32,23 @@ window.addEventListener("click", function() {
 });
 iput.addEventListener("click", e => {
 	e.stopPropagation();
-});</script><div class="header-logo"><img alt="About the notes" height="385" src="/img/header/notes.svg" width="385"></div><h1>About the notes</h1></header><main><article><div class="container mt-2 normal page-note"><p>There are some facts:</p><p class="indent"></p><ol><li>The notes <strong>are not</strong> tutorials!</li><li>The notes <strong>are not</strong> written by a pro but a bookworm.</li><li>The notes <strong>are not</strong> complete!</li><li>The notes are <strong>always updated</strong> without notice!</li><li>The notes <strong>always indicate the sources</strong> if ideas <strong>are not</strong> mine!</li><li>The notes <strong>sometimes contain mistakes</strong>, that's why I need your help to fix them.</li><li>The notes have <strong>new brothers</strong> day by day.</li><li>The notes with small dot (<sup>•</sup>) at the end of the title are <strong>not good enough</strong>!</li></ol><p>Thanks and welcome to my world of notes.</p></div><script type="application/ld+json">{
+});
+
+// arrow trigger
+var searchResults = document.getElementById('searchResults'); // targets the <ul>
+var firstLi = list.firstChild; // targets the first <li>
+document.onkeydown = function(e) { // listen to keyboard events
+	switch (e.keyCode) {
+		case 38: // if the UP key is pressed
+			if (document.activeElement == (iput || firstLi)) { break; } // stop the script if the focus is on the input or first element
+			else { document.activeElement.parentNode.previousSibling.firstChild.focus(); } // select the element before the current, and focus it
+			break;
+		case 40: // if the DOWN key is pressed
+			if (document.activeElement == iput) { firstLi.firstChild.focus(); } // if the currently focused element is the main input --> focus the first <li>
+			else { document.activeElement.parentNode.nextSibling.firstChild.focus(); } // target the currently focused element -> <a>, go up a node -> <li>, select the next node, go down a node and focus it
+		break;
+	}
+}</script><div class="header-logo"><img alt="About the notes" height="385" src="/img/header/notes.svg" width="385"></div><h1>About the notes</h1></header><main><article><div class="container mt-2 normal page-note"><p>There are some facts:</p><p class="indent"></p><ol><li>The notes <strong>are not</strong> tutorials!</li><li>The notes <strong>are not</strong> written by a pro but a bookworm.</li><li>The notes <strong>are not</strong> complete!</li><li>The notes are <strong>always updated</strong> without notice!</li><li>The notes <strong>always indicate the sources</strong> if ideas <strong>are not</strong> mine!</li><li>The notes <strong>sometimes contain mistakes</strong>, that's why I need your help to fix them.</li><li>The notes have <strong>new brothers</strong> day by day.</li><li>The notes with small dot (<sup>•</sup>) at the end of the title are <strong>not good enough</strong>!</li></ol><p>Thanks and welcome to my world of notes.</p></div><script type="application/ld+json">{
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "About the notes",

@@ -32,7 +32,23 @@ window.addEventListener("click", function() {
 });
 iput.addEventListener("click", e => {
 	e.stopPropagation();
-});</script><div class="header-logo"><img alt="Topic “Machine Learning”" height="512" src="/img/header/tag_.svg" width="512"></div><h1>Topic “Machine Learning”</h1></header><main><article><div class="container mt-2 normal page-note"><p>Check <a href="/tags/">all topics</a> on this site.</p><ul class="indent"><li><a href="/confusion-matrix-and-f1-score/" rel="noopener noreferrer">Confusion matrix &amp; f1-score</a></li><li><a href="/dbscan-hdbscan-clustering/" rel="noopener noreferrer">DBSCAN / HDBSCAN Clustering <sup>•</sup></a></li><li><a href="/decision-tree-classifier/" rel="noopener noreferrer">Decision Tree Classifier</a></li><li><a href="/decision-tree-regression/" rel="noopener noreferrer">Decision Tree Regression</a></li><li><a href="/grid-search/" rel="noopener noreferrer">Grid Search <sup>•</sup></a></li><li><a href="/k-means-clustering/" rel="noopener noreferrer">K-Means Clustering <sup>•</sup></a></li><li><a href="/k-shape-clustering/" rel="noopener noreferrer">K-Shape clustering <sup>•</sup></a></li><li><a href="/mean-shift/" rel="noopener noreferrer">Mean Shift clustering <sup>•</sup></a></li><li><a href="/pipeline/" rel="noopener noreferrer">Pipeline <sup>•</sup></a></li><li><a href="/principal-component-analysis/" rel="noopener noreferrer">Principal Component Analysis (PCA)</a></li><li><a href="/random-forest/" rel="noopener noreferrer">Random Forest</a></li><li><a href="/support-vector-machine/" rel="noopener noreferrer">Support Vector Machine (SVM)</a></li><li><a href="/useful-tools-data-science-machine-learning/" rel="noopener noreferrer">Useful tools for DS &amp; ML <sup>•</sup></a></li></ul></div><script type="application/ld+json">{
+});
+
+// arrow trigger
+var searchResults = document.getElementById('searchResults'); // targets the <ul>
+var firstLi = list.firstChild; // targets the first <li>
+document.onkeydown = function(e) { // listen to keyboard events
+	switch (e.keyCode) {
+		case 38: // if the UP key is pressed
+			if (document.activeElement == (iput || firstLi)) { break; } // stop the script if the focus is on the input or first element
+			else { document.activeElement.parentNode.previousSibling.firstChild.focus(); } // select the element before the current, and focus it
+			break;
+		case 40: // if the DOWN key is pressed
+			if (document.activeElement == iput) { firstLi.firstChild.focus(); } // if the currently focused element is the main input --> focus the first <li>
+			else { document.activeElement.parentNode.nextSibling.firstChild.focus(); } // target the currently focused element -> <a>, go up a node -> <li>, select the next node, go down a node and focus it
+		break;
+	}
+}</script><div class="header-logo"><img alt="Topic “Machine Learning”" height="512" src="/img/header/tag_.svg" width="512"></div><h1>Topic “Machine Learning”</h1></header><main><article><div class="container mt-2 normal page-note"><p>Check <a href="/tags/">all topics</a> on this site.</p><ul class="indent"><li><a href="/confusion-matrix-and-f1-score/" rel="noopener noreferrer">Confusion matrix &amp; f1-score</a></li><li><a href="/dbscan-hdbscan-clustering/" rel="noopener noreferrer">DBSCAN / HDBSCAN Clustering <sup>•</sup></a></li><li><a href="/decision-tree-classifier/" rel="noopener noreferrer">Decision Tree Classifier</a></li><li><a href="/decision-tree-regression/" rel="noopener noreferrer">Decision Tree Regression</a></li><li><a href="/grid-search/" rel="noopener noreferrer">Grid Search <sup>•</sup></a></li><li><a href="/k-means-clustering/" rel="noopener noreferrer">K-Means Clustering <sup>•</sup></a></li><li><a href="/k-shape-clustering/" rel="noopener noreferrer">K-Shape clustering <sup>•</sup></a></li><li><a href="/mean-shift/" rel="noopener noreferrer">Mean Shift clustering <sup>•</sup></a></li><li><a href="/pipeline/" rel="noopener noreferrer">Pipeline <sup>•</sup></a></li><li><a href="/principal-component-analysis/" rel="noopener noreferrer">Principal Component Analysis (PCA)</a></li><li><a href="/random-forest/" rel="noopener noreferrer">Random Forest</a></li><li><a href="/support-vector-machine/" rel="noopener noreferrer">Support Vector Machine (SVM)</a></li><li><a href="/useful-tools-data-science-machine-learning/" rel="noopener noreferrer">Useful tools for DS &amp; ML <sup>•</sup></a></li></ul></div><script type="application/ld+json">{
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Topic “Machine Learning”",
