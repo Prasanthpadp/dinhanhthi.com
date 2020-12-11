@@ -43,7 +43,7 @@ window.addEventListener("click", function () {
 	var has_result = ul_rs.getElementsByTagName('li').length >= 1;
 	// check if this click is inside navSearch?
 	var check = document.getElementById("navSearch").contains(document.activeElement);
-	if (!check || !has_result) {
+	if (!has_result || !isOnDiv) {
 		divRes.style.display = 'none';
 	}
 });
