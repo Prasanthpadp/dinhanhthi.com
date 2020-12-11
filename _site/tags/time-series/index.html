@@ -30,14 +30,6 @@ iput.addEventListener("keydown", event => {
 	};
 });
 
-// hide divRes when losing focus
-/* var xx = document.getElementById("navSearch");
-xx.addEventListener('focusout', function () {
-	if (!isOnDiv && !isTab) {
-		divRes.style.display = 'none';
-	}
-}); */
-
 window.addEventListener("click", function () {
 	// check if there is any result?
 	var has_result = ul_rs.getElementsByTagName('li').length >= 1;
@@ -67,6 +59,13 @@ const addSelected = (ae) => {
 
 // arrow trigger
 document.onkeydown = function (e) { // listen to keyboard events
+
+	// press "/" to focus to input
+	check_in_iput = document.activeElement == iput;
+	if (e.keyCode === 191 && !check_in_iput) {
+		iput.focus();
+	}
+
 	check = document
 		.getElementById("navSearch")
 		.contains(document.activeElement);
