@@ -1444,19 +1444,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2020-12-06T23:37:31.504Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/about-the-notes/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1704,19 +1691,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/linux/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1730,7 +1704,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/python/</loc>
+    <loc>https://dinhanhthi.com/tags/linux/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1744,6 +1718,19 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/python/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1901,5 +1888,18 @@
   <url>
     <loc>https://dinhanhthi.com/third_party/eleventy-plugin-local-images/README/</loc>
     <lastmod>2020-12-06T23:37:31.512Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/</loc>
+    <lastmod>2020-12-11T14:51:04.124Z</lastmod>
   </url>
 </urlset>
