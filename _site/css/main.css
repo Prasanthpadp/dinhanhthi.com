@@ -937,9 +937,9 @@ nav {
               text-align: left;
               margin: 0;
               line-height: 1.4; }
-            nav #nav .nav-search #search-result ul#searchResults li.selected, nav #nav .nav-search #search-result ul#searchResults li:hover {
+            nav #nav .nav-search #search-result ul#searchResults li.selected {
               background: #282a36; }
-              nav #nav .nav-search #search-result ul#searchResults li.selected::before, nav #nav .nav-search #search-result ul#searchResults li:hover::before {
+              nav #nav .nav-search #search-result ul#searchResults li.selected::before {
                 content: "⏎";
                 float: left;
                 color: #8cc8ff;
