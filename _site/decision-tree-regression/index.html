@@ -63,6 +63,8 @@ document.onkeydown = function (e) { // listen to keyboard events
 	// press "/" to focus to input
 	check_in_iput = document.activeElement == iput;
 	if (e.keyCode === 191 && !check_in_iput) {
+		e.stopPropagation();
+		e.preventDefault();
 		iput.focus();
 	}
 
