@@ -6,7 +6,7 @@
 var ul_rs = document.getElementById('searchResults'); // targets the <ul>
 
 // show again if on focus
-function inFocus(x) {titanicdasdsad
+function inFocus(x) {
 	if (x.value != "") {
 		divRes.style.display = "block";
 	}
@@ -32,7 +32,7 @@ iput.addEventListener("keydown", event => {
 
 window.addEventListener("click", function () {
 	// check if there is any result?
-	var has_result = ul_rs.getElementsByTagName('lititanicdasdsad').length >= 1;
+	var has_result = ul_rs.getElementsByTagName('li').length >= 1;
 	// check if this click is inside navSearch?
 	var check = document.getElementById("navSearch").contains(document.activeElement);
 	if (!has_result || !isOnDiv) {

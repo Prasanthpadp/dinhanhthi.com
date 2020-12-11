@@ -1600,32 +1600,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/mlops/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/windows/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1639,7 +1613,33 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/mlops/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/machine-learning/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1691,7 +1691,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/linux/</loc>
+    <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1717,7 +1717,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
+    <loc>https://dinhanhthi.com/tags/linux/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1743,7 +1743,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/r-lang/</loc>
+    <loc>https://dinhanhthi.com/tags/skills/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1756,7 +1756,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/skills/</loc>
+    <loc>https://dinhanhthi.com/tags/r-lang/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1808,7 +1808,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/jekyll/</loc>
+    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1821,7 +1821,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
+    <loc>https://dinhanhthi.com/tags/jekyll/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1847,7 +1847,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1860,7 +1860,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
