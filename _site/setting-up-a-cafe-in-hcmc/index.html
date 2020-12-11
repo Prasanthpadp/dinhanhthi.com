@@ -31,15 +31,21 @@ iput.addEventListener("keydown", event => {
 });
 
 // hide divRes when losing focus
-xx = document.getElementById("navSearch");
+/* var xx = document.getElementById("navSearch");
 xx.addEventListener('focusout', function () {
 	if (!isOnDiv && !isTab) {
 		divRes.style.display = 'none';
 	}
-});
+}); */
 
 window.addEventListener("click", function () {
-	divRes.style.display = 'none';
+	// check if there is any result?
+	var has_result = ul_rs.getElementsByTagName('li').length >= 1;
+	// check if this click is inside navSearch?
+	var check = document.getElementById("navSearch").contains(document.activeElement);
+	if (!check || !has_result) {
+		divRes.style.display = 'none';
+	}
 });
 iput.addEventListener("click", e => {
 	e.stopPropagation();
