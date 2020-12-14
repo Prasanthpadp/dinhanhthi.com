@@ -726,7 +726,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/linux-tips/</loc>
-    <lastmod>2020-12-10T14:38:55.000Z</lastmod>
+    <lastmod>2020-12-14T23:37:43.000Z</lastmod>
   </url>
   
   
@@ -1602,6 +1602,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/mlops/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1616,19 +1629,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/windows/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1693,32 +1693,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/linux/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1732,7 +1706,33 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/linux/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/python/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1823,7 +1823,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/wordpress/</loc>
+    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1836,7 +1836,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
+    <loc>https://dinhanhthi.com/tags/wordpress/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
