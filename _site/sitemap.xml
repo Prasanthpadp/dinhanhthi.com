@@ -336,7 +336,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/pipeline/</loc>
-    <lastmod>2020-12-15T19:07:20.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
   </url>
   
   
@@ -401,7 +401,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/small-projects-to-understand-concepts/</loc>
-    <lastmod>2020-12-15T19:07:20.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
   </url>
   
   
@@ -517,19 +517,6 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/grid-search/</loc>
-    <lastmod>2020-11-30T17:57:25.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <url>
     <loc>https://dinhanhthi.com/regular-expression/</loc>
     <lastmod>2020-11-28T10:11:43.000Z</lastmod>
   </url>
@@ -631,11 +618,9 @@
   
   
   
-    
-  
   <url>
-    <loc>https://dinhanhthi.com/good-applications/</loc>
-    <lastmod>2020-12-15T21:54:59.000Z</lastmod>
+    <loc>https://dinhanhthi.com/good-applications-useful-tools/</loc>
+    <lastmod>2020-07-12T00:00:00.000Z</lastmod>
   </url>
   
   
@@ -661,7 +646,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/docker/</loc>
-    <lastmod>2020-12-08T21:11:48.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
   </url>
   
   
@@ -726,7 +711,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/linux-tips/</loc>
-    <lastmod>2020-12-14T23:37:43.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
   </url>
   
   
@@ -882,7 +867,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/airflow-k8s-101/</loc>
-    <lastmod>2020-12-08T21:11:48.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
   </url>
   
   
@@ -934,7 +919,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-install-windows/</loc>
-    <lastmod>2020-12-11T00:14:38.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:48.000Z</lastmod>
   </url>
   
   
@@ -947,7 +932,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-installation-ubuntu/</loc>
-    <lastmod>2020-12-08T21:07:27.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
   </url>
   
   
@@ -973,7 +958,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/wordpress-docker/</loc>
-    <lastmod>2020-12-08T21:11:48.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
   </url>
   
   
@@ -1234,7 +1219,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/docker-wsl2-windows/</loc>
-    <lastmod>2020-12-11T00:14:38.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
   </url>
   
   
@@ -1294,7 +1279,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/docker-gpu/</loc>
-    <lastmod>2020-12-08T21:11:48.000Z</lastmod>
+    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
   </url>
   
   
@@ -1325,36 +1310,6 @@
   <url>
     <loc>https://dinhanhthi.com/reading/</loc>
     <lastmod>2020-12-04T22:50:28.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-    
-  
-  <url>
-    <loc>https://dinhanhthi.com/useful-tools-data-science-machine-learning/</loc>
-    <lastmod>2020-12-15T21:54:59.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-    
-  
-  <url>
-    <loc>https://dinhanhthi.com/web-dev-tools/</loc>
-    <lastmod>2020-12-15T21:54:59.000Z</lastmod>
   </url>
   
   
@@ -1565,7 +1520,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1578,7 +1533,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/data-science/</loc>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1617,7 +1572,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <loc>https://dinhanhthi.com/tags/docker/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1631,6 +1586,19 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/windows/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1851,7 +1819,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1864,7 +1832,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
