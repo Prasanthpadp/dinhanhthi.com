@@ -414,7 +414,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/k-means-clustering/</loc>
-    <lastmod>2020-12-18T16:23:31.000Z</lastmod>
+    <lastmod>2020-12-18T22:57:41.000Z</lastmod>
   </url>
   
   
@@ -622,7 +622,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/good-applications-useful-tools/</loc>
-    <lastmod>2020-12-17T21:34:16.000Z</lastmod>
+    <lastmod>2020-12-18T22:57:41.000Z</lastmod>
   </url>
   
   
@@ -1611,7 +1611,33 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
+    <loc>https://dinhanhthi.com/tags/mooc/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/deeplearning.ai/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/tensorflow/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1650,33 +1676,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/mooc/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/deeplearning.ai/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/tensorflow/</loc>
+    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1832,6 +1832,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/metrics/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/third_party/eleventy-plugin-local-images/CONTRIBUTING/</loc>
     <lastmod>2020-12-06T23:37:31.512Z</lastmod>
   </url>
@@ -1870,8 +1883,38 @@
     
   
   
+    
+  
+  <url>
+    <loc>https://dinhanhthi.com/metrics-for-clustering/</loc>
+    <lastmod>2020-12-18T22:57:41.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
   <url>
     <loc>https://dinhanhthi.com/pages/search-index.json</loc>
     <lastmod>2020-12-17T21:37:34.123Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dinhanhthi.com/third_party/markdown-it-texmath/readme/</loc>
+    <lastmod>2020-12-18T22:57:41.000Z</lastmod>
   </url>
 </urlset>
