@@ -9,6 +9,12 @@
     "url": "https://dinhanhthi.com"
   },
   "items": [{
+      "id": "https://dinhanhthi.com/domain-dns/",
+      "url": "https://dinhanhthi.com/domain-dns/",
+      "title": "Domain &amp; DNS",
+      "content_html": "<h2 id=\"dns-%26-github-pages\">DNS &amp; Github Pages <a class=\"direct-link\" href=\"#dns-%26-github-pages\">#</a></h2>\n<p>🔅 Point <code>tool.dinhanhthi.com</code> to <code>dinhanhthi.github.io/tools</code></p>\n<ul>\n<li>On Github repository's setting (<code>github.com/dinhanhthi/tools/settings</code>), in the <strong>Custom domain</strong> section: <code>tool.dinhanhthi.com</code>.</li>\n<li>On DNS manager: create a <code>CNAME</code> record pointing from <code>tool</code> (Name section) to <code>dinhanhthi.github.io</code> (Content section).</li>\n</ul>\n<p>💡 For other github projects pages (e.g. others than <code>/tools</code>), you do the same things.</p>\n<h2 id=\"dns-%26-netlify-sites\">DNS &amp; Netlify sites <a class=\"direct-link\" href=\"#dns-%26-netlify-sites\">#</a></h2>\n<ul>\n<li>On Netlify site, go to <strong>Domain Settings</strong>, in <strong>Custom domains</strong>, click on <strong>Add domain alias</strong>, fill in your custom domain and <strong>Save</strong> (Ignore the warnings).</li>\n<li>In DNS setting:\n<ul>\n<li>From <code>sub.domain.com</code> to <code>app-name.netlify.com</code>: create a <code>CNAME</code> record with <code>sub</code> as <strong>Name</strong> and <code>app-name.netlify.com</code> as <strong>Content</strong>.</li>\n<li>From <code>domain.com</code> to <code>app-name.netlify.com</code>:\n<ul>\n<li>Create a <code>A</code> record with <code>domain.com</code> as <strong>Name</strong> and <code>104.198.14.52</code> as <strong>Content</strong>.</li>\n<li>Create a <code>CNAME</code> record with <code>www</code> as <strong>Name</strong> and <code>app-name.netlify.com</code> as <strong>Content</strong>.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"dns-settings\">DNS settings <a class=\"direct-link\" href=\"#dns-settings\">#</a></h2>\n<p>🔅 Forward all sites in <code>note.dinhanhthi.com</code> to <code>dinhanhthi.com</code>: create a <code>CNAME</code> record with <code>note</code> as <strong>Name</strong> and <code>dinhanhthi.com</code> as <strong>Content</strong>.</p>\n",
+      "date_published": "2020-12-21T22:00:00+01:00"
+    },{
       "id": "https://dinhanhthi.com/metrics-for-clustering/",
       "url": "https://dinhanhthi.com/metrics-for-clustering/",
       "title": "Metrics for clustering",

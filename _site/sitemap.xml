@@ -869,7 +869,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/airflow-k8s-101/</loc>
-    <lastmod>2020-12-16T14:12:54.000Z</lastmod>
+    <lastmod>2020-12-24T08:40:57.000Z</lastmod>
   </url>
   
   
@@ -1236,7 +1236,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/nodejs-npm/</loc>
-    <lastmod>2020-12-18T16:23:31.000Z</lastmod>
+    <lastmod>2020-12-24T08:40:57.000Z</lastmod>
   </url>
   
   
@@ -1251,7 +1251,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/11ty-nunjucks/</loc>
-    <lastmod>2020-12-21T19:06:11.000Z</lastmod>
+    <lastmod>2020-12-24T08:40:57.000Z</lastmod>
   </url>
   
   
@@ -1507,7 +1507,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1520,7 +1520,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/data-science/</loc>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1559,7 +1559,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/docker/</loc>
+    <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1572,7 +1572,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/windows/</loc>
+    <loc>https://dinhanhthi.com/tags/docker/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1663,19 +1663,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/skills/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1690,6 +1677,19 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/linux/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1780,6 +1780,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/wordpress/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/jekyll/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1794,32 +1807,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/wordpress/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1858,6 +1845,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/third_party/eleventy-plugin-local-images/CONTRIBUTING/</loc>
     <lastmod>2020-12-06T23:37:31.512Z</lastmod>
   </url>
@@ -1883,24 +1883,11 @@
     
   
   
-  <url>
-    <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2020-12-11T14:51:04.124Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
     
   
   <url>
     <loc>https://dinhanhthi.com/metrics-for-clustering/</loc>
-    <lastmod>2020-12-21T19:06:11.000Z</lastmod>
+    <lastmod>2020-12-24T08:40:57.000Z</lastmod>
   </url>
   
   
@@ -1929,5 +1916,35 @@
   <url>
     <loc>https://dinhanhthi.com/third_party/markdown-it-texmath/readme/</loc>
     <lastmod>2020-12-18T22:57:41.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dinhanhthi.com/domain-dns/</loc>
+    <lastmod>2020-12-24T08:40:57.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dinhanhthi.com/</loc>
+    <lastmod>2020-12-23T17:11:45.000Z</lastmod>
   </url>
 </urlset>
