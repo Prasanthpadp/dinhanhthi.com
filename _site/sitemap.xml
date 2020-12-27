@@ -1507,7 +1507,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1520,7 +1520,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/data-science/</loc>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1572,6 +1572,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1585,7 +1598,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <loc>https://dinhanhthi.com/tags/machine-learning/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1625,19 +1638,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/tensorflow/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/machine-learning/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1819,7 +1819,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1832,7 +1832,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
