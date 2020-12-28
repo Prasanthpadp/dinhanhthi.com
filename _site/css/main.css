@@ -819,7 +819,7 @@ header {
 .job span {
   background: #ffd479;
   color: #000;
-  padding: 3px 10px;
+  padding: 3px 20px;
   border-radius: 15px;
   font-size: 1.02rem; }
 
@@ -1282,7 +1282,7 @@ footer {
     display: inline-flex; }
 
 .button {
-  padding: 12px 40px;
+  padding: 12px 30px;
   font-size: 0.85rem;
   font-weight: 500;
   transition: all 0.5s;
