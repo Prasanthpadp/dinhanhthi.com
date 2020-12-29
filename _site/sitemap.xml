@@ -556,6 +556,19 @@
     
   
   <url>
+    <loc>https://dinhanhthi.com/word-embedding/</loc>
+    <lastmod>2020-12-29T00:24:56.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <url>
     <loc>https://dinhanhthi.com/pytorch/</loc>
     <lastmod>2020-11-30T10:52:09.000Z</lastmod>
   </url>
@@ -1323,19 +1336,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/word-embedding/</loc>
-    <lastmod>2020-12-01T00:00:00.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/files/capstone_project/</loc>
     <lastmod>2020-12-06T23:37:31.340Z</lastmod>
   </url>
@@ -1432,7 +1432,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/about/</loc>
-    <lastmod>2020-12-28T13:08:30.000Z</lastmod>
+    <lastmod>2020-12-29T00:24:33.000Z</lastmod>
   </url>
   
   
@@ -1665,6 +1665,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/nlp/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/time-series/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1678,7 +1691,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/nlp/</loc>
+    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1705,19 +1718,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/linux/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1969,8 +1969,10 @@
     
   
   
+    
+  
   <url>
     <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2020-12-28T23:53:13.814Z</lastmod>
+    <lastmod>2020-12-29T00:24:33.000Z</lastmod>
   </url>
 </urlset>
