@@ -1176,7 +1176,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/deeplearning-ai-tensorflow-course-2/</loc>
-    <lastmod>2020-12-15T19:07:20.000Z</lastmod>
+    <lastmod>2020-12-29T20:51:49.000Z</lastmod>
   </url>
   
   
@@ -1191,7 +1191,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/deeplearning-ai-tensorflow-course-3/</loc>
-    <lastmod>2020-12-29T00:26:45.000Z</lastmod>
+    <lastmod>2020-12-29T20:51:49.000Z</lastmod>
   </url>
   
   
@@ -1206,7 +1206,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/deeplearning-ai-tensorflow-course-4/</loc>
-    <lastmod>2020-12-29T00:26:45.000Z</lastmod>
+    <lastmod>2020-12-29T20:51:49.000Z</lastmod>
   </url>
   
   
@@ -1296,7 +1296,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/for-me-only/</loc>
-    <lastmod>2020-12-18T16:23:31.000Z</lastmod>
+    <lastmod>2020-12-29T14:00:35.000Z</lastmod>
   </url>
   
   
@@ -1509,7 +1509,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1522,7 +1522,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/data-science/</loc>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1652,19 +1652,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/nlp/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/time-series/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1678,7 +1665,20 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
+    <loc>https://dinhanhthi.com/tags/nlp/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/skills/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1704,7 +1704,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/skills/</loc>
+    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1959,8 +1959,8 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2020-12-29T00:24:33.000Z</lastmod>
+    <loc>https://dinhanhthi.com/word-embedding/</loc>
+    <lastmod>2020-12-29T20:51:49.000Z</lastmod>
   </url>
   
   
@@ -1971,8 +1971,10 @@
     
   
   
+    
+  
   <url>
-    <loc>https://dinhanhthi.com/word-embedding/</loc>
-    <lastmod>2020-12-29T13:51:26.727Z</lastmod>
+    <loc>https://dinhanhthi.com/</loc>
+    <lastmod>2020-12-29T00:24:33.000Z</lastmod>
   </url>
 </urlset>
