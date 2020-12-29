@@ -1323,6 +1323,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/word-embedding/</loc>
+    <lastmod>2020-12-01T00:00:00.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/files/capstone_project/</loc>
     <lastmod>2020-12-06T23:37:31.340Z</lastmod>
   </url>
@@ -1652,7 +1665,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
+    <loc>https://dinhanhthi.com/tags/time-series/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1665,7 +1678,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
+    <loc>https://dinhanhthi.com/tags/nlp/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1692,6 +1705,32 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/linux/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1756,19 +1795,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/time-series/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/web-dev/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1821,7 +1847,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1834,7 +1860,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1943,10 +1969,8 @@
     
   
   
-    
-  
   <url>
     <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2020-12-27T20:20:42.000Z</lastmod>
+    <lastmod>2020-12-28T23:53:13.814Z</lastmod>
   </url>
 </urlset>
