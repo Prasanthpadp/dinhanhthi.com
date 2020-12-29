@@ -556,19 +556,6 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/word-embedding/</loc>
-    <lastmod>2020-12-29T00:24:56.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <url>
     <loc>https://dinhanhthi.com/pytorch/</loc>
     <lastmod>2020-11-30T10:52:09.000Z</lastmod>
   </url>
@@ -1204,7 +1191,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/deeplearning-ai-tensorflow-course-3/</loc>
-    <lastmod>2020-12-15T19:07:20.000Z</lastmod>
+    <lastmod>2020-12-29T00:26:45.000Z</lastmod>
   </url>
   
   
@@ -1219,7 +1206,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/deeplearning-ai-tensorflow-course-4/</loc>
-    <lastmod>2020-12-15T22:48:01.000Z</lastmod>
+    <lastmod>2020-12-29T00:26:45.000Z</lastmod>
   </url>
   
   
@@ -1264,7 +1251,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/11ty-nunjucks/</loc>
-    <lastmod>2020-12-24T08:40:57.000Z</lastmod>
+    <lastmod>2020-12-29T00:26:45.000Z</lastmod>
   </url>
   
   
@@ -1704,19 +1691,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/skills/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/linux/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1731,6 +1705,19 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/skills/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1847,7 +1834,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1860,7 +1847,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1974,5 +1961,18 @@
   <url>
     <loc>https://dinhanhthi.com/</loc>
     <lastmod>2020-12-29T00:24:33.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/word-embedding/</loc>
+    <lastmod>2020-12-29T01:22:22.345Z</lastmod>
   </url>
 </urlset>
