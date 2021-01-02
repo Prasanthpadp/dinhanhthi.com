@@ -1535,7 +1535,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1548,7 +1548,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/data-science/</loc>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1626,7 +1626,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1639,7 +1639,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/windows/</loc>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1691,7 +1691,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/rnn/</loc>
+    <loc>https://dinhanhthi.com/tags/tensorflow/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1704,7 +1704,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/tensorflow/</loc>
+    <loc>https://dinhanhthi.com/tags/rnn/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
@@ -1782,19 +1782,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/r-lang/</loc>
-    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/python/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
@@ -1809,6 +1796,19 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/visualization/</loc>
+    <lastmod>2020-12-06T23:37:31.508Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/r-lang/</loc>
     <lastmod>2020-12-06T23:37:31.508Z</lastmod>
   </url>
   
