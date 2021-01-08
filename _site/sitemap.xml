@@ -1323,71 +1323,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/files/capstone_project/</loc>
-    <lastmod>2020-12-06T23:37:31.340Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/files/capstone_project_files/saved_resource(1)/</loc>
-    <lastmod>2020-12-06T23:37:31.344Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/files/capstone_project_files/saved_resource(2)/</loc>
-    <lastmod>2020-12-06T23:37:31.348Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/files/capstone_project_files/saved_resource(3)/</loc>
-    <lastmod>2020-12-06T23:37:31.352Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/files/capstone_project_files/saved_resource/</loc>
-    <lastmod>2020-12-06T23:37:31.352Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/files/deep-learning/ae_keras_example_notebook/</loc>
     <lastmod>2020-12-06T23:37:31.352Z</lastmod>
   </url>
@@ -1519,7 +1454,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/data-science/</loc>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1534,7 +1469,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1639,7 +1574,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1654,7 +1589,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/windows/</loc>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1714,7 +1649,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/cnn/</loc>
+    <loc>https://dinhanhthi.com/tags/time-series/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1729,7 +1664,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/time-series/</loc>
+    <loc>https://dinhanhthi.com/tags/cnn/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1924,7 +1859,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1939,7 +1874,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -2127,10 +2062,8 @@
     
   
   
-    
-  
   <url>
     <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2021-01-07T11:30:37.000Z</lastmod>
+    <lastmod>2021-01-07T11:44:53.636Z</lastmod>
   </url>
 </urlset>
