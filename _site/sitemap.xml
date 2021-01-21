@@ -1380,7 +1380,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/about/</loc>
-    <lastmod>2021-01-21T11:23:00.000Z</lastmod>
+    <lastmod>2021-01-21T16:53:14.000Z</lastmod>
   </url>
   
   
@@ -1585,7 +1585,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/docker/</loc>
+    <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1600,7 +1600,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/windows/</loc>
+    <loc>https://dinhanhthi.com/tags/docker/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1885,21 +1885,6 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
-    <lastmod>2021-01-07T11:30:37.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-    
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
@@ -1915,7 +1900,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/metrics/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1931,6 +1916,21 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
+    <lastmod>2021-01-07T11:30:37.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/metrics/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -2088,8 +2088,10 @@
     
   
   
+    
+  
   <url>
     <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2021-01-21T16:22:12.190Z</lastmod>
+    <lastmod>2021-01-21T16:53:14.000Z</lastmod>
   </url>
 </urlset>
