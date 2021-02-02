@@ -1467,21 +1467,6 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
-    <lastmod>2021-01-07T11:30:37.000Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-    
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
@@ -1557,6 +1542,21 @@
     
   
   <url>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <lastmod>2021-01-07T11:30:37.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/mlops/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
@@ -1602,7 +1602,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <loc>https://dinhanhthi.com/tags/gaming-and-puzzles/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1617,7 +1617,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/gaming-and-puzzles/</loc>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1887,7 +1887,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1917,7 +1917,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/metrics/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -1932,7 +1932,7 @@
     
   
   <url>
-    <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
+    <loc>https://dinhanhthi.com/tags/metrics/</loc>
     <lastmod>2021-01-07T11:30:37.000Z</lastmod>
   </url>
   
@@ -2107,6 +2107,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2021-02-02T13:19:53.681Z</lastmod>
+    <lastmod>2021-02-02T19:42:25.817Z</lastmod>
   </url>
 </urlset>
