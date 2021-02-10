@@ -16,13 +16,11 @@
     margin-top: 0;
     margin-bottom: $mb;
     // padding-left: 20px;
-		& > li:first-child{
-			margin-top: 15px;
-		}
     li{
       margin-bottom: 5px;
       ul, ol{
         margin-bottom: 5px;
+				margin-top: 5px;
         padding-left: 20px;
       }
       & > *:not(span){

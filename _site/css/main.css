@@ -1652,12 +1652,11 @@ section.eqno > span {
 .page-note ul, .page-note ol {
   margin-top: 0;
   margin-bottom: 24.75px; }
-  .page-note ul > li:first-child, .page-note ol > li:first-child {
-    margin-top: 15px; }
   .page-note ul li, .page-note ol li {
     margin-bottom: 5px; }
     .page-note ul li ul, .page-note ul li ol, .page-note ol li ul, .page-note ol li ol {
       margin-bottom: 5px;
+      margin-top: 5px;
       padding-left: 20px; }
     .page-note ul li > *:not(span), .page-note ol li > *:not(span) {
       margin-bottom: 5px; }
