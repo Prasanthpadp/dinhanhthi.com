@@ -648,7 +648,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/github/</loc>
-    <lastmod>2021-02-05T11:11:59.000Z</lastmod>
+    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
   </url>
   
   
@@ -778,7 +778,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/bash-command-line/</loc>
-    <lastmod>2021-01-17T20:38:53.000Z</lastmod>
+    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
   </url>
   
   
@@ -934,7 +934,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-install-windows/</loc>
-    <lastmod>2020-12-16T14:12:48.000Z</lastmod>
+    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
   </url>
   
   
@@ -947,7 +947,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-installation-ubuntu/</loc>
-    <lastmod>2021-01-04T09:11:39.000Z</lastmod>
+    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
   </url>
   
   
@@ -1249,7 +1249,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/nodejs-npm/</loc>
-    <lastmod>2020-12-24T08:40:57.000Z</lastmod>
+    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
   </url>
   
   
@@ -1309,7 +1309,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/for-me-only/</loc>
-    <lastmod>2021-01-07T11:30:42.000Z</lastmod>
+    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
   </url>
   
   
@@ -1444,7 +1444,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-install-macos/</loc>
-    <lastmod>2021-02-09T10:33:53.000Z</lastmod>
+    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
   </url>
   
   
@@ -1599,6 +1599,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -1664,19 +1677,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/mlops/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -1703,7 +1703,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/windows/</loc>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1729,7 +1729,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1820,32 +1820,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/macos/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/skills/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -1872,7 +1846,33 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/python/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/macos/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1976,7 +1976,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1989,7 +1989,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
