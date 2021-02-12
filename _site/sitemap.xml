@@ -219,7 +219,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/git/</loc>
-    <lastmod>2021-01-17T20:38:53.000Z</lastmod>
+    <lastmod>2021-02-12T13:38:53.000Z</lastmod>
   </url>
   
   
@@ -960,7 +960,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/ssh/</loc>
-    <lastmod>2020-12-01T16:03:41.000Z</lastmod>
+    <lastmod>2021-02-12T13:38:53.000Z</lastmod>
   </url>
   
   
@@ -1429,7 +1429,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/the-legend-of-zelda-breath-of-the-wild/</loc>
-    <lastmod>2021-02-03T18:32:51.000Z</lastmod>
+    <lastmod>2021-02-12T13:38:53.000Z</lastmod>
   </url>
   
   
@@ -1444,7 +1444,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-install-macos/</loc>
-    <lastmod>2021-02-10T17:57:04.000Z</lastmod>
+    <lastmod>2021-02-12T13:38:53.000Z</lastmod>
   </url>
   
   
@@ -1599,6 +1599,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -1664,19 +1677,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/mlops/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -1691,19 +1691,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/docker/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1742,72 +1729,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/mooc/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/deeplearning.ai/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/tensorflow/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/cnn/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/time-series/</loc>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1846,7 +1768,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/python/</loc>
+    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1859,7 +1781,20 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
+    <loc>https://dinhanhthi.com/tags/mooc/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/deeplearning.ai/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1885,7 +1820,46 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/visualization/</loc>
+    <loc>https://dinhanhthi.com/tags/project-based-learning/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/tensorflow/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/cnn/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/time-series/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1976,6 +1950,32 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/python/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/visualization/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -2002,7 +2002,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/metrics/</loc>
+    <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -2015,7 +2015,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
+    <loc>https://dinhanhthi.com/tags/metrics/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
