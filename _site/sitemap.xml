@@ -219,7 +219,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/git/</loc>
-    <lastmod>2021-02-12T13:38:53.000Z</lastmod>
+    <lastmod>2021-02-16T13:19:35.000Z</lastmod>
   </url>
   
   
@@ -310,7 +310,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/dataset-collection/</loc>
-    <lastmod>2021-01-11T22:39:56.000Z</lastmod>
+    <lastmod>2021-02-16T13:20:22.000Z</lastmod>
   </url>
   
   
@@ -648,7 +648,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/github/</loc>
-    <lastmod>2021-02-10T17:57:04.000Z</lastmod>
+    <lastmod>2021-02-16T13:24:52.000Z</lastmod>
   </url>
   
   
@@ -726,7 +726,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/linux-tips/</loc>
-    <lastmod>2021-02-03T18:32:51.000Z</lastmod>
+    <lastmod>2021-02-17T10:25:41.000Z</lastmod>
   </url>
   
   
@@ -778,7 +778,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/bash-command-line/</loc>
-    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
+    <lastmod>2021-02-16T22:58:54.000Z</lastmod>
   </url>
   
   
@@ -947,7 +947,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-installation-ubuntu/</loc>
-    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
+    <lastmod>2021-02-16T13:20:22.000Z</lastmod>
   </url>
   
   
@@ -1249,7 +1249,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/nodejs-npm/</loc>
-    <lastmod>2021-02-10T16:00:00.000Z</lastmod>
+    <lastmod>2021-02-16T13:19:35.000Z</lastmod>
   </url>
   
   
@@ -1414,7 +1414,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/web-dev-tools-resources/</loc>
-    <lastmod>2021-01-07T11:30:42.000Z</lastmod>
+    <lastmod>2021-02-16T13:20:22.000Z</lastmod>
   </url>
   
   
@@ -1444,7 +1444,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-install-macos/</loc>
-    <lastmod>2021-02-12T13:38:53.000Z</lastmod>
+    <lastmod>2021-02-17T10:25:41.000Z</lastmod>
   </url>
   
   
@@ -1872,32 +1872,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/r-lang/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/prob-and-stats/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/python/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -1912,6 +1886,32 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/visualization/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/r-lang/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/prob-and-stats/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1989,19 +1989,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -2016,6 +2003,19 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/metrics/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
