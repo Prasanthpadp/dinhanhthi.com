@@ -180,7 +180,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/python-installation/</loc>
-    <lastmod>2021-01-12T11:55:35.000Z</lastmod>
+    <lastmod>2021-02-17T12:29:01.000Z</lastmod>
   </url>
   
   
@@ -1444,7 +1444,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-install-macos/</loc>
-    <lastmod>2021-02-17T10:25:41.000Z</lastmod>
+    <lastmod>2021-02-17T12:29:01.000Z</lastmod>
   </url>
   
   
@@ -1703,7 +1703,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/windows/</loc>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1716,7 +1716,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1820,32 +1820,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/skills/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/linux/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -1860,6 +1834,32 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/macos/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/skills/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/linux/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1937,7 +1937,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/jekyll/</loc>
+    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1950,7 +1950,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
+    <loc>https://dinhanhthi.com/tags/jekyll/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
