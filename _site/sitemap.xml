@@ -1469,19 +1469,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/about-the-notes/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -1703,7 +1690,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1716,7 +1703,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/windows/</loc>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1833,7 +1820,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/macos/</loc>
+    <loc>https://dinhanhthi.com/tags/python/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1872,7 +1859,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/python/</loc>
+    <loc>https://dinhanhthi.com/tags/visualization/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1885,7 +1872,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/visualization/</loc>
+    <loc>https://dinhanhthi.com/tags/macos/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1937,19 +1924,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
-    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/jekyll/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
@@ -1963,7 +1937,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/wordpress/</loc>
+    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -1976,7 +1950,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/wordpress/</loc>
     <lastmod>2021-02-09T10:03:46.403Z</lastmod>
   </url>
   
@@ -2028,6 +2002,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <lastmod>2021-02-09T10:03:46.403Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/third_party/eleventy-plugin-local-images/CONTRIBUTING/</loc>
     <lastmod>2021-02-09T10:03:46.412Z</lastmod>
   </url>
@@ -2056,5 +2043,18 @@
   <url>
     <loc>https://dinhanhthi.com/third_party/markdown-it-texmath/readme/</loc>
     <lastmod>2021-02-09T10:03:46.413Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/</loc>
+    <lastmod>2021-02-17T12:31:26.264Z</lastmod>
   </url>
 </urlset>
