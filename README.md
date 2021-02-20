@@ -1,4 +1,4 @@
-# v1.dinhanhthi.com
+# v1.dinhanhthi.com [![Netlify Status](https://api.netlify.com/api/v1/badges/fa6c0045-fc9e-404d-a1d1-ab2b3c75d4a1/deploy-status)](https://app.netlify.com/sites/stoic-wing-b25942/deploys)
 
 Source code of my personal website (using Jekyll). If you would like to use this source code, please indicate me in the credit and let me know first, thanks! My email: dinhanhthi@gmail.com.
 
