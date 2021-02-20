@@ -17,3 +17,5 @@ Gemfile
 vendor
 
 js/.Rhistory
+_live/
+node_modules/
