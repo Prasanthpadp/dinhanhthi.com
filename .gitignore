@@ -19,3 +19,4 @@ vendor
 js/.Rhistory
 _live/
 node_modules/
+.DS_Store
