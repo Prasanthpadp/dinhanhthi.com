@@ -25,6 +25,9 @@ docker-compose -p "dat" up -d
 
 # whenever working
 docker start dat_local
+# NOTE: for the 1st run, it takes a little long time to build and serve
+# You can check what are running on background with
+docker attach dat_local
 
 # update changes for principle pages
 sh update_dat.sh
