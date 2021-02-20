@@ -6,11 +6,11 @@ Source code of my personal website (using Jekyll). If you would like to use this
 
 ![Home page](./img/github/home-1.png)
 
-![Home page](./img/github/home-2.png)
+![Home page](./img/github/home-2.jpg)
 
-![Home page](./img/github/home-3.png)
+![Home page](./img/github/home-3.jpg)
 
-![About page](./img/github/pages.png)
+![About page](./img/github/pages.jpg)
 
 ![Note page](./img/github/post.png)
 
