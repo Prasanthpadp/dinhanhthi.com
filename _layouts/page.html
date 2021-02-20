@@ -1,20 +1,11 @@
 ---
 layout: base
+title: Dinh Anh Thi
+subtitle: Nest of an autodidactic worm
+nav: home
 ---
 
-{% include header.html %}
+{% include header.html type="page" %}
 
-<main role="main">
-  <section class="section">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-10 col-xl-9">
-          <article  class="page-content {{page.custom-css}}">
-            {{ content }}
-          </article >
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
+{{ content }}
 

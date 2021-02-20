@@ -1,0 +1,256 @@
+---
+layout: page
+title: Anh-Thi Dinh
+subtitle: mathing, coding, writing and autodidact
+nav: about
+css:
+  - "/css/contact-form.css"
+  - "/css/post-layout.css"
+  - "/css/page.css"
+  - "/css/not-scss.css"
+  - "/css/about.css"
+js:
+  - "/js/contact-form.js"
+permalink: /about
+---
+
+<section class="section about-intro alt-color">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-7 col-md-9 text-center">
+        <p class="a-diff">
+          My name is Anh-<b>Thi</b> Dinh, a Vietnamese guy who has a curious mind. As an never-stop-learning mathematician, I am interested in researching and sharing contents about <strong>applied maths</strong>, <strong>computer science</strong> and <strong>software tools</strong> which are helpful to human life. My hobbies are <a href="{{ site.baseurl }}/sketch"><b>drawing</b></a>, <a href="/reading"><b>reading</b></a> and <b>cooking</b>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% assign img-src = '/img/about/' %}
+<section class="section alt-color">
+  <div class="container">
+    {% include sec-title.html title="My learning path" more="\"Change is the result of persistent self-study.\"" %}
+    <div id="accordion" class="d-none d-md-block">
+      <div class="row row-eq-height justify-content-center">
+        {% for field in site.data.learning-field %}
+          <div class="col-6 col-md-3 p-2">
+            <div class="field-header" >
+              <a data-toggle="collapse" href="#{{ field.id }}" aria-expanded="false" aria-controls="math">
+                <div class="field-img">
+                  <img src="{{ site.baseurl }}{{ img-src }}{{ field.img }}">
+                </div>
+                <div class="field-subject">
+                  {{ field.title }}
+                </div>
+                <div class="field-des">
+                  {{ field.abstract }}
+                </div>
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="row justify-content-center">
+        {% for field in site.data.learning-field %}
+          <div class="collapse col-12" id="{{ field.id }}" data-parent="#accordion">
+            <div class="field-body">
+              {% for item in field.detail %}
+                <div class="each-item">
+                  <div class="each-item-header">
+                    <i class="fa {{ field.icon }}" aria-hidden="true"></i>
+                    <span class="date">{{ item.date }}</span> : 
+                    <span>{{ item.activity }}</span>
+                  </div>
+                  <div class="each-item-body">
+                    {{ item.more }}
+                    {% if item.link %}
+                      <a href="{{ item.link }}">
+                        {% if item.link-des %}
+                          ({{ item.link-des }})
+                        {% else %}
+                          (Link tham khảo)
+                        {% endif %}
+                      </a>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- only on small devices -->
+    <div class="d-md-none">
+      <!-- 1 & 2 -->
+      <div id="accordion2" class="row row-eq-height justify-content-center">
+        {% for field in site.data.learning-field %}
+          {% if forloop.index == 1 or forloop.index == 2 %}
+            <div class="col-6 col-md-3 p-2">
+              <div class="field-header" >
+                <a data-toggle="collapse" href="#{{ field.id }}2" aria-expanded="false" aria-controls="math">
+                  <div class="field-img">
+                    <img src="{{ site.baseurl }}{{ img-src }}{{ field.img }}">
+                  </div>
+                  <div class="field-subject">
+                    {{ field.title }}
+                  </div>
+                  <div class="field-des">
+                    {{ field.abstract }}
+                  </div>
+                </a>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+        <!-- content -->
+        {% for field in site.data.learning-field %}
+          {% if forloop.index == 1 or forloop.index == 2 %}
+            <div class="collapse col-12" id="{{ field.id }}2" data-parent="#accordion2">
+              <div class="field-body">
+                {% for item in field.detail %}
+                  <div class="each-item">
+                    <div class="each-item-header">
+                      <i class="fa {{ field.icon }}" aria-hidden="true"></i>
+                      <span class="date">{{ item.date }}</span> : 
+                      <span>{{ item.activity }}</span>
+                    </div>
+                    <div class="each-item-body">
+                      {{ item.more }}
+                      {% if item.link %}
+                        <a href="{{ item.link }}">
+                          {% if item.link-des %}
+                            ({{ item.link-des }})
+                          {% else %}
+                            (Link tham khảo)
+                          {% endif %}
+                        </a>
+                      {% endif %}
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- 3 & 4 -->
+      <div id="accordion3" class="row row-eq-height justify-content-center">
+        {% for field in site.data.learning-field %}
+          {% if forloop.index == 3 or forloop.index == 4 %}
+            <div class="col-6 col-md-3 p-2">
+              <div class="field-header" >
+                <a data-toggle="collapse" href="#{{ field.id }}2" aria-expanded="false" aria-controls="math">
+                  <div class="field-img">
+                    <img src="{{ site.baseurl }}{{ img-src }}{{ field.img }}">
+                  </div>
+                  <div class="field-subject">
+                    {{ field.title }}
+                  </div>
+                  <div class="field-des">
+                    {{ field.abstract }}
+                  </div>
+                </a>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+        <!-- content -->
+        {% for field in site.data.learning-field %}
+          {% if forloop.index == 3 or forloop.index == 4 %}
+            <div class="collapse col-12" id="{{ field.id }}2" data-parent="#accordion3">
+              <div class="field-body">
+                {% for item in field.detail %}
+                  <div class="each-item">
+                    <div class="each-item-header">
+                      <i class="fa {{ field.icon }}" aria-hidden="true"></i>
+                      <span class="date">{{ item.date }}</span> : 
+                      <span>{{ item.activity }}</span>
+                    </div>
+                    <div class="each-item-body">
+                      {{ item.more }}
+                      {% if item.link %}
+                        <a href="{{ item.link }}">
+                          {% if item.link-des %}
+                            ({{ item.link-des }})
+                          {% else %}
+                            (Link tham khảo)
+                          {% endif %}
+                        </a>
+                      {% endif %}
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% include me-social.html %}
+</section>
+
+<!-- my notes -->
+<section class="section alt-color">
+  <div class="container">
+    {% include sec-title.html title="My notes" more="You cannot remember everything." %}
+    <div class="row align-items-center justify-content-center mynote">
+      <div class="col-12 col-md-4">
+        <div class="description">
+          <a href="https://mynote.dinhanhthi.com">
+            <span>mynote</span>.dinhanhthi.com
+          </a>
+          <div class="more">
+            I write this NoteTheme theme for noting all of what I have studied.
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8">
+       <div class="showcase">
+        <img alt="My notes" src="{{ img-src }}mynote.png" />
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- more info -->
+<section class="section alt-color a-diff">
+  <div class="container">
+    {% include sec-title.html title="More information" %}
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 col-md-8 more-info">
+        <div class="item">
+			<i class="fa fa-map-marker" aria-hidden="true"></i>
+			<span class="info-title">Current</span> : Paris, France.
+		</div>
+		<div class="item">
+			<i class="fa fa-briefcase" aria-hidden="true"></i>
+			<span class="info-title">Current job</span> : Freelancer & Looking for a Data Science job & manager at <a href="{{ site.baseurl }}/project/ma2thit">Math2IT</a>.
+		</div>
+		<div class="item">
+			<i class="fa fa-leanpub" aria-hidden="true"></i>
+			<span class="info-title">I'm studying</span> : Data Science path on Dataquest & IBM Data Science Professional Certificate on Coursera.
+		</div>
+		<div class="item">
+			<i class="fa fa-book" aria-hidden="true"></i>
+			<span class="info-title">I'm reading</span> : Sapiens by Yuval N. Harari & The Elements of Statistical Learning by Trevor Hastie et al.
+		</div>
+		<div class="item">
+			<i class="fa fa-envelope" aria-hidden="true"></i>
+			<span class="info-title">Email</span> : <a href="mailto:{{site.author.email}}">{{site.author.email}}</a>
+		</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- contact -->
+<section class="section alt-color">
+  {% include sec-form-contact.html %}
+</section>

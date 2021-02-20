@@ -1,36 +1,32 @@
-# v2.dinhanhthi.com [![Netlify Status](https://api.netlify.com/api/v1/badges/ad24cacd-185c-4cec-ab5c-64f59c19b228/deploy-status)](https://app.netlify.com/sites/cocky-goldstine-a62eec/deploys)
+# v1.dinhanhthi.com
 
 Source code of my personal website (using Jekyll). If you would like to use this source code, please indicate me in the credit and let me know first, thanks! My email: dinhanhthi@gmail.com.
 
-⭐ **Demo**: https://v2.dinhanhthi.com/
+⭐ **Demo**: https://v1.dinhanhthi.com/
 
-![Home page](./img/jekyll/front-page.png)
+![Home page](./img/github/home-1.png)
 
-![About page](./img/jekyll/about.png)
+![Home page](./img/github/home-2.png)
 
-![Note page](./img/jekyll/note.png)
+![Home page](./img/github/home-3.png)
 
-![Post page](./img/jekyll/post.png)
+![About page](./img/github/pages.png)
+
+![Note page](./img/github/post.png)
 
 ## Using docker?
 
 ``` bash
-# Open Gemfile and comment out "jekyll-feed" and "jeyll-sitemap" and then
-git update-index --assume-unchanged Gemfile
-
 # build container
 cd docker
-docker-compose -p "dat" up -d
+docker-compose -p "dat_v1" up -d
 # wait a little bit for it to build at the 1st time
 
 # whenever working
-docker start dat_local
+docker start dat_local_v1
 # NOTE: for the 1st run, it takes a little long time to build and serve
 # You can check what are running on background with
-docker attach dat_local
-
-# update changes for principle pages
-sh update_dat.sh
+docker attach dat_local_v1
 ```
 
 ## Build and deploy
@@ -56,7 +52,4 @@ bundle exec jekyll serve
 
 # incremental build (only build the changes, faster)
 bundle exec jekyll serve -I
-
-# build also the posts in `_drafts`
-bundle exec jekyll serve --draft
 ~~~

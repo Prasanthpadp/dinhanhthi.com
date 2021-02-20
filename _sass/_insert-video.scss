@@ -2,7 +2,16 @@
   position: relative;
   height: 0;
   padding-bottom: 56.25%;
-  margin-top: $m-b;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 7px;
+  z-index: 2;
+  overflow: hidden;
+  @media (min-width:768px) {
+    width: calc(100% + 100px);
+    left: -50px;
+    max-width: none;
+  }
 }
 .youtube-container {
   position: relative;
@@ -22,6 +31,6 @@
   display: block;
   margin-top: 10px;
   font-size: 90%;
-  margin-bottom: $m-b;
+  margin-bottom: 30px;
   color: #778899;
 }

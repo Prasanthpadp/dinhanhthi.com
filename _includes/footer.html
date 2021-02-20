@@ -1,25 +1,29 @@
+{% if site.lang.current == "en" %}
+  {% assign support_text = site.data.lang['footer'].support_text.en %}
+  {% assign support_button = site.data.lang['footer'].support_button.en %}
+  {% assign support_abt = site.data.lang['footer'].about.en %}
+{% else %}
+  {% assign support_text = site.data.lang['footer'].support_text.vn %}
+  {% assign support_button = site.data.lang['footer'].support_button.vn %}
+  {% assign support_abt = site.data.lang['footer'].about.vn %}
+{% endif %}
 <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-8 col-lg-6 text-center p-3">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center p-4">
       <div class="footer-info">
-        <a href="{{ site.data.me.url }}" target="_blank">{{ site.data.me.short_name }}</a>
+        <a href="{{site.baseurl}}/about">{{ site.author.name }}</a>
         &nbsp;&copy;&nbsp;
         {{ site.time | date: '%Y' }}
         &nbsp;&bull;&nbsp;
-        <a href="{{site.url}}{{site.baseurl}}/about-the-notes">
-          About the notes
-        </a>
-        &nbsp;&bull;&nbsp;
-        <a href="https://pobo.dinhanhthi.com" target="_blank">
-          Po Bo
-        </a>
-        &nbsp;&bull;&nbsp;
-        <a href="{% post_url 2018-07-21-for-me-only %}">
-          For me only
-        </a>
-        &nbsp;&bull;&nbsp;
-        <a class="donate" href="{{site.url}}{{site.baseurl}}/donate">
-          Support Thi
+        <a href="{{site.baseurl}}/about">{{support_abt}}</a>
+      </div>
+      <div class="mission my-2 tyellow">
+        {{support_text}}
+      </div>
+      <div class="donate-me tgreen my-2">
+        <a target="_blank" href="https://www.paypal.me/DinhAnhThi">
+          <i class="fa fa-paypal"></i>
+          {{support_button}}
         </a>
       </div>
     </div>

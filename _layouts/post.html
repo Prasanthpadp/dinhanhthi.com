@@ -1,59 +1,54 @@
 ---
-layout: page
+layout: base
+more-css:
+  - "/css/post.css"
+  - "/css/post-layout.css"
+  - "/css/tag-page.css"
+more-js:
+  - "/js/backtotop.js"
 ---
 
-<p style="font-style: italic; color: #777; font-size: 0.95rem; margin-bottom: 2rem;">
-  Last modified on {{ page.last_modified_at | date: '%d %b %Y' }}.
-</p>
+{% case page.header %}
+  {% when 'reading' %}
+    {% include header.html type="reading" %}
+  {% else %}
+    {% include header.html type="post" %}
+{% endcase %}
 
-{% if page.toc %}
-  <div id="toc">
-    <div class="toc-content" markdown="1">
-      {% include jekyll-toc.html html=content id="markdown-toc" ordered=false %}
+<div class="container post-container">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8 col-12">
+      <div class="post-content mb-4">
+        {{ content }}
+      </div>
+      <div class="tag-list text-center">
+        {% for tag in page.tags %}
+          {% capture test %}{{tag | slice: 0}}{% endcapture %}
+          {% capture testup %}{{tag | slice: 0 | upcase}}{% endcapture %}
+          <a class="tag-chip" href="{{site.baseurl}}/tags/{{ page.categories[0] }}#{{ tag | slugify }}{% if test == testup %}_cap{% endif %}">
+            <i class="fa fa-tag"></i>
+            {{ tag }}
+          </a>
+        {% endfor %}
+      </div>
     </div>
   </div>
-{% endif %}
-
-{{ content }}
-
-<!-- <div class="box-error">
-<h4>Notice an error?</h4>
-Everything on this site is <a href="{{ site.data.me.github }}/dinhanhthi.com" target="_blank">published</a> on Github. If you find something wrong, <a href="https://github.com/dinhanhthi/dinhanhthi.com/edit/master/{{page.path}}" target="_blank">just edit it</a> or <a href="mailto:{{ site.data.me.email }}?subject=Suggest to edit post '{{page.title}}'">tell me</a> about it.
-</div> -->
-
-<div class="sec-comment">
-
-  {% if page.notfull %}
-    <p style="font-style: italic; color: #777; font-size: 0.95rem; margin-bottom: 1rem;">
-      <sup style="color: #bbb">•</sup>{{ site.data.me.notfull }}
-    </p>
-  {% endif %}
-
-  <button class="btn btn-info w-100" id="show-comments" onclick="load_comment();return false;">
-    If you find something wrong or need a comment, click here.
-  </button>
-
-  <div id='comment-box' style="display: none;">
-    <script src="https://utteranc.es/client.js"
-            repo="dinhanhthi/dinhanhthi.com"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
-  </div>
-
-  <script>
-    var comment_loaded = false;
-    function load_comment() {
-        if (!comment_loaded)  {
-            comment_loaded = true;
-            document.getElementById("show-comments").style.display = "none";
-            document.getElementById("comment-box").style.display = "block";
-        }
-    }
-  </script>
 </div>
 
-{% include img-modal.html %}
+<section class="my-4 py-4">
+  <div class="container post-container">
+    {% include more-posts.html %}
+  </div>
+</section>
 
+<div  class="container post-container">
+  {% unless page.comment %}
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-12 my-4">
+      <div class="disqus-comments">
+        {% include disqus.html %}
+      </div>
+    </div>
+  </div>
+  {% endunless %}
+</div>

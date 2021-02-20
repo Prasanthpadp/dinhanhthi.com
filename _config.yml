@@ -1,29 +1,41 @@
 title: Anh-Thi Dinh
 description: I failed my way to success
-baseurl: ""
-url: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# author's info, important for displaying info on site
+author:
+  name: Anh-Thi Dinh
+  github: dinhanhthi
+  facebook:
+  email: dinhanhthi@gmail.com
+  avatar: /img/avatar-icon.jpg
+  real_avatar: /img/real_avatar.png
+  ncb: 20 # number of challenge books
+
+lang:
+  current: en
+  other_url:
+
 
 title-separator: "-"
 
-google_analytics: UA-58921685-1
-fb_app_id: "1150663561751902"
+disqus:
 
+google_analytics:
+
+# Build settings
 timezone: "Europe/Paris"
 markdown: kramdown
-mathjax: true
 kramdown:
   input: GFM
 highlighter: rouge
-permalink: /:title
+permalink: /:categories/:title
+# paginate: 24
+# paginate_path: "/thought/page-:num"
 
-plugins:
-  - jemoji
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-katex
-  - jekyll-admin
-  - jekyll-include-cache
-  - jekyll-last-modified-at
+# Facebook App ID
+fb_app_id: "1150663561751902"
 
 sass:
   style: compact
@@ -32,3 +44,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - CNAME
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-include-cache

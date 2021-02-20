@@ -3,32 +3,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-	<!-- block search indexing -->
+	<!-- Block search indexing -->
 	<meta name="robots" content="noindex">
-	<meta name="googlebot" content="noindex">
 
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" async>
+  {% if page.lang %}
+    {% assign current_lang = 'en' %}
+    {% assign other_lang = 'vi' %}
+    {% if page.lang == 'vi' %}
+      {% assign current_lang = 'vi' %}
+      {% assign other_lang = 'en' %}
+    {% endif %}
+    <link rel="alternate" hreflang="{{ current_lang }}" href="{{ page.url }}" />
+    <link rel="alternate" hreflang="{{ other_lang }}" href="{% if page.categories %}/{% endif %}{{ page.categories[0] }}/{{ page.lang_url }}" />
+  {% endif %}
 
-  <!-- fontawesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" async>
+  {% if site.google_analytics %}
+    {% include google_analytics.html %}
+  {% endif %}
 
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin async >
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet" crossorigin async>
-  <link href="https://fonts.googleapis.com/css?family=Livvic:400,400i,500,500i,600&display=swap&subset=vietnamese" rel="stylesheet" crossorigin async>
-  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet" crossorigin async>
-
-  <link rel="alternate" hreflang="en" href="{{ page.url }}" async />
-
-  <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/img/avatar-icon.ico" async>
-  <meta name="author" content="{{ site.data.me.name }}" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/img/avatar-icon.ico">
+  <meta name="author" content="{{ site.author.name }}" />
 
   <title>
     {% if page.url != "/" %}
       Thi | {{ page.title }}
     {% else %}
-      {{ site.data.me.name }} | {{ site.description }}
+      {{ site.author.name }} | {{ site.description }}
     {% endif %}
   </title>
 
@@ -37,24 +37,58 @@
   {% endif %}
 
   <!-- feed -->
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" async />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+  <!-- page (external) -->
+  {% if page.ext-css %}
+    {% for css in page.ext-css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
+  {% endif %}
 
   <!-- page (internal) -->
   {% if page.css %}
     {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" async />
+      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+    {% endfor %}
+  {% endif %}
+
+  <!-- heading numbering -->
+  {% unless page.notnumbering %}
+    <link rel="stylesheet" href="{{site.baseurl}}/css/notnumbering.css" />
+  {% endunless %}
+
+  <!-- layout (external) -->
+  {% if layout.base-ext-css %}
+    {% for css in layout.base-ext-css %}
+      {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
 
   <!-- layout (internal) -->
   {% if layout.base-css %}
     {% for css in layout.base-css %}
-      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" async />
+      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
     {% endfor %}
   {% endif %}
   {% if layout.more-css %}
     {% for css in layout.more-css %}
-      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" async />
+      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+    {% endfor %}
+  {% endif %}
+
+  <!-- layout (google font) -->
+  {% if layout.base-googlefonts %}
+    {% for font in layout.base-googlefonts %}
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+    {% endfor %}
+  {% endif %}
+
+  <!-- page (google font) -->
+  {% if page.googlefonts %}= PostContent_h3[i].innerHTML;
+  // PostConte
+    {% for font in page.googlefonts %}
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
     {% endfor %}
   {% endif %}
 
@@ -63,8 +97,8 @@
     <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   {% endif %}
 
-  {% if site.data.me.facebook %}
-    <meta property="fb:admins" content="{{ site.data.me.facebook }}"/>
+  {% if site.author.facebook %}
+    <meta property="fb:admins" content="{{ site.author.facebook }}"/>
   {% endif %}
 
   {% if page.meta-title %}
@@ -88,16 +122,23 @@
 
   {% if page.id %}
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" async />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   {% else %}
     <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" async />
+    <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
   {% endif %}
 
-  <meta property="og:image" content="{{site.url}}{{site.baseurl}}/img/background.png" />
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1234">
-  <meta property="og:image:height" content="592">
+  <!-- page's cover -->
+  {% if page.bigimg %}
+    <meta property="og:image" content="{{site.url}}{{site.baseurl}}{{ page.bigimg }}" />
+    <meta property="og:image:width" content="1234">
+    <meta property="og:image:height" content="592">
+  {% else %}
+    <meta property="og:image" content="{{site.url}}{{site.baseurl}}/img/defaultCoverPost.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1234">
+    <meta property="og:image:height" content="592">
+  {% endif %}
 
   {% if page.js-head %}
     {% for js in page.js-head %}
@@ -105,42 +146,62 @@
     {% endfor %}
   {% endif %}
 
-  {% if page.math %}
+  {% if page.nav == 'home' %}
     <script type="text/javascript">
-      window.MathJax = {
-        jax: ["input/TeX", "output/SVG"],
-        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-        SVG: {
-          linebreaks: { automatic: true },
-          styles: {".MathJax_SVG_Display": {margin: "1rem 0", overflow: "auto"}},
-          scale: 90
-        }
-      };
+      var quotesContent = [{% for quote in site.data.quote limit:15 %}"{{ quote.quote }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      var quotesAuthor = [{% for quote in site.data.quote limit:15 %}"{{ quote.author }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      var quotesProfile = [{% for quote in site.data.quote limit:15 %}{% if quote.profile %}"{{ quote.profile }}"{% else %}"nolink"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
+      // var quotesVi = [{% for quote in site.data.quote limit:15 %}"{{ quote.vi }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    </script>
+  {% endif %}
+
+  {% if page.layout == 'post' %}
+
+    {% assign cat = page.categories[0] %}
+    {% case cat %}
+      {% when 'reading' %}
+        {% assign posts = site.categories.reading %}
+      {% when 'tutorial' %}
+        {% assign posts = site.categories.tutorial %}
+      {% when 'thought' %}
+        {% assign posts = site.categories.thought %}
+    {% endcase %}
+
+    <script type="text/javascript">
+      var Titles = [{% for post in posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      var Urls = [{% for post in posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      {% if page.subtitle %}
+        var Subtitles = [{% for post in posts %}"{{ post.subtitle }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      {% endif %}
+      {% if page.date %}
+        var Dates = [{% for post in posts %}"{{ post.date | date_to_string }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      {% endif %}
+      {% if page.description %}
+        var Descriptions = [{% for post in posts %}"{{ post.description }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      {% endif %}
+      {% if page.img %}
+        var Imgs = [{% for post in posts %}"{{ post.img }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      {% endif %}
+      {% if page.rating %}
+        var Ratings = [{% for post in posts %}"{{ post.rating }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      {% endif %}
+
+      {% assign submitDate = site.time | date: '%s' %}
+      {% if element.update and daySince == 0 %}
+      <div class="ribbon">updated</div>
+      {% endif %}
+      var Updates = [{% for post in posts %}{% assign postDate = post.date | date: '%s' %}{% assign diffDate = submitDate | minus: postDate %}{% assign daySince = diffDate | divided_by: 604800 %}{% if post.update and daySince == 0 %}"true"{% else %}"false"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
+    </script>
+
+  {% endif %}
+
+  {% if page.math %}
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
     </script>
     <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG">
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-  {% endif %}
-
-  {% if page.katex %}
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous" async >
-  <script>
-    $("script[type='math/tex']").replaceWith(function() {
-        var tex = $(this).text();
-        return katex.renderToString(tex, {displayMode: false});
-    });
-
-    $("script[type='math/tex; mode=display']").replaceWith(function() {
-        var tex = $(this).html();
-        return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
-    });
-  </script>
-  {% endif %}
-
-  {% if page.jsxgraph %}
-    <link rel="stylesheet" type="text/css" href="{{site.url}}{{site.baseurl}}/js/jsx/jsxgraph.css" async />
-    <script src="{{site.url}}{{site.baseurl}}/js/jsx/jsxgraphcore.js" type="text/javascript"></script>
-    <script src="{{site.url}}{{site.baseurl}}/js/jsx/gui.js" type="text/javascript"></script>
   {% endif %}
 
 </head>
