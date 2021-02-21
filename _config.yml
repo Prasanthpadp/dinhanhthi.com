@@ -11,7 +11,7 @@ author:
   email: dinhanhthi@gmail.com
   avatar: /img/avatar-icon.jpg
   real_avatar: /img/real_avatar.png
-  ncb: 20 # number of challenge books
+  ncb: 5 # number of challenge books
 
 lang:
   current: en
