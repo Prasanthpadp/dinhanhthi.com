@@ -1794,19 +1794,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/cnn/</loc>
-    <lastmod>2021-02-21T01:15:21.324Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/time-series/</loc>
     <lastmod>2021-02-21T01:15:21.324Z</lastmod>
   </url>
@@ -1846,6 +1833,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/cnn/</loc>
+    <lastmod>2021-02-21T01:15:21.324Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2021-02-21T01:15:21.324Z</lastmod>
   </url>
@@ -1859,7 +1859,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/macos/</loc>
+    <loc>https://dinhanhthi.com/tags/python/</loc>
     <lastmod>2021-02-21T01:15:21.324Z</lastmod>
   </url>
   
@@ -1872,7 +1872,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/python/</loc>
+    <loc>https://dinhanhthi.com/tags/macos/</loc>
     <lastmod>2021-02-21T01:15:21.324Z</lastmod>
   </url>
   
@@ -1937,7 +1937,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/jekyll/</loc>
+    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
     <lastmod>2021-02-21T01:15:21.324Z</lastmod>
   </url>
   
@@ -1950,7 +1950,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
+    <loc>https://dinhanhthi.com/tags/jekyll/</loc>
     <lastmod>2021-02-21T01:15:21.324Z</lastmod>
   </url>
   
@@ -1976,19 +1976,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
-    <lastmod>2021-02-21T01:15:21.324Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-02-21T01:15:21.324Z</lastmod>
   </url>
@@ -2002,7 +1989,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/metrics/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2021-02-21T01:15:21.324Z</lastmod>
   </url>
   
@@ -2016,6 +2003,19 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
+    <lastmod>2021-02-21T01:15:21.324Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/metrics/</loc>
     <lastmod>2021-02-21T01:15:21.324Z</lastmod>
   </url>
   
