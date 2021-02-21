@@ -12,7 +12,7 @@ Source code of my personal website (using Jekyll). If you would like to use this
 
 ![Home page](./img/github/front-4.jpg)
 
-![Reading page](./img/github/reading.jpg)
+![Reading page](./img/github/reading.png)
 
 ![Blog page](./img/github/blog.png)
 
