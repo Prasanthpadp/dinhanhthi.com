@@ -1,0 +1,40 @@
+- date: 11-16 Dec 2016
+  act: "Attending the anniversary conference of \"10 years of French-Vietnamese master in applied mathematics\" at Quy Nhon, Binh Dinh, Vietnam"
+  more: "Conference topic: \"Analysis, Probability and their applications\""
+  ref: https://indico.math.cnrs.fr/event/1301/overview
+- date: 25 Jan 2016
+  act: "Attending the third meeting about Maths, Biology and Medicine of Université Sorbonne Paris Cité at University Paris 13, France."
+  more: "My talk\'s topic \"Finite element approximation of the biofilm growth model.\""
+  ref: http://mathbio2016spc.sciencesconf.org/
+- date: 15-16 Dec 2015
+  act: "Attending the seventh workshop on Generic Solvers for PDEs: FreeFem++ and its Applications at University Paris 6, France." 
+  more: "My talk\'s topic \"Simulating some interface problems with FreeFem++.\""
+  ref: https://www.ljll.math.upmc.fr/hecht/ftp/ff++days/2015/Schedule.html
+- date: 12-13 Oct 2015
+  act: "Attending the workshop \"Workshop sur la modélisation de biofilms\" at Rouen, France"
+  more: "My talk’s topic \"Simulation de la croissance d’un biofilm\""
+  ref: http://lmrs.univ-rouen.fr/Biofilms/intervenants.html
+- date: 13-17 Oct 2014
+  act: "Attending the 11th \"Semaine d’Étude Maths-Entreprises\" at Rouen, France"
+  more: "Working on the topic \"Schéma numérique pour la récupération assistée du pétrole par des procédés chimiques\" proposed by IFPEN"
+  ref: http://lmrs.univ-rouen.fr/SEME/
+- date: 7-11 Jul 2014
+  act: Attending the biology summer school at Luminy, Marseille, France
+  more: I had a chance to learn about biology from the fundamental. It helps me much on my research topic.
+  ref: http://www.i2m.univ-amu.fr/florence.hubert/?q=EEBL2014
+- date: 10-13 June 2014
+  act: "Attending the biofilm summer school \"Models for bacterial biofilms formation : mathematical, physical and biological perspectives\" at Nice, France"
+  more: "I met many scientists who are working on biofilms topic and I discussed a lot with them."
+  ref: http://math.unice.fr/~ribot/Biofilms/registration.php
+- date: 2012
+  act: "Teacher at Nhat Minh education center"
+  more: "I undertook to teach some classes from 6th to 12th grade."
+- date: 3/2012 - 5/2012
+  act: "Maths trainee teacher at Giong Ong To high school, Ho Chi Minh city "
+- date: 2011
+  act: "Attending the training course of Intel about applying IT into Maths for Maths teachers"
+  more: "I learned how to apply project based approaches into teaching and how to how to take a full advantage of IT at school."
+  ref: http://www.intel.com/content/www/us/en/education/teach-elements-project-based-approaches-video.html
+- date: 3/2011 - 4/2012
+  act: "Maths trainee teacher at Ly Thuong Kiet high school, Ho Chi Minh city "
+

@@ -1,47 +1,44 @@
 ---
 layout: post
-header: reading
-title: "The Power of Habit"
-subtitle: Charles Duhigg
-subtitle_link: https://en.wikipedia.org/wiki/Charles_Duhigg
-tags: [self-help]
-img: sucmanhcuathoiquen.jpg
+title: "Sức mạnh của thói quen"
+bookauthor: Charles Duhigg
+tags: [reading]
+bookimg: /img/bookimg/sucmanhcuathoiquen.jpg
+full: true
+genre: nonfiction psychology science
 categories: reading
+redirect_from: "/suc-manh-cua-thoi-quen"
 date: 2016-11-28
-rating: 5
-backtotop: 0
 ---
 
-<h4 class="post-more">Information</h4>
+Đã xong quyển "Sức mạnh thói quen" (The power of habit) của [Charles Duhigg](https://www.facebook.com/charlesduhigg/). Thật sự một quyển sách dày 436 trang mà đọc như thế thì hơi chậm nhưng quả thật để thấm nó không hề dễ mà sách này cũng không phải là dạng tiểu thuyết có cốt truyện để có thể đọc một sớm một chiều. Chuẩn bị đọc lại lần hai.
 
-- **Full title**: The Power of Habit: Why We Do What We Do in Life and Business
-- **Version I read**: Vietnamese.
-- **Title in Vietnamese**: Sức mạnh của thói quen.
-- **Genre**: Self-help.
-- **Author**: [Charles Duhigg](https://en.wikipedia.org/wiki/Charles_Duhigg) (American, 1974 - today).
-- **Published**: 2012 (Random House Trade Paperbacks).
-
-<div class="alert alert-success" role="alert">
-Below comments are in Vietnamese, please wait for an English version.
+<div class="btTomTat" data-toggle="collapse" data-target="#ndXT">Thông tin thêm về Charles Duhigg</div>
+<div id="ndXT" markdown="1" class="collapse ndTomTat">
+Charles Duhigg là phóng viên của thời báo New York từ năm 2006, là cây bút trụ cột của thời báo Los Angeles. Từ năm 2007 tới nay, anh  liên tục nhận được những giải thưởng lớn cho các bài báo và cuốn sách viết về kinh tế và doanh nghiệp. Một thập kỷ trước, khi làm phóng viên tại Irac, anh đã bắt đầu quan tâm tới thói quen khi được nghe một thiếu tá quân đội kể về ảnh hưởng của thói quen tới thành công của ông. Anh chính là tác giả của cuốn sách The Power of Habit (Sức mạnh của thói quen) được trích đăng trên Thời báo New York. Cuốn sách nằm trong danh sách best-seller suốt 40 tuần trên Thời báo New York và cho đến nay vẫn là một trong số những cuốn sách hay nhất về thay đổi hành vi con người và tổ chức.
 </div>
-
-Đã xong quyển "Sức mạnh thói quen" (The power of habit) của Charles Duhigg. Thật sự một quyển sách dày 436 trang mà đọc như thế thì hơi chậm nhưng quả thật để thấm nó không hề dễ mà sách này cũng không phải là dạng tiểu thuyết có cốt truyện để có thể đọc một sớm một chiều. Chuẩn bị đọc lại lần hai.
 
 Nói về sách, đúng như tên gọi, tác giả sẽ cho ta thấy sức mạnh của thói quen ảnh hưởng đến đời sống con người hàng ngày. Một thể loại về cách sống, về phương pháp sống.
 
-Bạn sẽ ngần ngại khi nghe đến thể loại nghe có vẻ "lý thuyết" này nhưng thực chất phong cách viết đậm chất thực tế của Charles Duhigg đã đạt được đến trình độ đỉnh cao. Tác giả dẫn vào sách rất nhiều câu chuyện có thật từ thực tế. Từ một cô gái bị suy sụp về mặt tình cảm, một người mẹ bị nghiện cờ bạc, đến cách một người điều hành công ty áp dụng, cách một huấn luyện viên bóng rổ giúp cho cầu thủ đội mình giành chiến thắng, cũng như phương thức vận hành trong các công ty và tập đoàn lớn. Cái hay của tác giả là sắp xếp các câu chuyện, các cuộc phỏng vấn này một cách logic và giúp ta định hình được cũng như đối chiếu được với những gì ta làm trong cuộc sống và tìm ra được cách riêng cho mỗi người.
+Bạn sẽ ngần ngại khi nghe đến thể loại nghe có vẻ "lý thuyết" này nhưng thực chất phong cách viết đậm chất thực tế của [Charles Duhigg](https://www.facebook.com/charlesduhigg/) đã đạt được đến trình độ đỉnh cao. Tác giả dẫn vào sách rất nhiều câu chuyện có thật từ thực tế. Từ một cô gái bị suy sụp về mặt tình cảm, một người mẹ bị nghiện cờ bạc, đến cách một người điều hành công ty áp dụng, cách một huấn luyện viên bóng rổ giúp cho cầu thủ đội mình giành chiến thắng, cũng như phương thức vận hành trong các công ty và tập đoàn lớn. Cái hay của tác giả là sắp xếp các câu chuyện, các cuộc phỏng vấn này một cách logic và giúp ta định hình được cũng như đối chiếu được với những gì ta làm trong cuộc sống và tìm ra được cách riêng cho mỗi người.
 
 Đọc được chương đầu tiên, tôi rất hứng thú và share ngay cho các bạn mình. Đến giữa quyển, tôi khẳng định rằng đây là một trong những sách làm thay đổi về suy nghĩ cũng như cách sống của bản thân. Đến giờ, khi kết thúc nó, tôi vẫn không thay đổi những cảm giác và nhận định ban đầu.
 
-Nếu có thể, hãy đọc "Sức mạnh thói quen" của Charles Duhigg.
+Nếu có thể, hãy đọc "Sức mạnh thói quen" của [Charles Duhigg](https://www.facebook.com/charlesduhigg/).
 
-<div class="tomTat">
-<div id="btTomTat" class="collapsed" data-toggle="collapse" href="#ndTomTat"><span>Highlights I like</span></div>
-<div id="ndTomTat" markdown="1" class="collapse multi-collapse">
+{% include important.html content="Tôi đã đọc xong tác phẩm, tuy nhiên quá trình tóm tắt chưa kịp update vì tốc độ đọc khá nhanh ở giai đoạn cuối. Tôi dự định sẽ đọc lại lần hai tác phẩm này, khi ấy tôi sẽ bổ sung đầy đủ phần tóm tắt." %}
+
+<div id="btTomTat" data-toggle="collapse" data-target="#ndTomTat">Xem tóm tắt</div>
+
+<div id="ndTomTat" markdown="1" class="collapse">
+
+{% include toc.html %}
+
+{% include tip.html content="Những đoạn để dưới dạng 'quote' là trích dẫn nguyên bản từ trong sách, các đoạn khác là ngôn ngữ viết của tôi lấy ý từ sách." %}
 
 ## Phần mở đầu
 
-### Cải tạo thói quen
+*Cải tạo thói quen*
 
 Mở đầu sách, tác giả dẫn ra một ví dụ về Lisa Allen, 34 tuổi. Cô bắt đầu nghiện rượu và thuốc lá và đấu tranh chống lại bệnh béo phì sau khi bị phản bội và ly hôn. Cô tìm đủ mọi cách để vượt qua trở ngại nhưng bất thành. Vào một ngày, cô quyết định đến Cairo, Ai Cập và quyết định thực thiện một chiến đi xuyên sa mạc. Kể từ đó, cô đã khắc phục được khó khăn.
 
@@ -95,7 +92,7 @@ Mở đầu đề cập đến nhà quản trị xuất chúng người Mỹ nh�
 >
 > "Hàng triệu người đang sử dụng một phương pháp mới để làm sạch răng. Tại sao cẳng có phụ nữ nào có mảng bám xỉn màu trên răng họ? Pepsodent đánh bay mảng bám."
 
-Gợi ý ở đây là "mảng bám răng" và phần thưởng "răng đẹp". Ông tự tin về bí quyết của mình, ông đi thuyết giảng rất nhiều về nó nhưng sau này, người ta phát hiện ra ngoài hai nguyên tắc cơ bản mà Hopkins tự tin nói ở trên (gợi ý, phần thưởng), còn một nguyên tắc thứ 3 khác rất quan trọng mà ông cũng đã dùng nhưng không hề để ý đến, đó chính là ***sự ham muốn***.
+Gợi ý ở đây là "mảng bám răng" và phần thưởng "răng đẹp". Ông tự tin về bí quyết của mình, ông đi thuyết giảng rất nhiều về nó nhưng sau này, người ta phát hiện ra ngoài hai nguyên tắc cơ bản mà Hopkins tự tin nói ở trên (gợi ý, phần thưởng), còn một nguyên tắc thứ 3 khác rất quan trọng mà ông cũng đã dùng nhưng không hề để ý đến, đó chính là ***sự ham muốn***. 
 
 Câu chuyện tiếp theo nói về tập đoàn P&G và việc muốn quảng cáo sản phẩm khử mùi tên Febreze mới của công ty. Một đội được thành lập (dưới sự dẫn dắt của một thiên tài toán học tên Stimson) và áp dụng 2 quy tắc của Hopkins để quảng bá sản phẩm. Họ phỏng vấn một người phụ nữ kiểm lâm trẻ, người cô và môi trường sống của cô tràn đầy mùi chồn hôi. Sau một thời gian sử dụng thử sản phẩm của P&G, cô hạnh phúc nói rằng nó mang lại cuộc sống mới cho cô. Từ đó nhóm quyết định quảng cáo theo gợi ý là "mùi khó chịu" sang phần thưởng là "hết mùi khó chịu và cảm giác được nhẹ nhõm". Tuy nhiên sau một thời gian thì lượng sản phẩm bán ra không khá là bao, đi kiểm định thị trường thì phát hiện sản phẩm của họ bị vứt vào một xó, tức có nghĩa là chúng đã không tạo được thói quen. Lý do được phát hiện là đa phần mọi người không phát hiện ra mùi hôi của chính mình nên không nhắc họ sử dụng sản phẩm được.
 
@@ -129,7 +126,7 @@ Phần này kể về vị huấn luyện viên bóng rổ Dungy. Ông đã áp 
 
 > "Chức vô địch không làm nên những điều phi thường,” Dungy giải thích. “Cầu thủ tạo ra những điều đó, nhưng họ tạo ra nó không suy nghĩ và thật nhanh để những đội khác không thể phản ứng. Họ làm theo thói quen họ đã học được."
 
-Cho đến trận đấu quyết định, toàn đội gặp áp lực và trở về với lề thói cũ, họ để cho suy nghĩ lấn át quá nhiều trong trận đấu và họ đã quên đi thói quen của mình, họ thất bại.
+Cho đến trận đấu quyết định, toàn đội gặp áp lực và trở về với lề thói cũ, họ để cho suy nghĩ lấn át quá nhiều trong trận đấu và họ đã quên đi thói quen của mình, họ thất bại. 
 
 Lý do được đưa ra là **niềm tin**. Thói quen được thực hiện vì họ có được niềm tin vào cách thức nó hoạt động, cho đến trận đấu cuối cùng, họ gặp áp lực và ảnh hưởng đến niềm tin ấy.
 
@@ -151,7 +148,7 @@ Phần này cũng kể về trung tâm cai rượu Alcoholics Anonymous (AA). H�
 
 ### Thói quen quyết định hay bản tình ca của Paul O'neil
 
-Nói về CEO của công ty Aluminum (Alcoa) ở Mỹ và cách thức ông đã áp dụng để vực dậy công ty này. Đây là một công ty về kim loại. Ông Paul O'neil trước kia là một quan chức chính phủ, ông sau này cũng từng giữ chức vụ Bộ Trưởng Bộ Tài Chính.
+Nói về CEO của công ty Aluminum (Alcoa) ở Mỹ và cách thức ông đã áp dụng để vực dậy công ty này. Đây là một công ty về kim loại. Ông Paul O'neil trước kia là một quan chức chính phủ, ông sau này cũng từng giữ chức vụ Bộ Trưởng Bộ Tài Chính. 
 
 Cách thức mà PO đã áp dụng chính là tập trung toàn lực vào thứ tưởng chừng như chẳng dính dáng gì đến công ty - **an toàn lao động**. Khi mọi người tuân thủ theo cái này, họ phải tuân thủ theo cả một hệ thống những cái khác, từ đó mọi thứ vô khuôn và có quy củ hơn, mọi người bớt phàn nàn và tranh cãi hơn vì trước khi các chính sách của công ty đưa ra cũng như các yêu cầu của công nhân mang tính lẻ tẻ, họ mâu thuẫn. Giờ đây, PO chỉ đưa ra duy nhất một yêu cầu này nhưng kéo theo tất cả những cái khác và nó thỏa mãn cả đôi bên.
 
@@ -169,6 +166,9 @@ Vận động viên bơi lội thàng công nhất trong lịch sử người M�
 
 > “Giống như tôi tưởng tượng nó,” Phelps nói. Đó là một chiến thắng thêm vào cuộc đời đầy những chiến thắng nhỏ.
 
+### Starbucks và thói quen của sự thành công
 
-</div>
+
+
+
 </div>

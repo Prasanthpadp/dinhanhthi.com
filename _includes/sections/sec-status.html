@@ -1,0 +1,31 @@
+<h2>Latest status</h2>
+<h4>
+<a class="txt-color" href="/status">see all status</a>
+</h4>
+<ul class="Tstatus">
+  {% assign stats = site.data.status.stt2018 | sort: 'date' %}
+  {% assign stats = stats | reverse %}
+  {% for stat in stats limit:4 %}
+    <li class="{% cycle '', 'Tstatus-inverted' %}">
+    <div class="Tstatus-panel">
+      {% if stat.photo %}
+      <div class="Tstatus-heading">
+        <img class="img-responsive" src="{{site.baseurl}}{{ stat.photo | prepend: site.baseurl | replace: '//', '/' }}" />
+      </div>
+      {% endif %}
+      <div class="Tstatus-body">
+        <p>
+          {{ stat.status }} 
+          {% if stat.link %}
+            <a target="_blank" href="{{stat.link}}"> {{stat.des-link}}.</a>
+          {% endif %}
+        </p>
+      </div>
+      <div class="Tstatus-footer">
+        {{ stat.date }}
+      </div>
+    </div>
+    </li> 
+  {% endfor %}
+<li class="clearfix" style="float: none;"></li>
+</ul>

@@ -1,54 +1,66 @@
 ---
 layout: base
-more-css:
-  - "/css/post.css"
-  - "/css/post-layout.css"
-  - "/css/tag-page.css"
-more-js:
-  - "/js/backtotop.js"
+common-ext-css:
+  - "/css/reading.css"
+  - "/css/blog-post.css"
+  - "/css/mucluc.css"
+  - "/css/insert-img.css"
+  - "/css/newsletter-inpost.css"
+  - "/css/post-list.css"
+  - "/css/book-list.css"
+  - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" 
 ---
 
-{% case page.header %}
-  {% when 'reading' %}
-    {% include header.html type="reading" %}
-  {% else %}
-    {% include header.html type="post" %}
-{% endcase %}
+{% include header.html type="post" %}
 
-<div class="container post-container">
-  <div class="row justify-content-center">
-    <div class="col-md-10 col-lg-8 col-12">
-      <div class="post-content mb-4">
-        {{ content }}
-      </div>
-      <div class="tag-list text-center">
-        {% for tag in page.tags %}
-          {% capture test %}{{tag | slice: 0}}{% endcapture %}
-          {% capture testup %}{{tag | slice: 0 | upcase}}{% endcapture %}
-          <a class="tag-chip" href="{{site.baseurl}}/tags/{{ page.categories[0] }}#{{ tag | slugify }}{% if test == testup %}_cap{% endif %}">
-            <i class="fa fa-tag"></i>
-            {{ tag }}
-          </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
+{% include sections/sec-front-md.html %}
 
-<section class="my-4 py-4">
-  <div class="container post-container">
-    {% include more-posts.html %}
-  </div>
-</section>
+  {% include newsletter.html %}
 
-<div  class="container post-container">
-  {% unless page.comment %}
-  <div class="row justify-content-center">
-    <div class="col-md-8 col-12 my-4">
-      <div class="disqus-comments">
-        {% include disqus.html %}
+  <article role="main" class="blog-post">
+    {{ content }}
+  </article>
+
+  {% unless page.bookimg %}
+    {% if page.tags.size > 0 %}
+      <div class="blog-tags">
+        {% if site.link-tags %}
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+        {% else %}
+          {{ page.tags | join: ", " }}
+        {% endif %}
       </div>
-    </div>
-  </div>
+    {% endif %}    
   {% endunless %}
-</div>
+
+{% include sections/sec-back.html %}
+
+{% include sections/sec-front-lg.html %}
+  {% unless page.bookimg %}
+    <div class="post-reading-list">
+      <h2>You may like?</h2>
+      <h4>
+          <a class="txt-color" href="/blog">see all posts</a>
+      </h4>
+    </div>
+    {% include related-posts.html %}
+  {% else %}
+    <div class="post-reading-list">
+      <h2>Recent read books</h2>
+      <h4>
+          <a class="txt-color" href="/reading">see all books</a>
+      </h4>
+    </div>
+    {% include sections/sec-reading.html %}
+  {% endunless %}
+{% include sections/sec-back.html %}
+
+{% include sections/sec-front-md.html %}
+  {% if page.comments %}
+    <div class="disqus-comments">
+      {% include disqus.html %}
+    </div>
+  {% endif %}
+{% include sections/sec-back.html %}

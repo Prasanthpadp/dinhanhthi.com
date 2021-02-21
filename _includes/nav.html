@@ -1,42 +1,59 @@
-{% if site.lang.current == "en" %}
-  {% assign placeholder = site.data.lang['search'].title.en %}
-{% else %}
-  {% assign placeholder = site.data.lang['search'].title.vn %}
-{% endif %}
-<nav class="navbar navbar-dark nav-bg navbar-custom">
-  <div class="container">
-    {% assign navs = site.data.nav %}
-    {% for nav in navs %}
-      {% if nav.name == page.nav %}
-        {% assign cClass = 'nav-current' %}
+<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {% if site.title-img %}
+        <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}"><img src="{{ site.title-img }}"/></a>
       {% else %}
-        {% assign cClass = nil %}
+        <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
       {% endif %}
-      {% unless nav.url contains "http" %}
-		<a class="nav-{{ nav.name }} {{ cClass }}" href="{{site.baseurl}}{{ nav.url }}">
-	  {% else %}
-		<a class="nav-{{ nav.name }} {{ cClass }}" href="{{ nav.url }}" target="_blank">
-	  {% endunless %}
-        <i class="fa {{ nav.icon }}" aria-hidden="true"></i>
-        <span>{{ nav.title }}</span>
-      </a>
-    {% endfor %}
-    <div class="nav-search">
-        <form action="{{ site.baseurl }}/search" method="get">
-          <input name="q" class="mr-sm-2 nav-search-input" type="search" placeholder="{{placeholder}}..." aria-label="{{placeholder}}...">
-          <button class="nav-search-submit" type="submit">
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </button>
-        </form>
-      </div>
-      <div class="nav-lang">
-        {% if site.lang.current == 'en' %}
-          <span class="en active">en</span>
-          <a href="{{ site.lang.other_url }}" class="vn">vn</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      {% for link in site.navbar-links %}
+        {% if link[1].first %}
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
+            <div class="navlinks-children">
+              {% for childlink in link[1] %}
+                {% for linkparts in childlink %}
+                  {% include navbarlink.html link=linkparts %}
+                {% endfor %}
+              {% endfor %}
+            </div>
+          </li>
         {% else %}
-          <a href="{{ site.lang.other_url }}" class="en">en</a>
-          <span class="vn active">vn</span>
+          <li>
+            {% include navbarlink.html link=link %}
+          </li>
         {% endif %}
-      </div>
+        {% endfor %}
+      </ul>
+    </div>
+
+	{% if page.image and (layout.show-avatar or page.show-avatar) %}
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="{{ site.url }}">
+	      <img class="avatar-img" src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" />
+		</a>
+	  </div>
+	</div>
+	{% elsif site.avatar and (layout.show-avatar or page.show-avatar) %}
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="{{ site.url }} ">
+	      <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
+		</a>
+	  </div>
+	</div>
+	{% endif %}
+
   </div>
 </nav>

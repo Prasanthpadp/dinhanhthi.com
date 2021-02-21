@@ -5,12 +5,9 @@
   background: #fff;
   font-weight: bold;
   color: #5d5c5c;
-  background: transparent;
 }
 .contact-form button:hover{
-  background: #999;
-  color: #fff;
-  border-color: transparent;
+  background: #eee;
 }
 .contact-form input{
   display: block;
@@ -19,12 +16,12 @@
   border-color: #777;
   text-align: center;
   padding: 10px;
-  background: transparent;
-  color: #5d5c5c;
 }
 .contact-form button{
   text-align: center;
-  cursor: pointer;
+}
+.contact-form .below{
+  margin-bottom: 30px;
 }
 .contact-form input:focus, textarea:focus {
   outline: none;
@@ -40,25 +37,17 @@ textarea, .textarea-size {
   width: 100%;
   text-align: center;
   padding: 10px;
-  min-height: 50px;
-  background: transparent;
-  color: #5d5c5c;
 }
 textarea {
   height: 100%;
   position: absolute;
   resize: none;
   white-space: normal;
-  margin-left: -15px!important;
+  margin-left: -15px;
 }
 .textarea-size {
   visibility: hidden;
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow-wrap: break-word;
-}
-
-/* submit button */
-#contact-submit{
-  display: none;
 }

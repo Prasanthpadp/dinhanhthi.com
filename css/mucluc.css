@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+    .mucluc {
+      font-size: 78%;
+      border: 1px solid #bbb;
+      border-radius: 6px;
+      background-color: #eee;
+      padding: 10px 10px 10px 0;
+      float: right;
+      margin-left: 20px;
+      /*max-width: 40%;*/
+      width: 38%;
+      margin-bottom: 20px;
+    }
+
+    .mucluc #flip{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mucluc {
+      font-size: 78%;
+      border: 1px solid #bbb;
+      border-radius: 6px;
+      background-color: #eee;
+      padding: 10px 10px 10px 0;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .mucluc #flip{
+      font-size: 18px;
+    }
+}
+
+.mucluc #flip{
+    cursor: pointer;
+    text-align: center;
+}

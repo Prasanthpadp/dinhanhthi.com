@@ -1,35 +1,28 @@
 ---
 layout: post
-header: reading
 title: "Lần đầu thấy trăng"
-subtitle: Vo Dieu Thanh
-tags: [education, children's books, fiction]
-img: landauthaytrang.jpg
+bookauthor: Võ Diệu Thanh
+tags: [reading]
+bookimg: /img/bookimg/landauthaytrang.jpg
+full: true
+genre: novel
 categories: reading
-rating: 4.5
+redirect_from: "/lan-dau-thay-trang"
 ---
-
-<div class="alert alert-warning" role="alert">
-This book is only available in Vietnamese.
-</div>
-
-<div class="alert alert-success" role="alert">
-Below comments are in Vietnamese, please wait for an English version.
-</div>
 
 **Lần đầu thấy trăng** là một tiểu thuyết giáo dục. Tác giả mượn những con người, hình ảnh và cốt truyện để nói về một phần thực trạng giáo dục của Việt Nam ngày nay, về những suy nghĩ thầm kín của một người giáo viên chân chính. Nỗi lo cơm áo gạo tiền, về đạo đức nghề nghiệp cũng như tác động của môi trường giáo dục rập khuông, đề cao thành tích được miêu tả sinh động qua tác phẩm.
 
 Tác phẩm cũng cho ta góc nhìn nội tâm đa dạng của một bộ phận trẻ cá biệt với những tính cách mạnh. Những gì ta thấy và hiểu về chúng chưa nói lên con người của chúng. Ai cũng có một hoài bão và ước mơ riêng, chỉ là họ có đủ nghị lực để vượt qua cái hoàn cảnh và trách nhiệm nặng nề mà cuộc sống khôn lường mang đến cho họ hay không.
 
-Lời tự sự về nhân sinh quan, về thái độ sống của nhân vật chính khiến cho ta có một sự đồng cảm sâu sắc với những kiếp người cùng khổ trong xã hội.
+Lời tự sự về nhân sinh quan, về thái độ sống của nhân vật chính khiến cho ta có một sự đồng cảm sâu sắc với những kiếp người cùng khổ trong xã hội. 
 
 Chung quy lại thì giáo dục vẫn là quốc sách hàng đầu của quốc gia, Võ Diệu Thanh ẩn ý gởi đến mong muốn đổi mới cải cách giáo dục một cách toàn diện và mang tính thực tiễn hơn là tô vẻ hình thức như hiện nay. Tác phẩm cũng cho ta thấy vẻ bất lực và lời than trách cho số phận của nền giáo dục hiện tại. Hệ thống trường học, giáo viên, bằng cấp, bảng điểm và thành tích ngày một sáo rỗng và không mang lại lợi ích thiết thực.
 
 Nếu là một người làm trong giáo dục, yêu nghề, yêu trẻ, cũng có mong muốn góp một chút gì đó cho nền giáo dục nước nhà hay chỉ đơn giản là một người còn lòng trắc ẩn về thế thái, nhân sinh, về quá trình xây dựng con người dưới tác động khó lường của xã hội, hãy đọc tác phẩm này của Võ Diệu Thanh.
 
-<div class="tomTat">
-<div id="btTomTat" class="collapsed" data-toggle="collapse" href="#ndTomTat"><span>Plot summary (in Vietnamese)</span></div>
-<div id="ndTomTat" markdown="1" class="collapse multi-collapse">
+<div id="btTomTat" data-toggle="collapse" data-target="#ndTomTat">Xem tóm tắt</div>
+
+<div id="ndTomTat" markdown="1" class="collapse">
 
 Tác phẩm có thể coi là quyển nhật ký cá nhân của Dẫu, một cô bé sinh ra trong một gia đình nghèo, ở một vùng quê nghèo thiếu chữ. Người dân nơi đây họ không quan tâm đến giáo dục, họ chỉ mong sao lo cho đủ cái ăn cái mặc hàng ngày đã là quá mãn nguyện rồi. Tâm lý cái ăn đi trước đó bao trùm gần như toàn bộ con người vùng xa xôi hẻo lánh. Đối với họ, học hành là một thứ xa xỉ, chỉ dành riêng cho những người giàu có, no đủ.
 
@@ -47,5 +40,4 @@ Dẫu cũng tìm được cho mình một người để thương, để nhớ t
 
 Kết thúc truyện là sự bỏ đi không lời từ biệt của Dẫu nhưng đâu đó trong em đã thấy được ánh sáng cuối con đường. Em quyết thay đổi đời mình và làm lại từ đầu. Một kết thúc mở và đâu đó để lại trong lòng người đọc một khoảng trống nhỏ nhưng qua đó thấy được niềm hy vọng lớn lao mà Võ Diệu Thanh gởi gấm qua tác phẩm, niềm hy vọng về một nền giáo dục hoàn thiện hơn, lấy học sinh làm trung tâm như bản chất nó là vậy.
 
-</div>
 </div>

@@ -1,160 +1,80 @@
 ---
 layout: base
-title: Anh-Thi Dinh
-subtitle: I failed my way to success
-nav: home
-lang: en
-css:
-  - "/css/index.css"
-  - "/css/sketch.css"
-  - "/css/lightbox.min.css"
+title: Dinh Anh Thi
+subtitle: A place where I show a part of my life
+css: 
+  - "/css/status.css"
+  - "/css/reading.css"
   - "/css/contact-form.css"
-  - "/css/post-layout.css"
-  - "/css/about.css"
+  - "/css/newsletter.css"
+  - "/css/sketch/sketch-page.css"
+  - "/css/project.css"
+  - "/css/activity.css"
+  - "/css/post-list.css"
+  - "/css/book-list.css"
 js:
-  - "/js/lightbox-plus-jquery.min.js"
   - "/js/contact-form.js"
+  - "/js/sketch/jquery-1.11.1.min.js"
 ---
 
-{% include header.html type="index" %}
+{% include header.html type="page" %}
 
-<!-- quotes -->
-<section id="idx-quotes" class="alt-color section text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-8 offset-sm-2 col-12">
-        <script type="text/javascript">
-          var randomIndex;
-          var quoteContent;
-          var quoteAuthor;
-          var quoteProfile;
-          randomIndex = Math.floor(Math.random() * quotesContent.length);
-          quoteContent = quotesContent[randomIndex];
-          quoteAuthor = quotesAuthor[randomIndex];
-          quoteProfile = quotesProfile[randomIndex];
-          document.write(
-            '<p class="quote-content">' + 
-              quoteContent +
-            '</p>'
-          );
-          if (quoteProfile != "nolink"){
-            document.write(
-              '<p class="quote-author mb-1">' + 
-                '<a target="_blank" href="' + quoteProfile + '"> &#x2015; ' +
-                  quoteAuthor +
-                ' &#x2015;</a>' +
-              '</p>'
-            );
-          } else{
-            document.write(
-              '<p class="quote-author mb-1">' + 
-                '<span>&#x2015; ' + quoteAuthor + ' &#x2015;</span>' +
-              '</p>'
-            );
-          }
-        </script>
-        <p class="quote-more">
-          (<a href="{{site.baseurl}}/quote">see other quotes</a>)
-        </p>
-      </div>
-    </div>
-  </div>
+<!-- intro -->
+<section class="alt-color">
+{% include sections/sec-front-md.html %}
+{% include sections/sec-intro.html %}
+{% include sections/sec-back.html %}
+</section>
+
+<!-- activity -->
+<section class="alt-color">
+{% include sections/sec-front-lg.html %}
+{% include sections/sec-activity.html %}
+{% include sections/sec-back.html %}
 </section>
 
 <!-- projects -->
-<section id="idx-project" class="alt-color section">
-  <div class="container mb-4">
-    {% include sec-title.html title="Recent projects" href="project" more="see others" %}
-    <div class="row justify-content-center">
-      {% assign element-source = site.data.project %}
-      {% include post-layout.html type="project" img-src="/img/project" source=element-source offset=0 limit=4 %}
-    </div>
-  </div>
-  {% include me-social.html %}
+<section class="alt-color">
+{% include sections/sec-front-md.html %}
+{% include sections/sec-project.html %}
+{% include sections/sec-back.html %}
 </section>
 
-<!-- reading books -->
-<section class="alt-color section">
-  <div class="container">
-    {% include sec-title.html title="Books I've just read" href="/reading" more="see other books" %}
-    {% if site.author.ncb != blank %} <!-- if there is a target -->
-      {% assign total_book = site.author.ncb %}
-      {% assign counter = 0 %}
-      {% for post in site.categories.reading %}
-        {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
-          {% if year == "2019" %}
-            {% assign counter = counter | plus: 1 %}
-          {% endif %}
-      {% endfor %}
-      {% if counter > 0 %} <!-- there is some read book -->
-        {% assign read_book = counter %}
-        {% assign counter = counter | times: 100.0 %}
-        {% assign percentage = counter | divided_by: total_book %}
-        {% assign percentage = percentage | ceil  %}
-      {% endif %}
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-10" style="margin-bottom: 2rem;">
-              <div class="progress" style="height: 40px;">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning px-3" role="progressbar" aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ percentage }}%">
-                  <span>{{ read_book }} / {{ total_book }} books in 2019</span>
-                </div>
-              </div>
-            </div>
-          </div>
-    {% endif %}
-    <div class="row row-eq-height justify-content-center">
-      {% assign element-source = site.categories.reading %}
-      {% include post-layout.html type="reading" img-src="/img/bookimg" source=element-source offset=0 limit=4 %}
-    </div>
-  </div>
-</section>
-
-<!-- tutorials -->
-<section id="idx-tutorial" class="alt-color section">
-  <div class="container mb-5">
-    {% include sec-title.html title="Tutorials" href="/tutorial" more="see full list" %}
-    <div class="row row-eq-height justify-content-center">
-      {% assign element-source = site.categories.tutorial %}
-      {% include post-layout.html type="tutorial" source=element-source offset=0 img-src="/img/tutorial" limit=6 %}
-    </div>
-  </div>
-</section>
-
-<!-- my notes -->
-<section class="section alt-color">
-  <div class="container">
-    {% include sec-title.html title="My notes" more="You cannot remember everything." %}
-    <div class="row align-items-center justify-content-center mynote">
-      <div class="col-12 col-md-4">
-        <div class="description">
-          <a href="https://mynote.dinhanhthi.com">
-            <span>mynote</span>.dinhanhthi.com
-          </a>
-          <div class="more">
-            I write this NoteTheme theme for noting all of what I have studied.
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-8">
-       <div class="showcase">
-        <img alt="My notes" src="/img/about/mynote.png" />
-       </div>
-      </div>
-    </div>
-  </div>
+<!-- reading -->
+<section class="alt-color">
+  <h2>Recent read books</h2>
+  <h4>
+      <a class="txt-color" href="/reading">see all books</a>
+  </h4>
+  {% include sections/sec-front-lg.html %}
+  {% include sections/sec-reading.html %}
+  {% include sections/sec-back.html %}
 </section>
 
 <!-- sketch -->
-<section id="idx-sketch" class="alt-color section">
-  <div class="container mb-5">
-    {% include sec-title.html title="Latest sketches" href="/sketch" more="see other ones" %}
-    <div class="row justify-content-center">
-      {% include sketch.html offset=0 limit=8 %}
-    </div>
-  </div>
+<section class="alt-color">
+{% include sections/sec-front-lg.html %}
+{% include sections/sec-sketch.html %}
+{% include sections/sec-back.html %}
+</section>
+
+<!-- blog -->
+<section class="alt-color">
+{% include sections/sec-front-lg.html %}
+{% include sections/sec-blog.html %}
+{% include sections/sec-back.html %}
+</section>
+
+<!-- status -->
+<section class="alt-color">
+{% include sections/sec-front-lg.html %}
+{% include sections/sec-status.html %}
+{% include sections/sec-back.html %}
 </section>
 
 <!-- contact -->
-<section class="alt-color section">
-  {% include sec-form-contact.html %}
+<section class="alt-color">
+{% include sections/sec-front-md.html %}
+{% include sections/sec-contact.html %}
+{% include sections/sec-back.html %}
 </section>

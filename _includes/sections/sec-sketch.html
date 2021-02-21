@@ -1,0 +1,31 @@
+<!-- Should include /js/jquery-1.11.0.min.js in the yaml front matter -->
+
+<!-- show in index -->
+<h2>Latest sketches</h2>
+<h4>
+  <a class="txt-color" href="/sketch">see all sketches</a>
+</h4>
+<div class="gal-container">
+  {% for photo in site.data.sketch limit:8 %}
+    <div class="col-md-3 col-sm-4 co-xs-12 gal-item hide-2-last-sm">
+      <div class="box">
+        <a href="#" data-toggle="modal" data-target="#{{photo.url | replace: '.', 'id'}}">
+          <img src="{{site.baseurl}}/img/sketch/{{ photo.url }}">
+        </a>
+        <div class="modal fade" id="{{photo.url | replace: '.', 'id'}}" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <div class="modal-body">
+              <img src="{{site.baseurl}}/img/sketch/{{ photo.url }}">
+            </div>
+              <div class="col-md-12 description">
+                <h4>{{photo.des}}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

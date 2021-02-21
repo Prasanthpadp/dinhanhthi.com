@@ -1,38 +1,36 @@
 ---
-base-css:
-  - "/css/bootstrap41/bootstrap.min.css"
+common-css:
+  - "/css/bootstrap.min.css"
+  - "/css/bootstrap-social.css"
   - "/css/main.css"
-  - "/css/header.css"
-  - "/css/page.css"
-  - "/css/rouge-monokai.css"
-base-ext-css:
+common-ext-css:
   - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
-base-googlefonts:
-  - "Open+Sans: 400,400i,600,600i,700,700i,800&amp;subset=vietnamese"
-  - "Lobster&amp;subset=vietnamese"
-  - "Nunito: 400,600,700&amp;subset=vietnamese"
-  - "Baloo"
-base-js:
-  - "/js/bootstrap41/jquery-3.3.1.slim.min.js"
-  - "/js/bootstrap41/popper.min.js"
-  - "/js/bootstrap41/bootstrap.min.js"
+common-googlefonts:
+  - "Lora:400,400i,700,700i&amp;subset=vietnamese"
+  - "Open+Sans: 300,400,400i,600,600i,800&amp;subset=vietnamese"
+common-js:
+  - "/js/jquery-1.11.2.min.js"
+  - "/js/bootstrap.min.js"
+  - "/js/main.js"
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
-<body>
-  {% include facebook-analytics.html %}
-  <header>
+  {% include head.html %}
+
+  <body>
+
+    {% include gtm_body.html %}
+  
     {% include nav.html %}
-  </header>
 
-  {{ content }}
+    {{ content }}
 
-  <footer class="footer">
+    {% include backtotop.html %}
+
     {% include footer.html %}
-  </footer>
-
-  {% include footer-scripts.html %}
-</body>
+  
+    {% include footer-scripts.html %}
+  
+  </body>
 </html>

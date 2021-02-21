@@ -1,26 +1,13 @@
 ---
 layout: post
-title: When he comes, close your eyes
-subtitle: Ding Mo
-header: reading
+title: "Hãy nhắm mắt khi anh đến"
+bookauthor: Đinh Mặc
+tags: [reading]
+bookimg: /img/bookimg/hnmkad.png
+full: true
+genre: novel
 categories: reading
-tags: [fiction,detective fiction]
-img: hnmkad.png
-rating: 2.5
 ---
-
-<h4 class="post-more">Information</h4>
-
-- **Version I read**: Vietnamese.
-- **Title in Vietnamese**: Hãy nhắm mắt khi anh đến.
-- **Genre**: Crime, Suspense, Romances.
-- **Author**: Ding Mo.
-- **Published**: 2014.
-- There is a TV series based on this book.
-
-<div class="alert alert-success" role="alert">
-Below comments are in Vietnamese, please wait for an English version.
-</div>
 
 Tựa phim nghe có vẻ rất giống tiểu thuyết ngôn tình. Quả thật đây là một tiểu thuyết ngôn tình nhưng là tiểu thuyết ngôn tình theo mô tuýp tâm lý học tội phạm. Có thể xem nó là một tiểu thuyết trinh thám pha lẫn vẻ lãng mạn của ngôn tình. Kể từ [bộ truyện về tâm lý học tội phạm của Lôi Mễ](/reading/bo-tac-pham-cua-loi-me), tôi rất thích xem thể loại tiểu thuyết này và tìm thêm những quyển khác giống như thế. *Hãy nhắm mắt khi anh đến* là một trong những tiểu thuyết như vậy.
 

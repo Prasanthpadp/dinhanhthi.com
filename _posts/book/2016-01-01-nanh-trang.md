@@ -1,24 +1,20 @@
 ---
 layout: post
-header: reading
-title: "White Fang"
-subtitle: Jack London
-subtitle_link: https://en.wikipedia.org/wiki/Jack_London
-tags: [fiction]
-img: nanhtrang.jpg
+title: "Nanh trắng"
+bookauthor: Jack London
+tags: [reading]
+bookimg: /img/bookimg/nanhtrang.jpg
+full: true
+genre: novel
 categories: reading
-rating: 3.5
+redirect_from: "/nanh-trang"
 ---
 
-<div class="alert alert-success" role="alert">
-Below comments are in Vietnamese, please wait for an English version.
-</div>
-
-Tôi bắt đầu đọc quyển sách này khi đang nhập viện điều trị bệnh viêm màng bồ đào sau chuyến đi chơi Hà Lan. Thật ra tôi nghe sách nói chứ không trực tiếp đọc bằng mắt tác phẩm này, lý do cũng bởi vì căn bệnh phát sinh ngay ở mắt.
+Tôi bắt đầu đọc quyển sách này khi đang nhập viện điều trị bệnh viêm màng bồ đào sau chuyến đi chơi Hà Lan (bạn có thể đọc [bài viết này](/writing/nhap-vien-tai-phap.html) để biết về điều đó cũng như trải nghiệm của tôi khi nhập viện ở Pháp). Thật ra tôi nghe sách nói chứ không trực tiếp đọc bằng mắt tác phẩm này, lý do cũng bởi vì căn bệnh phát sinh ngay ở mắt.
 
 Cùng lúc ấy tôi cũng thử "nghe" nhiều tác phẩm khác, trong đó có tác phẩm "Giết con chim nhại" của nhà văn Harper Lee nhưng không thành vì tôi không theo kịp nhịp đọc của người đọc. Tuy nhiên hai tác phẩm của Jack London thì hoàn toàn ngược lại, tôi có thể nghe được và cảm nhận được. Lý do theo tôi nghĩ là cốt truyện khá rõ ràng, dễ hình dung và nhịp truyện cũng không quá nhanh.
 
-Bài cảm nhận này có thể dành chung cho cả hai tác phẩm "[Tiếng gọi nơi hoang dã](/reading/tieng-goi-noi-hoang-da)" và "[Nanh trắng](/reading/nanh-trang)". Với tác phẩm đầu tiên, Jack miêu tả hành trình từ một con thú nuôi về với mẹ thiên nhiên của một chú chó thì ở tác phẩm thứ hai là điều ngược lại.
+Bài cảm nhận này có thể dành chung cho cả hai tác phẩm "*[Tiếng gọi nơi hoang dã](/reading/tieng-goi-noi-hoang-da)*" và "*[Nanh trắng](/reading/nanh-trang)*". Với tác phẩm đầu tiên, Jack miêu tả hành trình từ một con thú nuôi về với mẹ thiên nhiên của một chú chó thì ở tác phẩm thứ hai là điều ngược lại.
 
 Cái tài của Jack là ở chỗ ông thổi cái hồn con người vào trong thân xác một chú chó nhưng các suy nghĩ, hành động được ông miêu tả không làm cho ta có cảm giác quá con người, ta cảm giác như đây thực sự là một con vật, nó chỉ khác các con vật trong thực tế ở chỗ là có thể suy nghĩ và nói tiếng người được thôi.
 

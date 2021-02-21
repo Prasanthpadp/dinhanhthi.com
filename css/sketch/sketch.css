@@ -1,0 +1,30 @@
+.divImg{
+  height: 200px;
+}
+.divImg img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#myGallery .active img{
+  margin: 0 auto;
+}
+
+/* right / left */
+.carousel-control .fa-chevron-right{
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  right: 50%;
+  margin-right: -10px;
+}
+
+.carousel-control .fa-chevron-left{
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  left: 50%;
+  margin-left: -10px;
+}

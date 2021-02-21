@@ -1,0 +1,60 @@
+<!-- Should include /js/jquery-1.11.0.min.js in the yaml front matter -->
+
+<!-- show in index -->
+<h2>Latest sketches</h2>
+<h4>
+  <a class="txt-color" href="/sketch">see all sketches</a>
+</h4>
+<div class="slider thiCarousel">
+  {% for photo in site.data.sketch limit:{{site.data.settings.nPhotos}} %}
+    <div class="divImg" data-toggle="modal" data-target="#myModal">
+      <a href="#myGallery">
+        <img src="{{site.baseurl}}/img/sketch/{{ photo.url }}" />
+      </a>  
+    </div>
+  {% endfor %}
+</div>
+
+<!--begin modal window-->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+          <div id="myGallery" class="carousel slide" data-interval="false">
+            <div class="carousel-inner">
+              {% assign pt = site.data.sketch %}
+              <div class="item active"> 
+                <img src="{{site.baseurl}}/img/sketch/{{pt[1].url}}" />
+                <div class="txt-center">
+                  <p>{{ pt[1].des }}</p>
+                </div>
+              </div>
+              {% for photo in site.data.sketch offset:1 limit:{{site.data.settings.nPhotos}} %}
+              <div class="item"> 
+                <img src="{{site.baseurl}}/img/sketch/{{ photo.url }}" />
+                <div class="txt-center">
+                  <p>{{ photo.des }}</p>
+                </div>
+              </div>
+              {% endfor %}
+              <!--end carousel-inner-->
+            </div>
+            <!--Begin Previous and Next buttons-->
+            <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"> 
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
+            </a> 
+            <a class="right carousel-control" href="#myGallery" role="button" data-slide="next"> 
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span>
+            </a>
+            <!--end carousel-->
+          </div>
+      <!--end modal-body-->
+      </div>
+    <!--end modal-content-->
+    </div>
+  <!--end modal-dialoge-->
+  </div>
+<!--end myModal-->
+</div>

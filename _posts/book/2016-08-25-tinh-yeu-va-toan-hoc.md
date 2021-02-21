@@ -1,40 +1,30 @@
 ---
 layout: post
-header: reading
-title: "Love and Math"
-subtitle: Edward Frenkel
-subtitle_link: https://en.wikipedia.org/wiki/Edward_Frenkel
-tags: [math,autobiography]
-img: loveandmath.jpg
-math: 1
+title: "Tình yêu và toán học"
+bookauthor: Edward Frenkel
+tags: [reading]
+bookimg: /img/bookimg/tinhyeuvatoanhoc.jpg
+full: true
+usemath: true
+genre: science math memoirs nonfiction
 categories: reading
+redirect_from: "/tinh-yeu-va-toan-hoc"
 date: 2016-11-28
-rating: 3
-backtotop: 0
 ---
-
-<h4 class="post-more">Information</h4>
-
-- **Full title**: Love and Math: The Heart of Hidden Reality
-- **Version I read**: Vietnamese.
-- **Title in Vietnamese**: Tình yêu và toán học.
-- **Genre**: Math.
-- **Author**: [Edward Frenkel](https://en.wikipedia.org/wiki/Edward_Frenkel) (Russian-American, 1968 - today).
-- **Published**: 2013.
-- This book was introduced by Prof. NGO Bao-Chau.
-
-<div class="alert alert-success" role="alert">
-Below comments are in Vietnamese, please wait for an English version.
-</div>
 
 Tuy chỉ đọc được 8 chương đầu sách nhưng tôi cũng có đôi chút cảm nhận riêng. Sách như là một hồi ký của Edward Frenkel về quá trình trở thành một nhà toán học của mình. Cái quan trọng không phải là quá trình ông học toán mà chính là quá trình thay đổi tư tưởng, thích và đam mê toán học. Ngôn ngữ diễn đạt của ông rất "bình dân học vụ". Ông có gắng diễn đạt những hiểu biết về toán học của mình (theo chuyên ngành hẹp của ông đang nghiên cứu và có chút mở rộng) cho những người vốn không hoặc chưa tiếp xúc với toán học. Tôi tìm đến tác phẩm chính là ở mong muốn này của ông. Tuy nhiên cái làm cho tôi tạm dừng sau chương 8 cũng chính là việc ông lồng ghép quá nhiều kiến thức chuyên môn vào tác phẩm. Làm cho tôi có cảm tưởng đang theo một cours học về Đại Số Đại Cương. Có thể do tôi đã từng theo học, các kiến thức được trình bày đã nắm phần nhiều nên dễ gây nhàm chán. Việc bạn đọc và cảm nhận đúng cái hay của tác phẩm theo một cách khác cũng sẽ khác tôi.
 
 Nói gì nói, tác phẩm cũng rất đáng đọc và nên đọc, không những cho những người đang học toán, chuẩn bị dấng thân vào thế giới toán học mà còn cho cả những người đang ghét toán. Để thấy rằng, toán học cũng đẹp đẽ như tình yêu vậy.
 
+{% include important.html content="Do không phù hợp, tôi đã tạm dừng đọc sách này sau chương 8. Nếu sau này có thời gian và cần lại, tôi sẽ đọc tiếp." %}
 
-<div class="tomTat">
-<div id="btTomTat" class="collapsed" data-toggle="collapse" href="#ndTomTat"><span>Highlights I like (in Vietnamese)</span></div>
-<div id="ndTomTat" markdown="1" class="collapse multi-collapse">
+<div id="btTomTat" data-toggle="collapse" data-target="#ndTomTat">Xem tóm tắt</div>
+
+<div id="ndTomTat" markdown="1" class="collapse">
+
+{% include toc.html %}
+
+{% include tip.html content="Những đoạn để dưới dạng 'quote' là trích dẫn nguyên bản từ trong sách, các đoạn khác là ngôn ngữ viết của tôi lấy ý từ sách." %}
 
 ## Lời giới thiệu
 
@@ -64,7 +54,7 @@ Tôi viết nó cho những độc giả không hề có bất kỳ nền tảng
 
 ## Một hướng dẫn cho độc giả
 
-Tác giả cố gắng diễn giải bằng lời và hạn chế tối đa các công thức toán. Độc giả có quyền bỏ qua chúng nếu muốn. Một vài chương hơi khó hiểu ở lần đọc đầu tiên, tuy nhiên các chương gần như không bắt buộc phải được đọc trước khi chuyển sang chương kế.
+Tác giả cố gắng diễn giải bằng lời và hạn chế tối đa các công thức toán. Độc giả có quyền bỏ qua chúng nếu muốn. Một vài chương hơi khó hiểu ở lần đọc đầu tiên, tuy nhiên các chương gần như không bắt buộc phải được đọc trước khi chuyển sang chương kế. 
 
 Các thuật ngữ toán học, tác giả phát hiện, có không ít cái cùng phát âm giống nhưng ý nghĩa lại khác với những gì người bình thường hiểu. Do đó tác giả đã cố gắng "biên dịch" lại chúng.
 
@@ -97,7 +87,7 @@ Bản chất của đối xứng thật ra là các phép quay, bảo toàn hìn
 4 phẩm chất cơ bản của lý thuyết đối xứng trừu tượng
 
 1. Tính phổ quát
-2. Tính khách quan
+2. Tính khách quan 
 3. Tính bền vững
 4. Tính tương thích
 
@@ -127,17 +117,17 @@ Biệt danh Kerosinka của học viện này đã phản ảnh cả niềm tự
 
 Khi tham gia Kerosinka, EF và chúng bạn vẫn hay lén leo cổng vào trường MGU để nghe các giáo sư toán học giảng bài và các giáo sư nơi đây cũng "cho qua" điều ấy.
 
-Học một thời gian, trình độ của EF đã đạt được đến ngưỡng cần phải có 1 người hướng dẫn và 1 đề tài để theo đuổi, nếu không ông sẽ chán nản.
+Học một thời gian, trình độ của EF đã đạt được đến ngưỡng cần phải có 1 người hướng dẫn và 1 đề tài để theo đuổi, nếu không ông sẽ chán nản. 
 
 ## Chương 5 - Những manh mối của lời giải
 
-EF bắt đầu được một nhà toán học tầm cỡ tên Borisovich Fuchs hướng dẫn. Ông giao cho EF một bài báo  (của chính Fuchs) để ông đọc. Vấn đề EF nghiên cứu với Fuchs là về các nhóm bện, ở chương này ông giải thích thế nào là một nhóm bện, các ví dụ từ cơ bản đến nâng cao, chứng minh chúng thật sự là một nhóm như định nghĩa đã đề cập ở chương 2.
+EF bắt đầu được một nhà toán học tầm cỡ tên Borisovich Fuchs hướng dẫn. Ông giao cho EF một bài báo  (của chính Fuchs) để ông đọc. Vấn đề EF nghiên cứu với Fuchs là về các nhóm bện, ở chương này ông giải thích thế nào là một nhóm bện, các ví dụ từ cơ bản đến nâng cao, chứng minh chúng thật sự là một nhóm như định nghĩa đã đề cập ở chương 2. 
 
 EF chỉ đọc bài báo này trong vòng 1 tuần là có thể hiểu được nó, lý do là bởi kiến thức của EF đến lúc này về lĩnh vực này khá tốt, có được là nhờ vào các buổi nói chuyện với Evgeny Evgenievich, tự đọc sách và những lần lén đi tham dự hội nghị ở MGU. EF cố gắng gây ấn tượng tốt với Fuchs, một nhà toán học tầm cỡ, ở lần đầu tiên gặp mặt khi ông có nhiệm vụ nói ra những gì mình hiểu từ bài báo và thảo luận thêm với Fuchs.
 
 Nhóm bện có rất nhiều ứng dụng thực tiễn quan trọng. Dùng trong việc xây dựng các chìa khóa mật mã, nghiên cứu ADN trong sinh học, xây dựng các máy tính lượng tử.
 
-Bài toán mà EF phải giải là tính toán số Betti của nhóm $B'_n$.
+Bài toán mà EF phải giải là tính toán số Betti của nhóm $B'_n$. 
 
 ## Chương 6 - Nhà toán học tập sự
 
@@ -145,7 +135,7 @@ Bài toán mà EF phải giải là tính toán số Betti của nhóm $B'_n$.
 
 >... Nhưng tôi không thể tiên đoán trước mình sẽ sử dụng được phương pháp nào trong đó, hoặc tôi nên tiếp cận bài toán theo cách nào hay thậm chí liệu tôi có thể giải nó mà không cần phải sáng tạo ra một kỹ thuật về căn bản là mới hoặc một phương pháp hoàn toàn khác. Tình thế khó xử này thường làm tất cả các nhà toán học bối rối...
 
-Rồi EF dẫn chứng về [định lý cuối cùng của Fermat]({{site.url}}/dinh-ly-cuoi-cung-cua-fermat), được phát biểu như sau: *"Với $n$ là một số nguyên dương lớn hơn 2 thì phương trình nghiệm nguyên $x^n+y^n=z^n$ vô nghiệm."*. Theo EF, việc Fermat ghi bên lề một quyển sổ cổ là ông giải được bài toán này nhưng không đủ lề cũng có thể đúng nhưng ắt hẳn Fermat đã phạm một sai lầm gì đấy mà chính Fermat cũng không biết.
+Rồi EF dẫn chứng về [định lý cuối cùng của Fermat]({{site.url}}/dinh-ly-cuoi-cung-cua-fermat), được phát biểu như sau: *"Với $n$ là một số nguyên dương lớn hơn 2 thì phương trình nghiệm nguyên $x^n+y^n=z^n$ vô nghiệm."*. Theo EF, việc Fermat ghi bên lề một quyển sổ cổ là ông giải được bài toán này nhưng không đủ lề cũng có thể đúng nhưng ắt hẳn Fermat đã phạm một sai lầm gì đấy mà chính Fermat cũng không biết. 
 
 > Ngày nay, chúng ta hiểu rằng Fermat có thể đã không chứng minh được bài toán mang tên ông. Toàn bộ các ngành toán học đã được tạo ra chỉ để làm điều đó, một phát triển như vậy đã lấy đi biết bao công sức của nhiều thế hệ các nhà toán học. Nhưng liệu chúng ta có thể tiên đoán tất cả những điều đó, mà chỉ căn cứ vào một phương trình giản dị như thế này chăng? $x^n+y^n=z^n$. Không thể nào!
 
@@ -183,5 +173,8 @@ Vấn đề nảy sinh khi các nhà khoa học cố gắng đi tìm công thứ
 
 Ta có thể gộp các nghiệm vào hệ thống số hữu tỷ để được rất nhiều hệ thống số khác nhau, hay *các trường số*. Các đối xứng của một trường số tạo thành một nhóm, nhóm này được gọi là *nhóm Galois* của trường số đó, để vinh dành nhà toán học Pháp [Évariste Galois](https://vi.wikipedia.org/wiki/%C3%89variste_Galois).
 
-</div>
+## Chương 8 - Những con số thần kỳ
+
+Bổ sung sau.
+
 </div>

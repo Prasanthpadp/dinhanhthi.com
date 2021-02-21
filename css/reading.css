@@ -1,0 +1,35 @@
+/* >=360px */
+@media (min-width: 360px) {
+  .show-360{
+    display: none;
+  }
+}
+@media (max-width: 359px) {
+  .hide-360{
+    display: none!important;
+  }
+  .show-360{
+    display: block;
+  }
+}
+.book-padding{
+  padding: 0 10px;
+}
+/* full list */
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+  display: -moz-flex;
+  -moz-flex-wrap: wrap;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  display: -moz-flex;
+  -moz-flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}

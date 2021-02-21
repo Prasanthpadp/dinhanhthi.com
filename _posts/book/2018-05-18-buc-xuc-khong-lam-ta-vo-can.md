@@ -1,23 +1,13 @@
 ---
 layout: post
-header: reading
 title: "Bức xúc không làm ta vô can"
-subtitle: Dang Hoang Giang
-subtitle_link: https://www.facebook.com/giang.dang.9469
-tags: [psychology,non-fiction,self-help]
-img: buc-xuc.jpg
+bookauthor: Đặng Hoàng Giang
+tags: [reading]
+bookimg: /img/bookimg/buc-xuc.jpg
+full: true
+genre: nonfiction
 categories: reading
-rating: 3.5
 ---
-
-<div class="alert alert-warning" role="alert">
-This book is only available in Vietnamese.
-</div>
-
-<div class="alert alert-success" role="alert">
-Below comments are in Vietnamese, please wait for an English version.
-</div>
-
 
 Có lẽ đây là quyển sách mang hơi hướng "chống đối xã hội" đầu tiên mà tôi đọc. Chống đối ở đây là đi ngược lại với những xu hướng và phong trào mà đám đông theo dõi. Điển hình như hùa nhau chia sẻ những đoạn clip lên án, tố cáo, đả kích, chê bai cũng như những thói quen của thời "a cồng" như seo phì, tự sướng, khoe mẽ, cuốn hút,...
 
@@ -31,16 +21,15 @@ Tôi đã dùng nhiều dấu ngoặc kép (") để nhận xét về tác giả
 
 Vậy nếu bạn hỏi tôi có nên đọc sách này không? Tôi sẽ khuyên bạn là nên nếu như bạn là một người không chấp nhận "đi theo phong trào", "sống thực tế" và "quan tâm đến những vấn đề xã hội theo cách muốn nó tốt lên bằng phương pháp tìm ra gốc rễ chứ không phải quở trách nó để rồi không biết đóng góp ra sao".
 
+<div id="btTomTat" data-toggle="collapse" data-target="#ndTomTat">Những đoạn tôi thích</div>
 
-<div class="tomTat">
-<div id="btTomTat" class="collapsed" data-toggle="collapse" href="#ndTomTat"><span>Những đoạn tôi thích</span></div>
-<div id="ndTomTat" markdown="1" class="collapse multi-collapse">
+<div id="ndTomTat" markdown="1" class="collapse">
 
 > chủ nghĩa anh hùng thực sự thường không rực rỡ và không kịch tính.
 
 > không phải lối sống của họ dẫn họ tới nghèo đói, mà nghèo đói đã tạo cho họ lối sống như vậy.
 
-> Theo các nghiên cứu về thần kinh, trong khi các cú stress ngắn hạn có tác dụng làm tăng sự tập trung và linh lợi, stress mãn tính gây hại tới “hồi hải mã”
+> Theo các nghiên cứu về thần kinh, trong khi các cú stress ngắn hạn có tác dụng làm tăng sự tập trung và linh lợi, stress mãn tính gây hại tới “hồi hải mã” 
 
 > một loạt các thí nghiệm với người dân Mỹ của Đại học Princeton kết luận rằng nghèo khổ có hậu quả tương đương với mất đi 13 điểm của chỉ số IQ.
 
@@ -129,5 +118,4 @@ Vậy nếu bạn hỏi tôi có nên đọc sách này không? Tôi sẽ khuyê
 
 > Trong quá trình vô thức của mình, chúng ta rút ra những kết luận dựa trên những lát cắt rất mỏng của kinh nghiệm.
 
-</div>
 </div>

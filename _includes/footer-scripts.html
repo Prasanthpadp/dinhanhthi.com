@@ -1,11 +1,5 @@
-{% if layout.base-ext-js %}
-  {% for js in layout.base-ext-js %}
-    {% include ext-js.html js=js %}
-  {% endfor %}
-{% endif %}
-
-{% if layout.more-ext-js %}
-  {% for js in layout.more-ext-js %}
+{% if layout.common-ext-js %}
+  {% for js in layout.common-ext-js %}
     {% include ext-js.html js=js %}
   {% endfor %}
 {% endif %}
@@ -22,15 +16,18 @@
   {% endfor %}
 {% endif %}
 
-{% if layout.base-js %}
-  {% for js in layout.base-js %}
-	  <script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
-  {% endfor %}
-{% endif %}
-
-{% if layout.more-js %}
-  {% for js in layout.more-js %}
-	  <script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+{% if layout.common-js %}
+  {% for js in layout.common-js %}
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    {% if js contains 'jquery' %}
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="{{ js | prepend: site.baseurl | replace: "//", "/" }}"></scr' + 'ipt>');
+      	}
+      </script>
+    {% else %}
+	<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    {% endif %}
   {% endfor %}
 {% endif %}
 

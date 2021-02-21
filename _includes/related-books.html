@@ -1,0 +1,76 @@
+<!-- hide on mobile -->
+<div class="row display-flex hide-360">
+  <script type="text/javascript">
+    var randomIndexUsed = [];
+    var counter = 0;
+    var numberOfPosts = 4;
+    while (counter < numberOfPosts)
+    {
+      var randomIndex;
+      var bookHREF;
+      var bookTitle;
+      var bookAuthor;
+      var bookBigImg;
+      randomIndex = Math.floor(Math.random() * postsHREF.length);
+      if (randomIndexUsed.indexOf(randomIndex) == "-1")
+      {
+        bookHREF = booksHREF[randomIndex];
+        bookTitle = booksTitle[randomIndex];
+        bookAuthor = booksAuthor[randomIndex];
+        bookBigImg = booksBigImg[randomIndex];
+        document.write(
+          '<div class="col-xs-6 col-sm-3 book-padding">' + 
+            '<div class="card-book">' + 
+              '<div class="book-img">' +
+                '<a href="' + bookHREF + '">' + 
+                  '<img src="' + bookBigImg + '" alt="' + bookTitle + '">' + 
+                '</a>' +
+              '</div>' + 
+              '<div class="book-caption">' +
+                '<h4><a class="txt-color" href="' + bookHREF + '">' + bookTitle + '</a></h4>' +
+                '<p>' + bookAuthor + '</p>' +
+              '</div>' +
+            '</div>' +
+          '</div>'
+        );
+        randomIndexUsed.push(randomIndex);
+        counter++;
+      }
+    }
+  </script>
+</div>
+
+<!-- only show on mobile size <=360px-->
+<div class="row justify-content-md-center show-360 hidden-sm hidden-md hidden-lg">
+  <ul>
+    <script type="text/javascript">
+      var randomIndexUsed = [];
+      var counter = 0;
+      var numberOfPosts = 4;
+      while (counter < numberOfPosts)
+      {
+        var randomIndex;
+        var bookHREF;
+        var bookTitle;
+        var bookAuthor;
+        randomIndex = Math.floor(Math.random() * postsHREF.length);
+        if (randomIndexUsed.indexOf(randomIndex) == "-1")
+        {
+          bookHREF = booksHREF[randomIndex];
+          bookTitle = booksTitle[randomIndex];
+          bookAuthor = booksAuthor[randomIndex];
+          document.write(
+            '<li>' + 
+              '<a class="idx-lst-post-a txt-color" href="' + 
+                bookHREF + '">' + '" alt="' + bookTitle + '">' + 
+              '</a><br />' +
+              '<i style="opacity: 0.7; font-size: 90%;">' + bookAuthor + '</i>' +
+            '</li>'
+          );
+          randomIndexUsed.push(randomIndex);
+          counter++;
+        }
+      }
+    </script>
+  </ul>
+</div>

@@ -1,0 +1,43 @@
+.project-main{
+  padding: 0 10px;
+}
+
+.project-img{
+  max-width: 150px;
+  margin: 20px auto;
+}
+
+.project-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: transform .2s;
+}
+
+.project-img img:hover{
+  transform: scale(1.025);
+}
+
+.project-name{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.project-name a{
+  color: #404040;
+}
+
+.project-name a:hover{
+  color: #0085A1;
+}
+
+.project-des{
+  font-size: 85%;
+  opacity: 0.8;
+  font-style: italic;
+  padding: 5px;
+}
+
+.project-des:hover{
+  opacity: 1;
+}

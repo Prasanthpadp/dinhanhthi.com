@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Hoán đổi (phần 1)"
+subtitle: "...và câu chuyện bắt đầu..."
+tags: [novel]
+categories: novel
+redirect_from: "/tieu-thuyet-hoan-doi-1"
+bigimg: /img/post/bigimg/change.jpg
+---
+
+"*Thưa ông hai con đi học mới về*" - thằng Tí lững thững bước vào hiên nhà, gật đầu chào ông Hai Thọ nhà kế bên. Ông Hai phì phèo điếu thuốc trên tay khẽ mỉm cười nhìn nó. Thấy tội cho thằng nhỏ, ngoan ngoãn, học giỏi nhưng gia cảnh không được tốt bằng người ta. Ở cái xóm chợ này thì ông gần như là người thân duy nhất của anh em tụi nó.
+
+Ông Hai vốn người Sóc Trăng, trong một lần sóng gió vì hôn nhân thất bại và bị bạn bè lừa gạt, ông dứt áo bỏ quê lên thành phố kiếm sống. Chắt chiu từng ngày may  mắn tìm được một chỗ nương thân, sống thui thủi một mình ngày này qua ngày nọ. Ông quen với cô hàng xóm khi ấy là mẹ của anh em thằng Tí. Ông xem cô như con gái mình, xem tụi thằng An, thằng Tí như cháu ruột, có chuyện gì cũng sớm tối có nhau. Mẹ tụi nhỏ vốn sức khoẻ không tốt đã sớm đi gặp ba tụi nó, để lại căn nhà và đứa em cho một mình thằng An gồng gánh.
+
+Nhờ chính quyền và các nhà hảo tâm giúp đỡ, cộng thêm thằng An phải nghỉ học sớm để kiếm sống lo cho em, thằng Tí may mắn vẫn còn trụ lại được dưới mái trường ơ-a. Nhiều khi ngồi uống trà tâm sự với An, ông hỏi nó có mệt lắm không, có trụ nổi không con. An nhẹ trả lời nhưng chắc nịch "*Dạ được chứ ạ, làm gì thì làm nhưng con nhất định không để em con dốt chữ! Con sẽ lo cho nó học tới đại học mới thôi ông Hai ơi. Nhất định con làm được.*"
+
+Hôm nay là một ngày mưa rơi tầm tã. Cả ông Hai và An đều không đi làm vì họ hiểu rằng có đi cũng không mang lại được mấy đồng dằn túi. Đối với mọi người cơn mưa như sự giải toả trong chuỗi ngày đầu hè oi bức, khó chịu. Nhưng với những người lao động như An và ông Hai, họ lại không lấy gì vui vẻ bởi chỉ khi trời trong xanh thì họ mới có thể kiếm được tiền nuôi thân, nuôi cái gia đình này. Đồng ra đồng vô không bao nhiêu lại thêm đủ thứ chi tiêu trên đời làm cho những đồng tiền ít ỏi kiếm được hàng ngày của những người cần lao chỉ đủ dùng cho một ngày ngắn ngủi. Đối với họ, có được một chén cơm nóng cuối ngày để ăn đã là một sự may mắn lớn.
+
+An lo cho em bằng chiếc xe cá viên là chủ yếu. Dạo gần đây, cậu học lỏm được cách nấu nước đậu nành của cô Tư hẻm kế bên nên cũng kiêm luôn món ấy trên xe của mình. Hàng ngày, cậu rong ruổi hết con đường này đến con hẻm nọ khắp phố thành chỉ mong sao mau chóng bán hết được hàng để về tranh thủ lo cơm nước cũng như làm thêm những việc khác để kiếm được đồng nào hay đồng ấy. Nơi ưa thích của cậu thường là công viên trước cổng trường thằng Tí đang học. Chỗ ấy rất mát mẻ lại thu hút được khách. Bán hết hàng cũng sẵn tiện đón thằng Tí về nhà luôn. Có anh có em chuyện trò trên đường dù sao cũng an ủi phần nào. An rất thương thằng Tí, lần nào cũng chừa cho em một xâu khi thì cá viên khi thì vài miếng tàu hủ chiên, cũng có lúc là sự pha trộn của hai thứ ấy cho có sự đổi mới. Thằng Tí ấy vậy mà mê tít, lần nào tan ra gặp anh hai cũng nhanh nhảu "*Hôm nay còn cá viên không anh hai? Em thích vừa cá viên vừa tàu hủ hơn*". Mặt thằng nhỏ sáng rỡ như chờ đợi món quà gì quý giá lắm dù rằng ngày nào nó cũng ăn như thế. Có lúc anh em lấy tàu hủ và cá viên ế để ăn với cơm.
+
+-- Tí ráng ăn nha, nhiêu đây coi vậy mà cũng gần hai chục ngàn nếu anh bán cho người ta đấy, không có rẻ đâu. Toàn là cao lương mỹ vị không đó nha.<br />
+-- Dạ, còn miếng tàu hủ kìa anh hai ăn đi, em no quá rồi. - Vừa nói nó vừa mở miệng thật to, thở phì một tiếng, hai tay không quên vò vò cái bụng ốm nhom ốm nhách làm ra vẻ ta đây vừa đánh chén một bửa nhiều đồ ăn vô cùng tận. 
+
+"Cốc" -- An kí đầu nó và bảo -- "*Xạo hả mạy, thèm thì ăn đi, anh hai ngày nào cũng nhìn thấy mấy thứ này ngán lắm rồi, anh không ăn nữa đâu*". Nói là nói vậy chứ không mấy khi An ăn những gì mình bán. Lắm lúc đói bụng nhưng đắt hàng, cậu cũng dằn mình để đó bán cho khách, uống một ngụm nước, ăn một ổ bánh mì không giá 3 ngàn rồi cơn đói cũng qua mau.
+
+Cơm xong bửa mà mưa bên ngoài cũng chưa hề ngớt. Cái phố chợ này bình thường tấp nập là thế nhưng khi màn đêm buông xuống thì ngay cả tiếng mấy con dế nhỏ xíu cũng có thể làm thành một dàn giao hưởng vĩ đại. Vẻ yên ắng tĩnh lặng nay được một phen tạm nghỉ thay thế bởi tiếng gió lạch cạch kèm tiếng mưa rơi trên những mái tôn. An thấy thằng Tí ngồi ngó ra ngoài cửa sổ ngắm mưa. Những giọt mưa rơi tí tách từng hạt rơi xuống sân hết đợt này đến phen khác trông có vẻ vô vị vậy mà có một sức cuốn hút mãnh liệt. Thằng Tí như đắm mình vào một không gian vô bờ cõi. An chẳng hiểu thằng nhỏ nghĩ gì mà im như tượng như thế. Lâu lâu thấy nó khẽ cười rồi lại nhanh chóng quay về trạng thái cũ. Đáng lẽ đi rửa chén, dọn đồ thì cậu chỉ ngồi đó hết nhìn thằng em rồi lại nhìn trời mưa. Một cảm giác dễ chịu khó diễn tả lan toả con người An. Cậu cũng thẩn thờ, để mặc cho những dòng suy nghĩ chạy dài trong vô thức. An thấy mẹ ngồi bên cửa sổ. Mẹ đang vá lại áo cho hai anh em. Thằng Tí thì nằm trên đùi mẹ đọc một quyển truyện tranh cũ của đứa bạn. Chốc chốc nó cằn nhằn vì chiếc áo mẹ khâu phủ lên trên mặt làm chắn ánh sáng, mẹ khẽ vỗ đùi bảo "*Cu cậu này không giúp mẹ còn làm xấu nữa hả, mẹ quýnh bây giờ đấy.*" Mẹ cười rồi quay lại công việc đang làm với vẻ tận tuỵ thường thấy.
+
+Khác với bây giờ, hồi ấy An rất thích mưa vì trời mưa thì mẹ thường ở nhà với anh em tụi nó. Mẹ nấu cơm, soạn đồ, nói chuyện với hai anh em, nhiều khi hai đứa ngồi đó vừa nhìn mẹ vừa nghe mẹ kể chuyện ngày xưa, thời mẹ gặp ba, thời mẹ còn con gái. Tiếng mưa rơi như một bản nhạc đệm cho câu chuyện của mẹ thêm phần sinh động và hấp dẫn. Mẹ kể về những ngày đầu ba theo đuổi mẹ ra sao, kể về ngày đầu tiên mẹ sinh thằng An và vẻ mặt vui mừng hết đỗi của ba khi ấy thế nào. Mẹ kể với vẻ hiền từ vui vẻ hiếm có. Anh em thằng An thằng Tí ấy vậy mà im re và tập trung hết cỡ vào những câu chuyện của mẹ. Tụi nó có lúc cười theo, có lúc im lặng khi đến những đoạn "gay cấn". Chốc chốc lại hỏi lia hỏi lịa đủ mọi câu hỏi trên trời dưới đất và nằng nặc mẹ phải trả lời cho được. Tiếng cười đùa, tiếng nói chuyện rả rích như át hẳn tiếng mưa ở cái góc nhỏ của phố chợ.
+
+Bỗng An giật mình vì một tiếng sấm chói tai, hình ảnh mẹ đang vá áo thoáng chốc biến đâu mất. Trước mắt cậu vẫn là những giọt mưa tí tách không ngừng rơi. Thằng Tí vẫn ngồi đó nhưng nó đã cao hơn hẳn một cái đầu so với khi còn đọc quyển truyện tranh kia. An thấy nó lại cười và ngẩn ngơ nhưng lần này thì cậu đã hiểu thằng nhỏ đang nghĩ gì...
+
+{% include more.html content="[Hoán đổi 2](/novel/tieu-thuyet-hoan-doi-2)." %}
+
+{% include note.html content="Vẫn ở dạng bản thảo nên còn nhiều sai sót, mong nhận sự đóng góp ý kiến của các bạn." %}

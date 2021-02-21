@@ -1,31 +1,28 @@
-{% if site.lang.current == "en" %}
-  {% assign support_text = site.data.lang['footer'].support_text.en %}
-  {% assign support_button = site.data.lang['footer'].support_button.en %}
-  {% assign support_abt = site.data.lang['footer'].about.en %}
-{% else %}
-  {% assign support_text = site.data.lang['footer'].support_text.vn %}
-  {% assign support_button = site.data.lang['footer'].support_button.vn %}
-  {% assign support_abt = site.data.lang['footer'].about.vn %}
-{% endif %}
-<div class="container">
-  <div class="row">
-    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center p-4">
-      <div class="footer-info">
-        <a href="{{site.baseurl}}/about">{{ site.author.name }}</a>
-        &nbsp;&copy;&nbsp;
-        {{ site.time | date: '%Y' }}
-        &nbsp;&bull;&nbsp;
-        <a href="{{site.baseurl}}/about">{{support_abt}}</a>
-      </div>
-      <div class="mission my-2 tyellow">
-        {{support_text}}
-      </div>
-      <div class="donate-me tgreen my-2">
-        <a target="_blank" href="https://www.paypal.me/DinhAnhThi">
-          <i class="fa fa-paypal"></i>
-          {{support_button}}
-        </a>
+<footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="copyright text-muted">
+          {{ site.author.name }}
+          &nbsp;&bull;&nbsp;
+          {{ site.time | date: '%Y' }}
+
+          {% if site.url-pretty %}
+          &nbsp;&bull;&nbsp;
+          <a href="{{ site.url }}">{{ site.url-pretty }}</a>
+          {% endif %}
+
+          {% if site.matomo %}
+            {% if site.matomo.opt-out %}
+              &nbsp;&bull;&nbsp;
+              <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
+            {% endif %}
+          {% endif%}
+          
+          &nbsp;&bull;&nbsp;
+          <a class="text-muted" href="/acknowledgement">Thanks</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</footer>

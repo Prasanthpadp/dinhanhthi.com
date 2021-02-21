@@ -1,0 +1,51 @@
+---
+layout: base
+title: My sketches
+subtitle: Draw the life
+css:
+  - "/css/sketch/sketch-page.css"
+js: 
+  - "/js/sketch/jquery-1.11.1.min.js"
+comments: 1
+---
+
+{% include header.html type="post" %}
+
+{% include sections/sec-front-lg.html %}
+
+<p class="txt-center">
+  For me, drawing is the best way to practice the patience. I prefer to draw with only a pencil and a paper (black and white painting). My favorite color is blue of sky but most of my sketches are only in black and white. There are many sketches I drew but not presented here because of lost.
+</p>
+
+<div class="gal-container">
+  {% for photo in site.data.sketch %}
+    <div class="col-md-3 col-sm-4 co-xs-12 gal-item">
+      <div class="box">
+        <a href="#" data-toggle="modal" data-target="#{{photo.url | replace: '.', 'id'}}">
+          <img src="{{site.baseurl}}/img/sketch/{{ photo.url }}">
+        </a>
+        <div class="modal fade" id="{{photo.url | replace: '.', 'id'}}" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <div class="modal-body">
+              <img src="{{site.baseurl}}/img/sketch/{{ photo.url }}">
+            </div>
+              <div class="col-md-12 description">
+                <h4>{{photo.des}}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% include sections/sec-back.html %}
+
+{% include sections/sec-front-md.html %}
+  <div class="disqus-comments">
+    {% include disqus.html %}
+  </div>
+{% include sections/sec-back.html %}

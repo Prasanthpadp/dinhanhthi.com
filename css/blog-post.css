@@ -1,0 +1,155 @@
+#ndTomTat, .ndTomTat{
+  border: 2px #ddd dashed;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.blog-post h2{
+  font-size: 25px;
+}
+.blog-post h3{
+  font-size: 22px;
+}
+.post-reading-list{
+  text-align: center;
+}
+.post-reading-list h2{
+  font-size: 25px;
+}
+.post-reading-list h4{
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.btTomTat{
+  cursor: pointer;
+  text-align: center;
+  margin: 20px 0;
+  border: 1px solid #bbb;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.btTomTat:hover{
+  background-color: #efefef;
+}
+
+#btTomTat{
+  cursor: pointer;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  border: 1px solid #bbb;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+#btTomTat:hover{
+  background-color: #efefef;
+}
+
+/* header book */
+.book-header-left{
+  display: block;
+}
+.book-header-left img{
+  width: 100%;
+  height: 100%;
+  border: 2px #ddd solid;
+  box-shadow: 1px 1px #ddd;
+}
+.book-header-right{
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.bookHead .intro-header.big-img{
+  height: auto;
+}
+
+@media (max-width:320px){
+  .book-header-right{
+    padding: 20px 0;
+  }
+  .book-header-right h1{
+    font-size: 30px;
+  }
+  .book-header-left{
+    display: none;
+  }
+  .bookHead .big-img .post-heading{
+    display: block!important;
+  }
+
+  .bookHead .intro-header.big-img{
+    margin-bottom: 0!important;
+  }
+}
+
+@media (min-width:321px) and (max-width:361px){
+  .book-header-left{
+    max-width: 100px;
+    margin: 40px auto 0 auto;
+  }
+  .book-header-right{
+    padding: 0 0 30px 0;
+  }
+  .bookHead .intro-header.big-img{
+    margin-bottom: 0!important;
+    height: auto!important;
+  }
+}
+
+@media (min-width:361px) and (max-width:366px){
+  .bookHead .intro-header.big-img{
+    margin-bottom: 0!important;
+    height: auto!important;
+  }
+}
+
+/* xs */
+@media (min-width:361px) and (max-width:768px){
+  .book-header-right{
+    padding: 30px 0;
+  }
+  .book-header-left{
+    margin: 40px auto 0 auto;
+    max-width: 150px;
+  }
+  .bookHead .intro-header.big-img{
+    margin-bottom: 0!important;
+  }
+}
+
+/* sm-md */
+@media (min-width:768px) and (max-width:992px) {
+  .book-header-right{
+    padding: 60px 0;
+  }
+  .book-header-left{
+    max-width: 150px;
+    margin: 40px auto;
+  }
+}
+
+/* md*/
+@media (min-width:992px) {
+  .book-header-left{
+    max-width: 200px;
+    margin: 40px auto;
+  }
+  .book-header-right{
+    padding: 100px 0;
+  }
+}
+
+/* sm-lg */
+@media (min-width:768px) and (max-width:1199px) {
+  .book-header-right h1{
+    font-size: 30px;
+  }
+}

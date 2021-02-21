@@ -1,0 +1,152 @@
+/* cf. https://bootsnipp.com/snippets/featured/Tstatus-21-with-images-and-responsive */
+
+.Tstatus {
+  list-style: none;
+  padding: 20px 0 0;
+  position: relative;
+}
+.Tstatus:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.Tstatus > li {
+  margin-bottom: 20px;
+  position: relative;
+  width: 50%;
+  float: left;
+  clear: left;
+}
+.Tstatus > li:before,
+.Tstatus > li:after {
+  content: " ";
+  display: table;
+}
+.Tstatus > li:after {
+  clear: both;
+}
+.Tstatus > li:before,
+.Tstatus > li:after {
+  content: " ";
+  display: table;
+}
+.Tstatus > li:after {
+  clear: both;
+}
+.Tstatus > li > .Tstatus-panel {
+  width: 95%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  /*border-radius: 2px;*/
+  /*padding: 20px;*/
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  background: #fff;
+}
+
+.Tstatus > li > .Tstatus-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -16px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.Tstatus > li > .Tstatus-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.Tstatus > li.Tstatus-inverted > .Tstatus-panel {
+  float: right;
+}
+.Tstatus > li.Tstatus-inverted > .Tstatus-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -16px;
+  right: auto;
+}
+.Tstatus > li.Tstatus-inverted > .Tstatus-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.Tstatus-body > p,
+.Tstatus-body > ul {
+    padding: 20px 15px 5px 15px;
+    margin: 0;
+    font-size: 90%;
+}
+.Tstatus-body > p + p {
+  margin-top: 5px;
+}
+.Tstatus-footer{
+    padding: 0 20px 15px 15px;
+    text-align: right;
+    font-size: 70%;
+    font-style: italic;
+    opacity: 0.8;
+}
+.Tstatus > li.Tstatus-inverted{
+  float: right; 
+  clear: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Tstatus > li:nth-child(2){
+  margin-top: 60px;
+}
+@media (max-width: 767px) {
+    ul.Tstatus:before {
+        left: 10px;
+    }
+    ul.Tstatus > li {
+      margin-bottom: 20px;
+      position: relative;
+      width:100%;
+      float: left;
+      clear: left;
+    }
+    ul.Tstatus > li > .Tstatus-panel {
+        width: calc(100% - 40px);
+        width: -moz-calc(100% - 40px);
+        width: -webkit-calc(100% - 40px);
+    }
+    ul.Tstatus > li > .Tstatus-panel {
+        float: right;
+    }
+        ul.Tstatus > li > .Tstatus-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: -15px;
+            right: auto;
+        }
+        ul.Tstatus > li > .Tstatus-panel:after {
+            border-left-width: 0;
+            border-right-width: 14px;
+            left: -14px;
+            right: auto;
+        }
+  .Tstatus > li.Tstatus-inverted{
+    float: left; 
+    clear: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

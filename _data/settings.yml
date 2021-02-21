@@ -1,0 +1,6 @@
+nStatus: 4 # number of status showed in index page
+nBooks: 4 # number of books showed in reading list (must be devisor of 12)
+nPosts: 8 # number of posts showed in latest posts
+nPhotos: 8 # number of photos in latest sketches
+size-lg: "col-sm-10 col-sm-offset-1 col-12" # bigger size width
+size-md: "col-sm-8 col-sm-offset-2 col-12" # smaller size width (in comp with size-lg)

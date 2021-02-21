@@ -1,0 +1,19 @@
+<h2>Recent projects</h2>
+<h4>
+  <a class="txt-color" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+  see all projects
+  </a>
+</h4>
+{% for pro in site.data.project %}
+  <div class="col-sm-4 txt-center project-main">
+      <div class="project-img">
+        <a target="_blank" href="{{pro.url}}"><img src="{{site.baseurl}}/img/project/{{pro.img}}" /></a>
+      </div>
+      <div class="project-name">
+        <a target="_blank" href="{{pro.url}}">{{pro.name}}</a>
+      </div>
+      <div class="project-des">
+        {{pro.des}}
+      </div>
+  </div>
+{% endfor %}

@@ -1,0 +1,32 @@
+#mlb2-7949654 input{
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-color: #ddd;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: inherit;
+    border-radius: 5px;
+}
+
+#mlb2-7949654 input:focus{
+    outline: none;
+}
+
+#mlb2-7949654 button{
+    border-radius: 5px;
+    border: 1.5px solid #9f9f9f;
+    padding: 5px 20px;
+    background: #fff;
+    font-weight: bold;
+    color: #5d5c5c;
+    font-size: 80%;
+}
+
+#mlb2-7949654 button:hover{
+    background: #eee;
+}
+
+#mlb2-7949654{
+    margin-top: 20px;
+}
