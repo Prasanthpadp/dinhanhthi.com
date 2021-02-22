@@ -2070,9 +2070,9 @@ div.toc {
   @media (min-width: 1300px) {
     div.toc {
       float: right;
-      margin-right: -280px;
+      margin-right: -210px;
       border-left: none;
-      width: 250px;
+      width: 200px;
       position: -webkit-sticky;
       position: sticky;
       top: 60px;
@@ -2081,7 +2081,23 @@ div.toc {
       div.toc ol {
         margin-top: 0;
         margin-bottom: 0; } }
-  @media (min-width: 1500px) {
+  @media (min-width: 1360px) {
+    div.toc {
+      margin-right: -230px;
+      width: 220px; } }
+  @media (min-width: 1373px) {
+    div.toc {
+      margin-right: -240px;
+      width: 220px; } }
+  @media (min-width: 1400) {
+    div.toc {
+      margin-right: -250px;
+      width: 230px; } }
+  @media (min-width: 1450px) {
+    div.toc {
+      margin-right: -280px;
+      width: 250px; } }
+  @media (min-width: 1550px) {
     div.toc {
       margin-right: -310px;
       width: 280px; } }
