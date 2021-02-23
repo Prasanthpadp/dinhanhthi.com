@@ -1,4 +1,4 @@
-# v0.dinhanhthi.com
+# v0.dinhanhthi.com [![Netlify Status](https://api.netlify.com/api/v1/badges/df7275e7-df7f-4b69-b853-1bd0e6413e60/deploy-status)](https://app.netlify.com/sites/suspicious-payne-80a830/deploys)
 
 Source code of my personal website (using Jekyll). If you would like to use this source code, please indicate me in the credit and let me know first, thanks! My email: dinhanhthi@gmail.com.
 
