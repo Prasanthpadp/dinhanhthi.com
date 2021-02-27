@@ -1469,19 +1469,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2021-02-25T15:39:32.625Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/about-the-notes/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -1833,7 +1820,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/macos/</loc>
+    <loc>https://dinhanhthi.com/tags/linux/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1846,7 +1833,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/linux/</loc>
+    <loc>https://dinhanhthi.com/tags/macos/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1976,7 +1963,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1989,7 +1976,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -2056,5 +2043,18 @@
   <url>
     <loc>https://dinhanhthi.com/third_party/markdown-it-texmath/readme/</loc>
     <lastmod>2021-02-25T15:39:32.648Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/</loc>
+    <lastmod>2021-02-27T14:33:08.757Z</lastmod>
   </url>
 </urlset>
