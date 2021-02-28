@@ -1586,19 +1586,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/data-science/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -1652,6 +1639,19 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/resources/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1846,33 +1846,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/linux/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/macos/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/skills/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1898,7 +1872,20 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/prob-and-stats/</loc>
+    <loc>https://dinhanhthi.com/tags/linux/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/skills/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1963,6 +1950,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/prob-and-stats/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -1989,7 +1989,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/metrics/</loc>
+    <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -2002,7 +2002,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
+    <loc>https://dinhanhthi.com/tags/metrics/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -2055,6 +2055,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/</loc>
-    <lastmod>2021-02-27T16:31:42.864Z</lastmod>
+    <lastmod>2021-02-28T17:22:02.761Z</lastmod>
   </url>
 </urlset>
