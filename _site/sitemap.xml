@@ -765,7 +765,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/wordpress-installation/</loc>
-    <lastmod>2021-03-02T11:24:15.000Z</lastmod>
+    <lastmod>2021-03-02T13:40:48.000Z</lastmod>
   </url>
   
   
@@ -791,7 +791,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/wordpress-101/</loc>
-    <lastmod>2021-03-02T11:24:15.000Z</lastmod>
+    <lastmod>2021-03-02T13:40:48.000Z</lastmod>
   </url>
   
   
@@ -973,7 +973,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/wordpress-docker/</loc>
-    <lastmod>2021-03-02T11:24:15.000Z</lastmod>
+    <lastmod>2021-03-02T13:40:48.000Z</lastmod>
   </url>
   
   
@@ -1414,7 +1414,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/web-dev-tools-resources/</loc>
-    <lastmod>2021-03-02T11:24:15.000Z</lastmod>
+    <lastmod>2021-03-02T13:40:48.000Z</lastmod>
   </url>
   
   
@@ -1768,19 +1768,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/time-series/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/tensorflow/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -1807,7 +1794,20 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
+    <loc>https://dinhanhthi.com/tags/time-series/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/skills/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1833,7 +1833,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/macos/</loc>
+    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1846,7 +1846,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/skills/</loc>
+    <loc>https://dinhanhthi.com/tags/macos/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1937,6 +1937,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/wordpress/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -1950,7 +1963,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/gatsbyjs/</loc>
+    <loc>https://dinhanhthi.com/tags/angular/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
