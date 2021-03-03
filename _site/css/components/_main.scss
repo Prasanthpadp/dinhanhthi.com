@@ -191,5 +191,8 @@ main {
 }
 
 .post-not-full{
-	opacity: 0.6;
+	opacity: 0.55;
+	&:hover{
+		opacity: 1;
+	}
 }
