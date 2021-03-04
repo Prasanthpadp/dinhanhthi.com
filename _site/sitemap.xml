@@ -1012,7 +1012,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/terminal/</loc>
-    <lastmod>2021-01-15T22:50:31.000Z</lastmod>
+    <lastmod>2021-03-03T23:28:19.000Z</lastmod>
   </url>
   
   
@@ -1444,7 +1444,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-install-macos/</loc>
-    <lastmod>2021-02-24T16:49:03.000Z</lastmod>
+    <lastmod>2021-03-03T23:28:19.000Z</lastmod>
   </url>
   
   
@@ -1511,9 +1511,11 @@
     
   
   
+    
+  
   <url>
     <loc>https://dinhanhthi.com/pages/search-index.json</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+    <lastmod>2021-03-03T23:28:37.000Z</lastmod>
   </url>
   
   
@@ -1578,19 +1580,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/collection/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1668,6 +1657,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/mlops/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -1707,7 +1709,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/gaming-and-puzzles/</loc>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1720,7 +1722,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <loc>https://dinhanhthi.com/tags/gaming-and-puzzles/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1850,7 +1852,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/macos/</loc>
+    <loc>https://dinhanhthi.com/tags/python/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1863,7 +1865,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/python/</loc>
+    <loc>https://dinhanhthi.com/tags/macos/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1980,7 +1982,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1993,7 +1995,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/clustering/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
