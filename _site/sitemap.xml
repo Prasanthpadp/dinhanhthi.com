@@ -232,7 +232,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/jupyter-notebook/</loc>
-    <lastmod>2020-12-01T16:03:41.000Z</lastmod>
+    <lastmod>2021-03-04T15:39:03.000Z</lastmod>
   </url>
   
   
@@ -609,7 +609,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/good-applications-useful-tools/</loc>
-    <lastmod>2021-02-27T10:30:41.000Z</lastmod>
+    <lastmod>2021-03-04T15:39:03.000Z</lastmod>
   </url>
   
   
@@ -1309,7 +1309,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/for-me-only/</loc>
-    <lastmod>2021-02-23T11:38:52.000Z</lastmod>
+    <lastmod>2021-03-04T10:31:08.000Z</lastmod>
   </url>
   
   
@@ -1515,7 +1515,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/pages/search-index.json</loc>
-    <lastmod>2021-03-03T23:28:37.000Z</lastmod>
+    <lastmod>2021-03-04T10:31:00.000Z</lastmod>
   </url>
   
   
@@ -1580,6 +1580,58 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/collection/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/mooc/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/angular/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1657,19 +1709,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/algorithms/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/mlops/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -1709,33 +1748,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/gaming-and-puzzles/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/mooc/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1813,6 +1826,32 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/macos/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/skills/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -1839,33 +1878,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/fresh-installation/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/python/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/macos/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1969,7 +1982,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/angular/</loc>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1983,19 +1996,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/clustering/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -2077,5 +2077,65 @@
   <url>
     <loc>https://dinhanhthi.com/</loc>
     <lastmod>2021-03-02T11:24:22.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dinhanhthi.com/angular-1-basics-components-databinding-directives/</loc>
+    <lastmod>2021-03-04T20:58:46.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dinhanhthi.com/angular-2-service-dependency-injection-routing/</loc>
+    <lastmod>2021-03-04T20:58:46.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dinhanhthi.com/angular-3-observable/</loc>
+    <lastmod>2021-03-04T20:58:46.000Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <url>
+    <loc>https://dinhanhthi.com/angular-4-forms/</loc>
+    <lastmod>2021-03-04T20:58:46.000Z</lastmod>
   </url>
 </urlset>
