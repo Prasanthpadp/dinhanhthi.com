@@ -1444,7 +1444,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/fresh-install-macos/</loc>
-    <lastmod>2021-03-11T00:10:38.000Z</lastmod>
+    <lastmod>2021-03-16T14:22:01.000Z</lastmod>
   </url>
   
   
@@ -1483,9 +1483,11 @@
     
   
   
+    
+  
   <url>
     <loc>https://dinhanhthi.com/about/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+    <lastmod>2021-03-13T20:49:12.000Z</lastmod>
   </url>
   
   
@@ -1526,9 +1528,11 @@
     
   
   
+    
+  
   <url>
     <loc>https://dinhanhthi.com/tags/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+    <lastmod>2021-03-16T14:21:54.000Z</lastmod>
   </url>
   
   
@@ -1593,6 +1597,45 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/algorithms/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/mooc/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/javascript/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
+    <loc>https://dinhanhthi.com/tags/angular/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1683,19 +1726,6 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/docker/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
     <loc>https://dinhanhthi.com/tags/windows/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -1709,46 +1739,20 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/docker/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/gaming-and-puzzles/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/javascript/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/mooc/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/angular/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1839,7 +1843,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/macos/</loc>
+    <loc>https://dinhanhthi.com/tags/linux/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1852,7 +1856,7 @@
   
   
   <url>
-    <loc>https://dinhanhthi.com/tags/linux/</loc>
+    <loc>https://dinhanhthi.com/tags/macos/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -1982,6 +1986,19 @@
   
   
   <url>
+    <loc>https://dinhanhthi.com/tags/classification/</loc>
+    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
+  </url>
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <url>
     <loc>https://dinhanhthi.com/tags/clustering/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
@@ -2009,19 +2026,6 @@
   
   <url>
     <loc>https://dinhanhthi.com/tags/dimensionality-reduction/</loc>
-    <lastmod>2021-02-25T15:39:32.630Z</lastmod>
-  </url>
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  <url>
-    <loc>https://dinhanhthi.com/tags/classification/</loc>
     <lastmod>2021-02-25T15:39:32.630Z</lastmod>
   </url>
   
@@ -2091,7 +2095,7 @@
   
   <url>
     <loc>https://dinhanhthi.com/angular-1-basics-components-databinding-directives/</loc>
-    <lastmod>2021-03-11T00:10:38.000Z</lastmod>
+    <lastmod>2021-03-16T14:22:01.000Z</lastmod>
   </url>
   
   
