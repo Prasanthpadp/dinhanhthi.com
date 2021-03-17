@@ -13,7 +13,7 @@ body.dark-theme {
   body {
     --text-color: #eee;
     --bg-color: #282a36; }
-  /* Override light mode with dark mode styles if the user decides to swap */
+  /* Override dark mode with light mode styles if the user decides to swap */
   body.light-theme {
     --text-color: #333;
     --bg-color: #eee; } }
