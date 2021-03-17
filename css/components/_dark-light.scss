@@ -1,0 +1,23 @@
+// Default colors
+body {
+	--text-color: $font-color;
+	--bg-color: $c-background;
+}
+// light
+body.light-theme {
+	--text-color: $font-color-light;
+	--bg-color: $c-background-light;
+}
+// Styles for users who prefer light mode at the OS level
+@media (prefers-color-scheme: light) {
+  /* defaults to light theme */
+  body {
+    --text-color: $font-color-light;
+		--bg-color: $c-background-light;
+  }
+  /* Override light mode with dark mode styles if the user decides to swap */
+  body.dark-theme {
+    --text-color: $font-color;
+		--bg-color: $c-background;
+  }
+}

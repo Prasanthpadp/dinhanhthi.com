@@ -19,6 +19,7 @@ $c-yellow: #ffd479;
 $c-gray: #888;
 $c-bg-nav: #35373c;
 
+
 // FONTS
 $font-main: "Poppins", Arial, Helvetica, sans-serif;
 $font-main-var: "Poppins" var alt, Arial, Helvetica, sans-serif;
@@ -73,6 +74,14 @@ $code-max-height: 450px;
 
 // TABLE
 
+// -------------------------
+// LIGHT MODE
+// -------------------------
+$c-background-light: #eee;
+$font-color-light: #333;
+
+
+@import "./components/dark-light"; // dark / light mode
 @import "./components/mixin"; // mixsin
 @import "./components/font";
 @import "./components/main"; // init css
