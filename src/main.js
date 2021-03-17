@@ -389,3 +389,35 @@ const addSelected2 = (ulRes, li) => {
 		})
 	);
 })(window, document);
+
+
+// dark/light toggle
+// -----------------------------------------
+const btn = document.getElementById("toggle-dark-light");
+let toggleIcon = btn.firstElementChild;
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+const currentTheme = localStorage.getItem("theme");
+console.log("currentTheme: ", currentTheme);
+if (currentTheme === "dark") {
+  document.body.classList.toggle("dark-theme");
+} else if (currentTheme === "light") {
+  document.body.classList.toggle("light-theme");
+}
+
+btn.addEventListener("click", function () {
+  if (prefersDarkScheme.matches) {
+		toggleIcon.src = '/img/nav/moon.svg';
+    document.body.classList.toggle("light-theme");
+    var theme = document.body.classList.contains("light-theme")
+      ? "light"
+      : "dark";
+  } else {
+		toggleIcon.src = '/img/nav/sun.svg';
+		document.body.classList.toggle("dark-theme");
+    var theme = document.body.classList.contains("dark-theme")
+      ? "dark"
+      : "light";
+  }
+  localStorage.setItem("theme", theme);
+});

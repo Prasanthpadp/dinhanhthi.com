@@ -1,4 +1,24 @@
 @charset "UTF-8";
+/*! purgecss start ignore */
+body {
+  --text-color: #333;
+  --bg-color: #eee; }
+
+body.dark-theme {
+  --text-color: #eee;
+  --bg-color: #282a36; }
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    --text-color: #eee;
+    --bg-color: #282a36; }
+  /* Override light mode with dark mode styles if the user decides to swap */
+  body.light-theme {
+    --text-color: #333;
+    --bg-color: #eee; } }
+
+/*! purgecss end ignore */
 /* poppins-regular - latin */
 @font-face {
   font-family: "Poppins";
@@ -117,8 +137,8 @@ html {
 
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  background: #282a36;
-  color: #eee;
+  background: var(--bg-color);
+  color: var(--text-color);
   margin: 0;
   font-size: 16.5px; }
 
@@ -907,10 +927,16 @@ nav {
       @media (min-width: 576px) {
         nav #nav .nav-item {
           margin-right: 15px; } }
+    nav #nav .nav-dark-light {
+      padding: 5px;
+      cursor: pointer;
+      display: inline-flex;
+      margin-right: 5px; }
     nav #nav .nav-github {
       text-align: right;
       padding-right: 0 !important;
-      margin-right: 0 !important; }
+      margin-right: 0 !important;
+      display: inline-flex; }
       nav #nav .nav-github:hover img {
         filter: invert(0.4); }
     nav #nav .nav-search {
@@ -2092,7 +2118,7 @@ div.toc {
       position: -webkit-sticky;
       position: sticky;
       top: 60px;
-      max-height: 70vh;
+      max-height: calc(100vh - 80px);
       overflow: auto; }
       div.toc ol {
         margin-top: 0;
