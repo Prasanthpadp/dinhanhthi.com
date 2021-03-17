@@ -401,10 +401,10 @@ const currentTheme = localStorage.getItem("theme");
 console.log("currentTheme: ", currentTheme);
 if (currentTheme === "dark") {
   document.body.classList.toggle("dark-theme");
-	toggleIcon.src = '/img/nav/moon.svg';
+	toggleIcon.src = '/img/nav/sun.svg';
 } else if (currentTheme === "light") {
   document.body.classList.toggle("light-theme");
-	toggleIcon.src = '/img/nav/sun.svg';
+	toggleIcon.src = '/img/nav/moon.svg';
 }
 
 btn.addEventListener("click", function () {
@@ -423,7 +423,6 @@ btn.addEventListener("click", function () {
   }
   localStorage.setItem("theme", theme);
 });
-
 const toggleIconFn = (theme) => {
 	if (theme === "dark") {
 		toggleIcon.src = '/img/nav/sun.svg';

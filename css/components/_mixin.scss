@@ -22,3 +22,25 @@
 	color: #fff;
 	word-break: break-word;
 }
+
+@mixin  dark-vars() {
+	--font-color: #{$font-color};
+	--c-background: #{$c-background};
+
+	--font-bold-color: #{$font-bold-color};
+	--font-bold-color-weight: #{$font-bold-weight};
+
+	--code-bg: #{$code-bg};
+	--code-bd: #{$code-bd};
+}
+
+@mixin light-vars() {
+	--font-color: #{$font-color-light};
+	--c-background: #{$c-background-light};
+
+	--font-bold-color: #{$font-bold-color-light};
+	--font-bold-color-weight: #{$font-bold-weight-light};
+
+	--code-bg: #{$code-bg-light};
+	--code-bd: #{$code-bd-light};
+}

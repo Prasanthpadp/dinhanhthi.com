@@ -12,14 +12,20 @@ header nav {
 
 /*! purgecss start ignore */
 header {
-  padding: 5.5rem 1rem 1rem;
-  width: 900px;
-  margin: 0 auto;
-  text-align: center;
-  max-width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+	background: $c-background;
+	color: $font-color;
+
+	.header-container{
+		width: 900px;
+		padding: 5rem 1rem 1rem;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+		text-align: center;
+	}
 
   h1 {
     font-size: 2.2rem;
@@ -35,6 +41,8 @@ header {
     width: $header-logo;
     height: $header-logo;
     margin-bottom: 1rem;
+		margin-left: auto;
+		margin-right: auto;
     img {
       width: 100%;
       height: 100%;
@@ -54,9 +62,9 @@ header {
         margin-right: 20px;
       }
 
-      img {
-        border-radius: 50%;
-      }
+      // img {
+      //   border-radius: 50%;
+      // }
 		}
   }
 
@@ -117,7 +125,7 @@ header {
 p.contact {
 	width: 100%;
 	text-align: center;
-	margin-bottom: 4rem;
+	margin-bottom: $mb;
 	a {
 		margin-right: 10px;
 		margin-bottom: 10px;

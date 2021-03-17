@@ -90,16 +90,16 @@ html {
 
 body {
   font-family: $font-main;
-  background: var(--bg-color);
-  color: var(--text-color);
+  background: var(--c-background);
+  color: var(--font-color);
   margin: 0;
   font-size: $font-size;
 }
 
 b,
 strong {
-  font-weight: $font-bold;
-  color: #8cc8ff;
+  font-weight: var(--font-bold-color-weight);
+  color: var(--font-bold-color);
 }
 
 dialog {

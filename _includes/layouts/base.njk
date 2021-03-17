@@ -11,14 +11,13 @@
   <body{% if customClass %} class="{{ customClass }}"{% endif %}>
     <header>
       {% include "components/navigation.njk" %}
-
-      {% block headerLogo %}{% endblock %}
-
-      {% block headerTitle %}
-        <h1>{{ title }}{% if notfull %}<sup title="{{ other_data.notfull }}">•</sup>{% endif %}</h1>
-      {% endblock %}
-
-      {% block extraArticleHeader %}{% endblock %}
+      <div class="header-container">
+				{% block headerLogo %}{% endblock %}
+				{% block headerTitle %}
+					<h1>{{ title }}{% if notfull %}<sup title="{{ other_data.notfull }}">•</sup>{% endif %}</h1>
+				{% endblock %}
+				{% block extraArticleHeader %}{% endblock %}
+			</div>
 
       {% if googleanalytics %}
         <noscript>
@@ -26,7 +25,6 @@
         style="display:none" alt="">
         </noscript>
       {% endif %}
-
     </header>
 
     <main>

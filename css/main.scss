@@ -1,6 +1,7 @@
 // COLORS
 // https://github.com/dracula/dracula-theme
 $c-background: #282a36;
+$c-background-light: #eee;
 $c-current-line: #44475a;
 $c-selection: #44475a;
 $c-foreground: #f8f8f2;
@@ -25,9 +26,13 @@ $font-main: "Poppins", Arial, Helvetica, sans-serif;
 $font-main-var: "Poppins" var alt, Arial, Helvetica, sans-serif;
 $font-heading: "Recoleta", Arial, Helvetica, sans-serif;
 $font-code: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
-$font-bold: 600;
 $font-size: 16.5px;
 $font-color: #eee;
+$font-color-light: #454545;
+$font-bold-color: #8cc8ff;
+$font-bold-color-light: $font-color;
+$font-bold-weight: 600;
+$font-bold-weight-light: normal;
 $a-hover: $c-yellow;
 
 // GRIDS
@@ -68,21 +73,17 @@ $header-logo: 55px;
 $inside-padding: $font-size;
 $pre-padding: $inside-padding;
 $code-bg: #2f3240; // old
+$code-bg-light: #f7f7f7;
 $code-bg-inline: #6b444245;
 $code-bd: #3b3e54;
+$code-bd-light: #e4e2e2;
 $code-max-height: 450px;
 
 // TABLE
 
-// -------------------------
-// LIGHT MODE
-// -------------------------
-$c-background-light: #eee;
-$font-color-light: #333;
 
-
-@import "./components/dark-light"; // dark / light mode
 @import "./components/mixin"; // mixsin
+@import "./components/dark-light"; // dark / light mode
 @import "./components/font";
 @import "./components/main"; // init css
 @import "./components/heading";

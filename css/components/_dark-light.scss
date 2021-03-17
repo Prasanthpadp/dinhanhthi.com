@@ -2,25 +2,21 @@
 
 // Default colors
 body {
-	--text-color: #333;
-	--bg-color: #eee;
+	@include light-vars();
 }
 // dark
 body.dark-theme {
-	--text-color: #eee;
-	--bg-color: #282a36;
+	@include dark-vars();
 }
 // Styles for users who prefer light mode at the OS level
 @media (prefers-color-scheme: dark) {
-  /* defaults to dark theme */
+  /* defaults to light theme */
   body {
-    --text-color: #eee;
-		--bg-color: #282a36;
+    @include light-vars();
   }
   /* Override dark mode with light mode styles if the user decides to swap */
   body.light-theme {
-    --text-color: #333;
-		--bg-color: #eee;
+    @include dark-vars();
   }
 }
 
