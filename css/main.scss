@@ -19,6 +19,8 @@ $c-red: #ff5555;
 $c-yellow: #ffd479;
 $c-gray: #888;
 $c-bg-nav: #35373c;
+$c-invert: #fff;
+$c-invert-light: #000;
 
 
 // FONTS
@@ -33,7 +35,12 @@ $font-bold-color: #8cc8ff;
 $font-bold-color-light: $font-color;
 $font-bold-weight: 600;
 $font-bold-weight-light: normal;
-$a-hover: $c-yellow;
+$font-a: $c-yellow;
+$font-a-light: #3a86ff;
+$a-hover: #fff;
+$a-hover-light: #ff006e;
+$a-hover-bd: $c-yellow;
+$a-hover-bd-light: $a-hover-light;
 
 // GRIDS
 $grid-xs: 350px;
@@ -79,7 +86,13 @@ $code-bd: #3b3e54;
 $code-bd-light: #e4e2e2;
 $code-max-height: 450px;
 
-// TABLE
+// DARK/LIGHT THINGS
+$a-list-homepage: #ddd;
+$a-list-homepage-light: $font-color-light;
+$a-list-homepage-bd: rgba(255, 255, 255, 0.14);
+$a-list-homepage-bd-light: #cacaca;
+$filter-invert: invert(0);
+$filter-invert-light: invert(1);
 
 
 @import "./components/mixin"; // mixsin

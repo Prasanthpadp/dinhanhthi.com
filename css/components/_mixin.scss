@@ -24,23 +24,33 @@
 }
 
 @mixin  dark-vars() {
+	--c-invert: #{$c-invert};
+	--c-invert-light: #{$c-invert-light};
 	--font-color: #{$font-color};
 	--c-background: #{$c-background};
-
 	--font-bold-color: #{$font-bold-color};
 	--font-bold-color-weight: #{$font-bold-weight};
-
 	--code-bg: #{$code-bg};
 	--code-bd: #{$code-bd};
+	--a-list-homepage: #{$a-list-homepage};
+	--a-list-homepage-bd: #{$a-list-homepage-bd};
+	--font-a: #{$font-a};
+	--a-hover: #{$a-hover};
+	--a-hover-bd: #{$a-hover-bd};
+	--filter-invert: #{$filter-invert};
 }
 
 @mixin light-vars() {
 	--font-color: #{$font-color-light};
 	--c-background: #{$c-background-light};
-
 	--font-bold-color: #{$font-bold-color-light};
 	--font-bold-color-weight: #{$font-bold-weight-light};
-
 	--code-bg: #{$code-bg-light};
 	--code-bd: #{$code-bd-light};
+	--a-list-homepage: #{$a-list-homepage-light};
+	--a-list-homepage-bd: #{$a-list-homepage-bd-light};
+	--font-a: #{$font-a-light};
+	--a-hover: #{$a-hover-light};
+	--a-hover-bd: #{$a-hover-bd-light};
+	--filter-invert: #{$filter-invert-light};
 }

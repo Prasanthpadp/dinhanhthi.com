@@ -24,6 +24,7 @@
 	}
 
 	.toc-index {
+		padding-left: 10px;
 		h3{
 			margin: 0;
 			padding-bottom: 5px;
@@ -31,11 +32,10 @@
 			margin-bottom: 10px;
 			font-size: 1.3rem;
 		}
-		@include box-bg($c-bg-nav, #404040);
-		padding: 1rem 1.1rem;
 		ul {
-			padding-left: 20px;
+			padding-left: 0;
 			margin: 0;
+			list-style: none;
 		}
 		p{
 			font-style: italic;
@@ -139,8 +139,8 @@
 			margin-bottom: 10px;
 			width: 100%;
 			a {
-				color: #ddd;
-				border-bottom: 2px solid rgba(255, 255, 255, 0.14);
+				color: var(--a-list-homepage);
+				border-bottom: 2px solid var(--a-list-homepage-bd);
 				border-style: dotted;
 			}
 
@@ -151,8 +151,8 @@
 
 			&:hover {
 				a {
-					border-color: $a-hover;
-					color: #fff;
+					border-color: var(--font-a);
+					color: var(--c-invert);
 				}
 				cursor: pointer;
 				&::before {

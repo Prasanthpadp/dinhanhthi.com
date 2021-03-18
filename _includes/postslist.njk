@@ -33,9 +33,9 @@
       <li{% if post.notfull %} class="post-not-full"{% endif %}>
 				{% if customIcon %}
 					{% if not post.external %}
-						<img width="20px" height="20px" class="keep-original" src="/img/cats/doc-in_.png">
+						<img width="20px" height="20px" class="keep-original filter-invert" src="/img/cats/doc-in_.png">
 					{% else %}
-						<img width="20px" height="20px" class="keep-original" src="/img/cats/doc-ex_.png" style="transform: skew(calc(-10deg));">
+						<img width="20px" height="20px" class="keep-original filter-invert" src="/img/cats/doc-ex_.png" style="transform: skew(calc(-10deg));">
 					{% endif %}
 				{% endif %}
 				{% if post.target %}

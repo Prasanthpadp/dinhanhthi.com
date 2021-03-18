@@ -277,7 +277,7 @@
             color: #fff;
             &:hover {
               span {
-                border-bottom: 2px solid $a-hover;
+                border-bottom: 2px solid var(--a-hover-bd);
               }
             }
           }

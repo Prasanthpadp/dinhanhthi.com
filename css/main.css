@@ -6,15 +6,29 @@ body {
   --font-bold-color: #eee;
   --font-bold-color-weight: normal;
   --code-bg: #f7f7f7;
-  --code-bd: #e4e2e2; }
+  --code-bd: #e4e2e2;
+  --a-list-homepage: #454545;
+  --a-list-homepage-bd: #cacaca;
+  --font-a: #3a86ff;
+  --a-hover: #ff006e;
+  --a-hover-bd: #ff006e;
+  --filter-invert: invert(1); }
 
 body.dark-theme {
+  --c-invert: #fff;
+  --c-invert-light: #000;
   --font-color: #eee;
   --c-background: #282a36;
   --font-bold-color: #8cc8ff;
   --font-bold-color-weight: 600;
   --code-bg: #2f3240;
-  --code-bd: #3b3e54; }
+  --code-bd: #3b3e54;
+  --a-list-homepage: #ddd;
+  --a-list-homepage-bd: rgba(255, 255, 255, 0.14);
+  --font-a: #ffd479;
+  --a-hover: #fff;
+  --a-hover-bd: #ffd479;
+  --filter-invert: invert(0); }
 
 @media (prefers-color-scheme: dark) {
   /* defaults to light theme */
@@ -24,15 +38,29 @@ body.dark-theme {
     --font-bold-color: #eee;
     --font-bold-color-weight: normal;
     --code-bg: #f7f7f7;
-    --code-bd: #e4e2e2; }
+    --code-bd: #e4e2e2;
+    --a-list-homepage: #454545;
+    --a-list-homepage-bd: #cacaca;
+    --font-a: #3a86ff;
+    --a-hover: #ff006e;
+    --a-hover-bd: #ff006e;
+    --filter-invert: invert(1); }
   /* Override dark mode with light mode styles if the user decides to swap */
   body.light-theme {
+    --c-invert: #fff;
+    --c-invert-light: #000;
     --font-color: #eee;
     --c-background: #282a36;
     --font-bold-color: #8cc8ff;
     --font-bold-color-weight: 600;
     --code-bg: #2f3240;
-    --code-bd: #3b3e54; } }
+    --code-bd: #3b3e54;
+    --a-list-homepage: #ddd;
+    --a-list-homepage-bd: rgba(255, 255, 255, 0.14);
+    --font-a: #ffd479;
+    --a-hover: #fff;
+    --a-hover-bd: #ffd479;
+    --filter-invert: invert(0); } }
 
 /*! purgecss end ignore */
 /* poppins-regular - latin */
@@ -202,24 +230,27 @@ mark {
   box-shadow: inset 0 -4px 0px 0px #ffd479; }
 
 a {
-  color: #ffd479;
+  color: var(--font-a);
   text-decoration: none; }
   a:hover {
     text-decoration: none;
-    border-bottom: 2px solid #ffd479;
-    color: #fff; }
+    border-bottom: 2px solid var(--a-hover-bd);
+    color: var(--a-hover); }
   a.no-effect:hover {
     border-bottom: none; }
   a strong, a b {
-    color: #ffd479; }
+    color: var(--font-a); }
     a strong:hover, a b:hover {
-      color: #fff; }
+      color: var(--a-hover); }
 
 hr {
   border-bottom: 1px solid #eee; }
 
 img {
   max-width: 100%; }
+
+.filter-invert {
+  filter: var(--filter-invert); }
 
 main {
   margin: 0 auto; }
@@ -664,11 +695,7 @@ body {
   height: fit-content; }
 
 .page-index .toc-index {
-  border: 1px solid #404040;
-  border-radius: 7px;
-  height: fit-content;
-  background: #35373c;
-  padding: 1rem 1.1rem; }
+  padding-left: 10px; }
   .page-index .toc-index h3 {
     margin: 0;
     padding-bottom: 5px;
@@ -676,8 +703,9 @@ body {
     margin-bottom: 10px;
     font-size: 1.3rem; }
   .page-index .toc-index ul {
-    padding-left: 20px;
-    margin: 0; }
+    padding-left: 0;
+    margin: 0;
+    list-style: none; }
   .page-index .toc-index p {
     font-style: italic;
     color: #999;
@@ -770,8 +798,8 @@ body {
       margin-bottom: 10px;
       width: 100%; }
       .category .list-homepage li a {
-        color: #ddd;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.14);
+        color: var(--a-list-homepage);
+        border-bottom: 2px solid var(--a-list-homepage-bd);
         border-style: dotted; }
       .category .list-homepage li img {
         margin-bottom: -5px;
@@ -779,8 +807,8 @@ body {
       .category .list-homepage li:hover {
         cursor: pointer; }
         .category .list-homepage li:hover a {
-          border-color: #ffd479;
-          color: #fff; }
+          border-color: var(--font-a);
+          color: var(--c-invert); }
         .category .list-homepage li:hover::before {
           opacity: 1; }
 
@@ -1258,7 +1286,7 @@ footer {
     .page-about .container .projects .list-of .title a {
       color: #fff; }
       .page-about .container .projects .list-of .title a:hover span {
-        border-bottom: 2px solid #ffd479; }
+        border-bottom: 2px solid var(--a-hover-bd); }
     .page-about .container .projects .list-of .title h4 {
       margin-top: 0;
       margin-bottom: 0.5rem;
