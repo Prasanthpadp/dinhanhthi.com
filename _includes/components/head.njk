@@ -42,6 +42,21 @@
 	{# katex #}
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
 
+	<style>
+		body {
+			visibility: hidden;
+			opacity: 0;
+		}
+	</style>
+	<noscript>
+		<style>
+			body {
+				visibility: visible;
+				opacity: 1;
+			}
+		</style>
+	</noscript>
+
 	<!-- Notably iOS UAs also contain Mac OS X -->
 	<script csp-hash>
 		if (/Mac OS X/.test(navigator.userAgent))
