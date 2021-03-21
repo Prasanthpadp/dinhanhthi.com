@@ -40,76 +40,72 @@ This is not the first things to do!
 
 ### Keyboards
 
-{% hsbox "Finder" %}
-1. Delete: [[⌘]] + [[⌫]]
-2. Show hidden files/folders: [[⇧]] + [[⌘]] + [[.]]
+{% hsbox "Show the list" %}
+**Finder**:
+
+1. Delete: [[⌘]] + [[⌫]].
+2. Show hidden files/folders: [[⇧]] + [[⌘]] + [[.]].
 3. Move: [[⌘]] +n [[C]] (Copy) > [[⌘]] + [[⌥]] + [[V]] (Paste as moving).
 4. [[↩]] to rename a folder/file.
-{% endhsbox %}
 
+**Terminal**:
 
-{% hsbox "Terminal" %}
 1. [[⌃]] + [[L]] : clear screen (use [[⌃]] as [[Ctrl]] key on Windows/Linux system!).
-{% endhsbox %}
 
+**Chrome / Brave**:
 
-{% hsbox "Chrome / Brave" %}
-1. Focus to the adress bar: [[⌘]] + [[L]]
-2. History: [[⌘]] + [[Y]]
-{% endhsbox %}
+1. Focus to the adress bar: [[⌘]] + [[L]].
+2. History: [[⌘]] + [[Y]].
 
+**Capture Screen**:
 
-{% hsbox "Capture Screen" %}
-1. All screen + saved to clipboard: [[⌃]] + [[⌘]] + [[⇧]] + [[3]]
-2. All screen + saved to file: [[⌘]] + [[⇧]] + [[3]]
-3. Selected area + saved to clipboard: [[⌘]] + [[⇧]] + [[4]]
-4.  Selected area + saved to file: [[⌃]] + [[⌘]] + [[⇧]] + [[4]]
-5.  Screenshot + recording option: [[⌘]] + [[⇧]] + [[5]]
-6.  Screenshot + recording option: [[⌘]] + [[⇧]] + [[5]]
-{% endhsbox %}
+1. All screen + saved to clipboard: [[⌃]] + [[⌘]] + [[⇧]] + [[3]].
+2. All screen + saved to file: [[⌘]] + [[⇧]] + [[3]].
+3. Selected area + saved to clipboard: [[⌘]] + [[⇧]] + [[4]].
+4.  Selected area + saved to file: [[⌃]] + [[⌘]] + [[⇧]] + [[4]].
+5.  Screenshot + recording option: [[⌘]] + [[⇧]] + [[5]].
+6.  Screenshot + recording option: [[⌘]] + [[⇧]] + [[5]].
 
-
-{% hsbox "Others" %}
-- **Lock screen**: [[⌃]] + [[⌘]] + [[Q]]
-- Hide window app on dock: [[⌥]] + click or [[⌘]] + [[H]]
-- Emoji: [[⌘]] + [[⌃]] + [[⎵]]
+**Others**:
+- Lock screen: [[⌃]] + [[⌘]] + [[Q]].
+- Hide window app on dock: [[⌥]] + click or [[⌘]] + [[H]].
+- Emoji: [[⌘]] + [[⌃]] + [[⎵]].
 - Normal delete key: [[⌃]] + [[D]].
+- Switch input methods: [[⌃]] + [[⎵]].
 {% endhsbox %}
 
 ### Trackpad
 
-{% hsbox "1 finger" %}
+{% hsbox "Show the list" %}
+
+**1 finger**:
+
 1. Tap to click.
-{% endhsbox %}
 
+**2 fingers**:
 
-{% hsbox "2 fingers" %}
 1. Swipe up/down to scroll.
 2. Single tap to right click.
 3. Swipe left/right to switch between pages.
 4. Swipe from right edge to open notification section.
 5. Double tap to smart zoom.
-{% endhsbox %}
 
+**3 fingers**:
 
-{% hsbox "3 fingers" %}
 1. Touch and move left/right to drag the content of texts.
 2. Tap to search for definition of selected text.
-{% endhsbox %}
 
+**4 fingers**:
 
-{% hsbox "4 fingers" %}
 1.  Swipe between opening fullscreen apps.
 2.  Swipe up to show all opening windows.
 3.  Swipe down to show all opening windows of current applications (app expose).
-{% endhsbox %}
 
+**All fingers**:
 
-{% hsbox "All fingers" %}
 1.  Pinch to open launchpad.
 2.  Spread to show desktop.
 {% endhsbox %}
-
 
 ## Keyboard & Trackpad settings
 

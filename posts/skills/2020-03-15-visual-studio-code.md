@@ -104,7 +104,7 @@ http://bit.ly/abc
 # with
 [http://bit.ly/abc](http://bit.ly/abc)
 
-# find box
+# Finding box
 (http://bit.ly.*)
 # replace box
 [$1]($1)
@@ -116,30 +116,41 @@ http://bit.ly/abc
 # with
 Course 1
 
-# Find box
+# Finding box
 \*\*Course (.*)\*\*
 # replace box
 Course $1
 ```
+:::
 
-``` bash
+<div class="col-2-equal">
+
+``` bash {% raw %}
 # Replace
 ::: col-2-equal
 content
 :::
+{% endraw %}
+```
+
+``` bash {% raw %}
 # with
 <div class="col-2-equal">
 
 content
 </div>
+{% endraw %}
+```
+</div>
 
+``` bash {% raw %}
 # In find box -> the key: [\s\S\r]*?
 ::: col-2-equal([\s\S\r]*?):::
 
 # In replace box
 <div class="col-2-equal">\n$1</div>
+{% endraw %}
 ```
-:::
 
 ## Exlude files/folders in file search Visual Studio Code (VSC)
 
