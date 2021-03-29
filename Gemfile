@@ -1,13 +1,10 @@
 source 'https://rubygems.org'
-
-gem "github-pages", '163', group: :jekyll_plugins
-
-# enable tzinfo-data for local build
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-gem 'jekyll-paginate'
-gem 'tzinfo-data'
 group :jekyll_plugins do
-	gem 'jekyll-archives'
-	gem 'jekyll-feed'
+	gem 'jekyll', "~>3.9.0"
 	gem 'jekyll-sitemap'
+	gem 'kramdown-parser-gfm'
 end
+gem 'tzinfo-data'
+gem 'jekyll-paginate'
+
+gem "webrick", "~> 1.7"
