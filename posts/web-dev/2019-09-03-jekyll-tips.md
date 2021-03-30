@@ -30,21 +30,63 @@ Read this [readme](https://github.com/dinhanhthi/my-dockerfiles/tree/master/quic
 
 ## Install and run Jekyll on fresh machine
 
+### MacOS
+
+This tut is for macOS 11.0 Big Sur.
+
+``` bash
+# install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew --version # check version
+```
+
+``` bash
+# install rbenv to mange ruby versions
+brew install rbenv ruby-build
+# add rbenv to bash
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zshrc
+source ~/.zshrc # refresh bash
+# install ruby
+rbenv install 3.0.0
+rbenv global 3.0.0
+# reload the terminal / sessions
+ruby -v
+```
+
+``` bash
+# go to some jekyll source codes
+install bundler
+gem install bundler
+
+# install gems
+bundle config set --local path 'vendor/bundle'
+bundle install
+
+# serve
+bundle exec jekyll serve
+```
+
 ### Ubuntu
 
+::: col-2-equal
 ``` bash
 # install ruby-dev
 sudo apt install ruby-dev
 
 # install bundler
 sudo gem install bundler
+```
 
+``` bash
 # clone a jekyll theme
 # cd to that theme
 
 # install gems in the theme
 bundle install --path vendor/bundle
+```
+:::
 
+``` bash
 # serve
 bundle exec jekyll serve
 
