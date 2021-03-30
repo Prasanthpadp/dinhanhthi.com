@@ -10,7 +10,7 @@
     & > .category-wrapper {
       padding-bottom: 1.5rem;
       & > .category {
-        @include box-bg($code-bg, #3b3e54);
+        @include box-bg(var(--code-bg), var(--code-bd));
         padding: 2rem 1.5rem 1.5rem 1.5rem;
       }
     }
@@ -21,37 +21,23 @@
     position: sticky;
     top: 60px;
     height: fit-content;
-  }
 
-  .toc-index {
-    h3 {
-      margin: 0;
-      padding-bottom: 5px;
-      border-bottom: 1px solid #555;
-      margin-bottom: 10px;
-      font-size: 1.3rem;
-    }
-    @include box-bg($c-bg-nav, #404040);
-    padding: 1rem 1.1rem;
-    ul {
-      padding-left: 20px;
-      margin: 0;
-    }
-    p {
-      font-style: italic;
-      color: #999;
-      padding-top: 0;
-      margin-bottom: 0;
-      font-size: 0.95rem;
-      margin-top: 10px;
-      a {
-        color: #999;
-        border-bottom: 2px solid #999;
-        &:hover {
-          border-bottom: 2px solid $c-yellow;
-        }
-      }
-    }
+		.toc-index {
+			padding-left: 10px;
+			h3 {
+				margin: 0;
+				padding-bottom: 5px;
+				border-bottom: 1px solid #555;
+				margin-bottom: 10px;
+				font-size: 1.2rem;
+				color: #f5d3a7;
+			}
+			ul {
+				padding-left: 0;
+				margin: 0;
+				list-style: none;
+			}
+		}
   }
 
   .appendix {
@@ -65,8 +51,11 @@
   }
 
   .appendix-toc {
-    padding: 0 5px;
-    font-size: 0.9rem;
+    padding: 10px 7px;
+    font-size: .9rem;
+    border-top: 1px dashed #eee;
+    width: fit-content;
+		color: #87cefa;
   }
 
   @media (max-width: $grid-lg - 1px) {
@@ -139,8 +128,8 @@
       margin-bottom: 10px;
       width: 100%;
       a {
-        color: #ddd;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.14);
+        color: var(--a-list-homepage);
+        border-bottom: 2px solid var(--a-list-homepage-bd);
         border-style: dotted;
       }
 
@@ -151,8 +140,8 @@
 
       &:hover {
         a {
-          border-color: $a-hover;
-          color: #fff;
+          border-color: var(--font-a);
+          color: var(--c-invert);
         }
         cursor: pointer;
         &::before {
@@ -165,8 +154,11 @@
 
 .page-index {
   header {
-    padding-top: 5em;
-    padding-bottom: 0;
+    .header-container {
+      p.intro {
+        margin-top: 0;
+      }
+    }
     .header-logo {
       height: 80px;
       width: auto;

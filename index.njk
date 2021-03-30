@@ -87,7 +87,7 @@ I'm a Vietnamese guy who has a curious mind. I'd like to learn something new eve
 	<div class="toc-index-container">
 		<div class="toc-index">
 			<h3>Notes by topics</h3>
-			<ul class="toc">
+			<ul class="toc toc-common">
 				{% for item in categories %}
 					{% set postslist = collections[item.name] %}
 					{% set lenlist = postslist | length %}
@@ -97,8 +97,10 @@ I'm a Vietnamese guy who has a curious mind. I'd like to learn something new eve
 					</li>
 					{% endif %}
 				{% endfor %}
+				<li>
+					<a href="/tags/" style="font-style: italic;">More...</a>
+				</li>
 			</ul>
-			<p>There are <a href="/tags/">more topics</a>.</p>
 		</div>
 
 		<p class="appendix appendix-toc">

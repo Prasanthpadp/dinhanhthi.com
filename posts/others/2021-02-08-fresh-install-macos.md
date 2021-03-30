@@ -311,27 +311,30 @@ Using [OBS](https://obsproject.com/) (for recording app) + [BlackHole](https://g
 6. [Youtube Music App](https://ytmusic.app/) for Mac (unofficial)
 7. ~~[XtraFinder](https://www.trankynam.com/xtrafinder/) (additional settings for Finder)~~
 8.  Communication: [Skype](https://www.skype.com/en/get-skype/), [Zoom](https://zoom.us/download), [Slack](https://slack.com/intl/en-fr/downloads/mac).
-9.  [VLC Player](https://www.videolan.org/vlc/download-macosx.html) -- video player.
-10. [GitKraken](https://www.gitkraken.com/) + sign in + clone some repos.
-11. [CleanMyMac](https://macpaw.com/cleanmymac) (paid) -- uninstaller + optimize your mac.
-12. [Paragon NTFS](https://www.paragon-software.com/home/ntfs-mac/) (paid, 20$) -- Do everything with Windows drives on your Mac.
-13. [Bartender 4](https://www.macbartender.com/Bartender4/) (paid, 15.37$) -- hide some icons on menu bar.
-14. Dropdown calendar with agenda: [Itsycal](https://www.mowglii.com/itsycal/). After installing, you have to choose manually the agenda profiles you wanna show.
-15. ~~[uBar](https://brawersoftware.com/products/ubar) (paid) -- disable default dock and make a windows-like taskbar. **Be careful**, it takes too much RAM!~~
-16. [XDM Download Manager](https://sourceforge.net/projects/xdman/files/XDMSetup.dmg/download).
-17. [Docker](https://docs.docker.com/docker-for-mac/apple-m1/)
-18. [SelfControl](https://selfcontrolapp.com/) -- A free Mac application to help you avoid distracting websites.
+9.  ~~[VLC Player](https://www.videolan.org/vlc/download-macosx.html) -- video player.~~
+10. [IINA player](https://iina.io/) -- The modern media player for MacOS.
+11. [GitKraken](https://www.gitkraken.com/) + sign in + clone some repos.
+12. [CleanMyMac](https://macpaw.com/cleanmymac) (paid) -- uninstaller + optimize your mac.
+13. [Paragon NTFS](https://www.paragon-software.com/home/ntfs-mac/) (paid, 20$) -- Do everything with Windows drives on your Mac.
+14. [Bartender 4](https://www.macbartender.com/Bartender4/) (paid, 15.37$) -- hide some icons on menu bar.
+15. Dropdown calendar with agenda: [Itsycal](https://www.mowglii.com/itsycal/). After installing, you have to choose manually the agenda profiles you wanna show.
+16. ~~[uBar](https://brawersoftware.com/products/ubar) (paid) -- disable default dock and make a windows-like taskbar. **Be careful**, it takes too much RAM!~~
+17. [XDM Download Manager](https://sourceforge.net/projects/xdman/files/XDMSetup.dmg/download).
+18. [Docker](https://docs.docker.com/docker-for-mac/apple-m1/)
+19. [SelfControl](https://selfcontrolapp.com/) -- A free Mac application to help you avoid distracting websites.
 
 ### Appstore
 
-1.  **The Unarchiver**
-2.  **Communication**: Whatsapp Desktop + Messenger App
-3.  **Skitch** -- annotation for photos on Mac.
-4.  **Word** and **Powerpoint** (in Office 365 suit, paid). You can buy a lifetime license on ebay (not your own email but you can integrate yours later).
-5.  **Magnet** -- arrange window workspace (stick to edge like on Windows).
-6.  **Amphetamine** -- Keep-awake your mac, an alternative to caffein on linux.
-7.  **TaskTab** -- List of tasks right on menu bar.
-8. **Bitwarden** -- need to install desktop application to enable fingerprint unlock for browser extension. Restart both application and follow the instruction on extension to enable this feature.
+1.  **Amphetamine** -- Keep-awake your mac, an alternative to caffein on linux.
+2.  **Bitwarden** -- need to install desktop application to enable fingerprint unlock for browser extension. Restart both application and follow the instruction on extension to enable this feature.
+3.  **Communication**: Whatsapp Desktop + Messenger App
+4.  **Magnet** -- arrange window workspace (stick to edge like on Windows).
+5.  **Skitch** -- annotation for photos on Mac.
+6.  **TaskTab** -- List of tasks right on menu bar.
+7.  **TickTick** -- task manager.
+8.  **The Unarchiver**
+9.  **Word** and **Powerpoint** (in Office 365 suit, paid). You can buy a lifetime license on ebay (not your own email but you can integrate yours later).
+10. **Yomu** -- ebook reader.
 
 ## Terminal
 
