@@ -118,19 +118,6 @@ body.dark-theme {
 :root {
   font-size: 16.5px; }
 
-.test-dead-code-elimination-sentinel {
-  color: red; }
-
-/*
-  Make image rasterization lazy. This means that e.g. the cost of the
-  blurry placeholder is never paid if images load before entering
-  the viewport.
-  Context
-  - https://web.dev/content-visibility/#skipping-rendering-work-with-content-visibility
- */
-main img {
-  content-visibility: auto; }
-
 /*! purgecss start ignore */
 ::-webkit-scrollbar {
   height: 10px;
@@ -185,6 +172,19 @@ body {
   color: var(--font-color);
   margin: 0;
   font-size: 16.5px; }
+
+.test-dead-code-elimination-sentinel {
+  color: red; }
+
+/*
+  Make image rasterization lazy. This means that e.g. the cost of the
+  blurry placeholder is never paid if images load before entering
+  the viewport.
+  Context
+  - https://web.dev/content-visibility/#skipping-rendering-work-with-content-visibility
+ */
+main img {
+  content-visibility: auto; }
 
 b,
 strong {
@@ -709,10 +709,10 @@ body {
   .page-index .main-cats > .category-wrapper {
     padding-bottom: 1.5rem; }
     .page-index .main-cats > .category-wrapper > .category {
-      border: 1px solid var(--code-bd);
+      border: 1px solid #3b3e54;
       border-radius: 7px;
       height: fit-content;
-      background: var(--code-bg);
+      background: #2f3240;
       padding: 2rem 1.5rem 1.5rem 1.5rem; }
 
 .page-index .toc-index-container {
@@ -722,7 +722,11 @@ body {
   height: fit-content; }
 
 .page-index .toc-index {
-  padding-left: 10px; }
+  border: 1px solid #404040;
+  border-radius: 7px;
+  height: fit-content;
+  background: #35373c;
+  padding: 1rem 1.1rem; }
   .page-index .toc-index h3 {
     margin: 0;
     padding-bottom: 5px;
@@ -730,9 +734,8 @@ body {
     margin-bottom: 10px;
     font-size: 1.3rem; }
   .page-index .toc-index ul {
-    padding-left: 0;
-    margin: 0;
-    list-style: none; }
+    padding-left: 20px;
+    margin: 0; }
   .page-index .toc-index p {
     font-style: italic;
     color: #999;
@@ -825,8 +828,8 @@ body {
       margin-bottom: 10px;
       width: 100%; }
       .category .list-homepage li a {
-        color: var(--a-list-homepage);
-        border-bottom: 2px solid var(--a-list-homepage-bd);
+        color: #ddd;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.14);
         border-style: dotted; }
       .category .list-homepage li img {
         margin-bottom: -5px;
@@ -834,17 +837,17 @@ body {
       .category .list-homepage li:hover {
         cursor: pointer; }
         .category .list-homepage li:hover a {
-          border-color: var(--font-a);
-          color: var(--c-invert); }
+          border-color: #fff;
+          color: #fff; }
         .category .list-homepage li:hover::before {
           opacity: 1; }
 
-.page-index header .header-container p.intro {
-  margin-top: 0; }
-
-.page-index header .header-logo {
-  height: 80px;
-  width: auto; }
+.page-index header {
+  padding-top: 5em;
+  padding-bottom: 0; }
+  .page-index header .header-logo {
+    height: 80px;
+    width: auto; }
 
 /*! purgecss end ignore */
 /* "Content-visibility: auto" move the images over the other elements
