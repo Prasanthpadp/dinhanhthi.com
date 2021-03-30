@@ -68,10 +68,42 @@ bundle exec jekyll serve
 
 ### Ubuntu
 
+::: hsbox Install rvm (ruby version manager)
+Check [this main repo](https://github.com/rvm/ubuntu_rvm).
+
+``` bash
+sudo apt-get install software-properties-common
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt-get update
+sudo apt-get install rvm
+
+# add user to group
+sudo usermod -a -G rvm thi
+
+# Open terminal setting > tick on "Run command as a login shell"
+
+# Reboot
+
+# Enable local gemsets
+rvm user gemsets
+
+# install newest ruby
+rvm install ruby
+
+# use system
+rvm use system
+# use custom rvm
+rvm use 3.0.0
+
+# relaunch terminal
+```
+:::
+
 ::: col-2-equal
 ``` bash
-# install ruby-dev
-sudo apt install ruby-dev
+# install ruby using rvm
+rvm install 3.0.0
+rvm --default use 3.0.0
 
 # install bundler
 sudo gem install bundler

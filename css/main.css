@@ -709,10 +709,10 @@ body {
   .page-index .main-cats > .category-wrapper {
     padding-bottom: 1.5rem; }
     .page-index .main-cats > .category-wrapper > .category {
-      border: 1px solid #3b3e54;
+      border: 1px solid var(--code-bd);
       border-radius: 7px;
       height: fit-content;
-      background: #2f3240;
+      background: var(--code-bg);
       padding: 2rem 1.5rem 1.5rem 1.5rem; }
 
 .page-index .toc-index-container {
@@ -816,8 +816,8 @@ body {
       margin-bottom: 10px;
       width: 100%; }
       .category .list-homepage li a {
-        color: #ddd;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.14);
+        color: var(--a-list-homepage);
+        border-bottom: 2px solid var(--a-list-homepage-bd);
         border-style: dotted; }
       .category .list-homepage li img {
         margin-bottom: -5px;
@@ -825,17 +825,17 @@ body {
       .category .list-homepage li:hover {
         cursor: pointer; }
         .category .list-homepage li:hover a {
-          border-color: #fff;
-          color: #fff; }
+          border-color: var(--font-a);
+          color: var(--c-invert); }
         .category .list-homepage li:hover::before {
           opacity: 1; }
 
-.page-index header {
-  padding-top: 5em;
-  padding-bottom: 0; }
-  .page-index header .header-logo {
-    height: 80px;
-    width: auto; }
+.page-index header .header-container p.intro {
+  margin-top: 0; }
+
+.page-index header .header-logo {
+  height: 80px;
+  width: auto; }
 
 /*! purgecss end ignore */
 /* "Content-visibility: auto" move the images over the other elements
