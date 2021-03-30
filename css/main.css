@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /*! purgecss start ignore */
 body {
-  --font-color: #454545;
+  --font-color: #222;
   --c-background: #eee;
   --font-bold-color: #eee;
   --font-bold-color-weight: normal;
   --code-bg: #f7f7f7;
   --code-bd: #e4e2e2;
-  --a-list-homepage: #454545;
+  --a-list-homepage: #222;
   --a-list-homepage-bd: #cacaca;
   --font-a: #3a86ff;
   --a-hover: #ff006e;
@@ -33,13 +33,13 @@ body.dark-theme {
 @media (prefers-color-scheme: dark) {
   /* defaults to light theme */
   body {
-    --font-color: #454545;
+    --font-color: #222;
     --c-background: #eee;
     --font-bold-color: #eee;
     --font-bold-color-weight: normal;
     --code-bg: #f7f7f7;
     --code-bd: #e4e2e2;
-    --a-list-homepage: #454545;
+    --a-list-homepage: #222;
     --a-list-homepage-bd: #cacaca;
     --font-a: #3a86ff;
     --a-hover: #ff006e;
@@ -118,19 +118,6 @@ body.dark-theme {
 :root {
   font-size: 16.5px; }
 
-.test-dead-code-elimination-sentinel {
-  color: red; }
-
-/*
-  Make image rasterization lazy. This means that e.g. the cost of the
-  blurry placeholder is never paid if images load before entering
-  the viewport.
-  Context
-  - https://web.dev/content-visibility/#skipping-rendering-work-with-content-visibility
- */
-main img {
-  content-visibility: auto; }
-
 /*! purgecss start ignore */
 ::-webkit-scrollbar {
   height: 10px;
@@ -185,6 +172,19 @@ body {
   color: var(--font-color);
   margin: 0;
   font-size: 16.5px; }
+
+.test-dead-code-elimination-sentinel {
+  color: red; }
+
+/*
+  Make image rasterization lazy. This means that e.g. the cost of the
+  blurry placeholder is never paid if images load before entering
+  the viewport.
+  Context
+  - https://web.dev/content-visibility/#skipping-rendering-work-with-content-visibility
+ */
+main img {
+  content-visibility: auto; }
 
 b,
 strong {
@@ -294,9 +294,9 @@ body {
     color: #ffd479; }
 
 .page-note > .h2-wrapper {
-  border-radius: 7px;
+  border-radius: 2px;
   height: fit-content;
-  background-image: linear-gradient(to left top, #383c4e, #343748, #303342, #2c2e3c, #282a36);
+  background: #383c4e;
   padding: 0.1rem 1.5rem 0.5rem 1.5rem;
   margin-bottom: 37.125px;
   position: relative; }
@@ -309,8 +309,8 @@ body {
     width: 100px;
     opacity: .25;
     position: absolute;
-    top: -15px;
-    left: -20px;
+    top: -25px;
+    left: -30px;
     filter: hue-rotate(130deg); }
   .page-note > .h2-wrapper > h2, .page-note > .h2-wrapper > h3 {
     color: #fff; }
@@ -720,31 +720,19 @@ body {
   position: sticky;
   top: 60px;
   height: fit-content; }
-
-.page-index .toc-index {
-  padding-left: 10px; }
-  .page-index .toc-index h3 {
-    margin: 0;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #555;
-    margin-bottom: 10px;
-    font-size: 1.3rem; }
-  .page-index .toc-index ul {
-    padding-left: 0;
-    margin: 0;
-    list-style: none; }
-  .page-index .toc-index p {
-    font-style: italic;
-    color: #999;
-    padding-top: 0;
-    margin-bottom: 0;
-    font-size: 0.95rem;
-    margin-top: 10px; }
-    .page-index .toc-index p a {
-      color: #999;
-      border-bottom: 2px solid #999; }
-      .page-index .toc-index p a:hover {
-        border-bottom: 2px solid #ffd479; }
+  .page-index .toc-index-container .toc-index {
+    padding-left: 10px; }
+    .page-index .toc-index-container .toc-index h3 {
+      margin: 0;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #555;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: #f5d3a7; }
+    .page-index .toc-index-container .toc-index ul {
+      padding-left: 0;
+      margin: 0;
+      list-style: none; }
 
 .page-index .appendix {
   font-style: italic;
@@ -755,8 +743,11 @@ body {
   font-size: 0.95rem; }
 
 .page-index .appendix-toc {
-  padding: 0 5px;
-  font-size: 0.9rem; }
+  padding: 10px 7px;
+  font-size: .9rem;
+  border-top: 1px dashed #eee;
+  width: fit-content;
+  color: #87cefa; }
 
 @media (max-width: 991px) {
   .page-index .main-cats {
@@ -2142,6 +2133,11 @@ pre {
   margin-left: -16.5px;
   margin-right: -16.5px; }
 
+.toc-common {
+  font-size: 90%; }
+  .toc-common li a {
+    color: #9e9e9e; }
+
 div.toc {
   margin-bottom: 24.75px;
   border-left: 5px solid #aaa;
@@ -2160,7 +2156,6 @@ div.toc {
     font-family: "Recoleta", Arial, Helvetica, sans-serif; }
   div.toc ol {
     padding-left: 20px;
-    font-size: 14.85px;
     margin-bottom: 0;
     counter-reset: item;
     list-style-type: none; }

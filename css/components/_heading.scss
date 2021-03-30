@@ -47,9 +47,10 @@ h4 {
   }
 
 	& > .h2-wrapper{
-    border-radius: 7px;
+    border-radius: 2px;
     height: fit-content;
-		background-image: linear-gradient(to left top, #383c4e, #343748, #303342, #2c2e3c, #282a36);
+		background: #383c4e;
+		// background-image: linear-gradient(to left top, #383c4e, #343748, #303342, #2c2e3c, #282a36);
     padding: 0.1rem 1.5rem 0.5rem 1.5rem;
     margin-bottom: 1.5 * $mb;
     position: relative;
@@ -62,8 +63,8 @@ h4 {
 			width: 100px;
 			opacity: .25;
 			position: absolute;
-			top: -15px;
-			left: -20px;
+			top: -25px;
+			left: -30px;
 			filter: hue-rotate(130deg);
 		}
 		& > h2, & > h3 {
